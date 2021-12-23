@@ -17,7 +17,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to build the Hyperverse? [Learn more](../../docs/welcome.md).
+Not ready to build the Hyperverse? [Learn more](../learn/introduction.md).
 
 :::
 
