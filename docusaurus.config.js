@@ -187,14 +187,14 @@ module.exports = {
                     sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
                     editUrl: "https://github.com/decentology/hyperverse-docs/edit/main/",
-                    editUrl: ({locale, versionDocsDirPath, docPath}) => {
-                        // Link to Crowdin for French docs
-                        if (locale !== DefaultLocale) {
-                          return `https://hyperverse.crowdin.com/hyperverse-docs/${locale}`;
-                        }
-                        // Link to Github for English docs
-                        return `https://github.com/decentology/hyperverse-docs/edit/main/docs/${docPath}`
-                    },
+                    // editUrl: ({locale, versionDocsDirPath, docPath}) => {
+                    //     // Link to Crowdin for French docs
+                    //     if (locale !== DefaultLocale) {
+                    //       return `https://hyperverse.crowdin.com/hyperverse-docs/${locale}`;
+                    //     }
+                    //     // Link to Github for English docs
+                    //     return `https://github.com/decentology/hyperverse-docs/edit/main/docs/${docPath}`
+                    // },
                     routeBasePath: "/",
                     remarkPlugins: [
                         math,
