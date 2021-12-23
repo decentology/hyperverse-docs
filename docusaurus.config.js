@@ -174,9 +174,9 @@ module.exports = {
                 }
             ],
         },
-        // fathomAnalytics: {
-        //     siteId: 'xxxxxx'
-        // },
+        fathomAnalytics: {
+            siteId: 'YHVNQZAL'
+        },
 
     },
     presets: [
