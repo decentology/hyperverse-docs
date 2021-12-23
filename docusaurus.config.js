@@ -116,7 +116,7 @@ module.exports = {
                     },
                     {
                         label: "Blog",
-                        to: "/blog"
+                        href: "https://www.decentology.com/blog"
                     },
                     // {
                     //     href: "https://hyperverse.crowdin.com/hyperverse-docs",
