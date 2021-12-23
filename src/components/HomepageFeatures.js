@@ -1,0 +1,96 @@
+import React from 'react';
+import clsx from 'clsx';
+import styles from './HomepageFeatures.module.css';
+
+const FeatureList = [
+  {
+    title: 'Learn',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Start your journey by learning key concepts in Web3, blockchain, and—of course—the Hyperverse!</>
+    ),
+    link: (
+      <a href="/learn/introduction">Learn the Hyperverse</a>
+    ),
+  },
+  {
+    title: 'Compose',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Build, audit, and monitize composable smart modules on the Hyperverse.</>
+    ),
+    link: (
+      <a href="compose/overview">Compose the Hyperverse</a>
+    ),
+  },
+  {
+    title: 'Discover',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Search for code in the most comprehensive marketplace for smart contracts ever created.</>
+    ),
+    link: (
+      <a href="introduction">Discover the Hyperverse</a>
+    ),
+  },
+  {
+    title: 'Build',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Accelerate your blockchain development journey with customized, full-stack code.</>
+    ),
+    link: (
+      <a href="build/overview">Build the Hyperverse</a>
+    ),
+  },
+  {
+    title: 'Contribute',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Use your skills to support the mission to onboard 10 million new developers to Web3.</>
+    ),
+    link: (
+      <a href="introduction">Contribute to the Hyperverse</a>
+    ),
+  },
+  {
+    title: 'Blog',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Stay up to date on the latest tips, tricks, and news from the Hyperverse community.</>
+    ),
+    link: (
+      // <a href="https://deploy-preview-154--celo-docs.netlify.app/learn/celo-overview">Learn Celo</a>
+      <a href="https://www.decentology.com/blog">Read the Blog</a>
+    ),
+  },
+];
+
+function Feature({title, description, link}) {
+  return (
+    <div className={clsx('col col--4')}>
+      {/* <div className="text--center">
+        <Svg className={styles.featureSvg} alt={title} />
+      </div> */}
+      <div className="text--center padding-horiz--md">
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <p>{link}</p>
+      </div>
+    </div>
+  );
+}
+
+export default function HomepageFeatures() {
+  return (
+    <section className={styles.features}>
+      <div className="container">
+        <div className="row">
+          {FeatureList.map((props, idx) => (
+            <Feature key={idx} {...props} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
