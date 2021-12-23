@@ -95,17 +95,17 @@ module.exports = {
         },
         gtag: {
             // You can also use your "G-" Measurement ID here.
-            trackingID: 'G-0CXEKQ81V2',
+            trackingID: 'G-LVFEVMPDFD',
             // Optional fields.
             anonymizeIP: true, // Should IPs be anonymized?
         },
-        algolia: {
-            appId: '55M4I38S60',
-            apiKey: 'baed78b52be14ac907688f1dd70b41d5',
-            indexName: 'celo',
-            contextualSearch: true,
-            debug: false
-        },
+        // algolia: {
+        //     appId: 'xxxx',
+        //     apiKey: 'xxxx',
+        //     indexName: 'hyperverse',
+        //     contextualSearch: true,
+        //     debug: false
+        // },
         footer: {
             style: "dark",
             links: [{
@@ -119,7 +119,7 @@ module.exports = {
                         to: "/blog"
                     },
                     // {
-                    //     href: "https://hyperverse.crowdin.com/celo-docs",
+                    //     href: "https://hyperverse.crowdin.com/hyperverse-docs",
                     //     label: "Help translate"
                     // },
                     {
@@ -174,9 +174,9 @@ module.exports = {
                 }
             ],
         },
-        fathomAnalytics: {
-            siteId: 'AZMFWALB'
-        },
+        // fathomAnalytics: {
+        //     siteId: 'xxxxxx'
+        // },
 
     },
     presets: [
@@ -186,14 +186,14 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve("./sidebars.js"),
                     // Please change this to your repo.
-                    editUrl: "https://github.com/celo-org/docs/edit/main/",
+                    editUrl: "https://github.com/decentology/hyperverse-docs/edit/main/",
                     editUrl: ({locale, versionDocsDirPath, docPath}) => {
                         // Link to Crowdin for French docs
                         if (locale !== DefaultLocale) {
-                          return `https://celo.crowdin.com/celo-docs/${locale}`;
+                          return `https://hyperverse.crowdin.com/hyperverse-docs/${locale}`;
                         }
                         // Link to Github for English docs
-                        return `https://github.com/celo-org/docs/edit/main/docs/${docPath}`
+                        return `https://github.com/decentology/hyperverse-docs/edit/main/docs/${docPath}`
                     },
                     routeBasePath: "/",
                     remarkPlugins: [
@@ -206,7 +206,7 @@ module.exports = {
                     customCss: require.resolve("./src/css/custom.css"),
                 },
                 blog: {
-                    blogTitle: 'Celo Blog',
+                    blogTitle: 'Hyperverse Blog',
                     blogSidebarTitle: 'All posts',
                     blogSidebarCount: 'ALL',
                     showReadingTime: true,
