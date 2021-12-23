@@ -10,40 +10,38 @@ import YouTube from '@components/YouTube';
 
 # FAQ
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Commonly asked questions about the Hyperverse.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is the Hyperverse?
 
-:::info
+A platform that makes it easy for devs to build and consume smart contract primitives as effortlessly as web2 APIs, with monetization and an insurance layer provided by auditor staking.
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is Composability?
 
-:::
+Composability means that the components of the Hyperverse have the capabilities to interact and communicate smoothly.
 
-## Point 1
+## How will the Hyperverse with in the DAO?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+The Hyperverse must operate within a decentralized network in order to achieve success.
 
-## Point 2
+## What can I expect from the Hyperverse in the coming months?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+We plan to integrate other blockchains into the Hyperverse ecosystem such as Ethereum and Algorand.
 
-## Point 3
+## Do I need Web3 experience to use the Hyperverse?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+None! The Hyperverse is meant to help web2 developers of all skill levels to begin building within the web3 space.
 
-## Point 4
+## What are smart modules?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+They are composable smart contracts that developers will build within the Hyperverse. The Smart Modules will implement blockchain application primitives and have multi-tenancy.
 
-## Point 5
+## How will monitization work in the Hyperverse?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+You will have the opportunity to enable transaction-level fees (at a flat rate or based on a percentage of the monetary value of a transaction).
 
-:::info
+## How does the insurance layer work?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-:::
+All Smart Modules are reviewed and audited. After this approval process is completed, auditors can stake tokens signaling that they trust the code in that Smart Module. Staking holds auditors accountable by being slashed if that trust is lost due to defects or vulnerabilities.

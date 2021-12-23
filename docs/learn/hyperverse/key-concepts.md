@@ -14,36 +14,30 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What does it all mean?
 
-:::info
+The Hyperverse is meant to be accessible to all developers. No matter your expertise, we hope to provide you the tools and resources you need to start building decentralized applications. That said, there's a few key concepts it helps to understand before getting started.
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-:::
-
-## Point 1
+## Open
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-## Point 2
+## Decentralized
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-## Point 3
+## Blockchain-agnostic
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-## Point 4
+## Marketplace
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-## Point 5
+## Composable
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-:::info
+## Smart Modules
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-:::
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.

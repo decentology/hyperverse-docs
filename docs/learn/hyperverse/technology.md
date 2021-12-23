@@ -8,11 +8,13 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Hyperverse Technology
+# Technology
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
 ---
+
+## Technology Supporting the Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 

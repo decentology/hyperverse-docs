@@ -10,8 +10,8 @@ const sidebars = {
       type: "category",
       label: "Get Started",
       items: [
-        { type: 'doc', label: 'Hyperverse 101', id: 'learn/hyperverse/hyperverse-101', },
-        { type: 'doc', label: 'Web3 to Hyperverse', id: 'learn/hyperverse/web3-to-hyperverse', },
+        { type: 'doc', label: 'Why Hyperverse', id: 'learn/hyperverse/why-hyperverse', },
+        { type: 'doc', label: 'How it Works', id: 'learn/hyperverse/how-it-works', },
         { type: 'doc', label: 'Key Concepts', id: 'learn/hyperverse/key-concepts', },
         { type: 'doc', label: 'Technology', id: 'learn/hyperverse/technology', },
         { type: 'doc', label: 'Next Steps', id: 'learn/hyperverse/next-steps', },
