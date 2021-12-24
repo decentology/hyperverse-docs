@@ -4,13 +4,13 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Learn',
+    title: 'Basics',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
       <>Start your journey by learning key concepts in Web3, blockchain, and—of course—the Hyperverse!</>
     ),
     link: (
-      <a href="/learn/introduction">Learn the Hyperverse</a>
+      <a href="/basics/introduction">Get Started with the Hyperverse</a>
     ),
   },
   {
@@ -30,7 +30,7 @@ const FeatureList = [
       <>Search for code in the most comprehensive marketplace for smart contracts ever created.</>
     ),
     link: (
-      <a href="introduction">Discover the Hyperverse</a>
+      <a href="/discover/overview">Discover the Hyperverse</a>
     ),
   },
   {
@@ -44,24 +44,23 @@ const FeatureList = [
     ),
   },
   {
+    title: 'Learn',
+    // Svg: require('../../static/img/homepage/1.svg').default,
+    description: (
+      <>Explore basic, intermediate, and advanced concepts in Web3, blockchain, and Hyperverse.</>
+    ),
+    link: (
+      <a href="/learn/overview">Learn the Hyperverse</a>
+    ),
+  },
+  {
     title: 'Contribute',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
       <>Use your skills to support the mission to onboard 10 million new developers to Web3.</>
     ),
     link: (
-      <a href="introduction">Contribute to the Hyperverse</a>
-    ),
-  },
-  {
-    title: 'Blog',
-    // Svg: require('../../static/img/homepage/1.svg').default,
-    description: (
-      <>Stay up to date on the latest tips, tricks, and news from the Hyperverse community.</>
-    ),
-    link: (
-      // <a href="https://deploy-preview-154--celo-docs.netlify.app/learn/celo-overview">Learn Celo</a>
-      <a href="https://www.decentology.com/blog">Read the Blog</a>
+      <a href="/contribute/overview">Contribute to the Hyperverse</a>
     ),
   },
 ];

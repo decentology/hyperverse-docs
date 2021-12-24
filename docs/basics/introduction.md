@@ -25,12 +25,12 @@ Not ready to learn the Hyperverse? [Visit our website](https://www.decentology.c
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="/learn/hyperverse/why-hyperverse" pageName="Why Hyperverse" />
-<PageRef url="/learn/web3/web3-overview" pageName="Web3 Basics" />
-<PageRef url="/learn/blockchain/introduction" pageName="Blockchain Basics" />
-<PageRef url="/learn/terminology" pageName="Terminology" />
-<PageRef url="/learn/support" pageName="Support" />
-<PageRef url="/learn/faq" pageName="FAQ" />
+<PageRef url="/basics/hyperverse/why-hyperverse" pageName="Why Hyperverse" />
+<PageRef url="/basics/web3/web3-overview" pageName="Web3 Basics" />
+<PageRef url="/basics/blockchain/overview" pageName="Blockchain Basics" />
+<PageRef url="/basics/terminology" pageName="Terminology" />
+<PageRef url="./support" pageName="Support" />
+<PageRef url="./faq" pageName="FAQ" />
 
 :::info
 

@@ -46,8 +46,8 @@ module.exports = {
             },
             items: [
                 {
-                    "to": "learn/introduction",
-                    "label": "Learn",
+                    "to": "basics/introduction",
+                    "label": "Basics",
                     "position": "left"
                 },
                 {
@@ -63,6 +63,11 @@ module.exports = {
                 {
                     "to": "build/overview",
                     "label": "Build",
+                    "position": "left"
+                },
+                {
+                    "to": "learn/overview",
+                    "label": "Learn",
                     "position": "left"
                 },
                 {
@@ -86,7 +91,7 @@ module.exports = {
                 //     ]
                 // },
                 {
-                    href: 'https://github.com/decentology',
+                    href: 'https://github.com/decentology/hyperverse-docs',
                     position: 'right',
                     className: 'header-github-link',
                     'aria-label': 'GitHub repository',
