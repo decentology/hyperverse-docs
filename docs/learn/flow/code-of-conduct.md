@@ -67,7 +67,7 @@ If a community member engages in unacceptable behavior, the maintainer may take 
 
 ## Reporting Guidelines
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please notify [moderator@decentology.com](maintainer) as soon as possible.
+If you are subject to or witness unacceptable behavior, or have any other concerns, please notify **moderator@decentology.com** as soon as possible.
 
 ## Addressing Grievances
 
