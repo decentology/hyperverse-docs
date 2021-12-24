@@ -1,5 +1,5 @@
 ---
-title: Web3 Overview
+title: Web3 101
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 

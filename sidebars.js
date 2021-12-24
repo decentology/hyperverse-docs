@@ -21,7 +21,7 @@ const sidebars = {
       type: "category",
       label: "Web3 Basics",
       items: [
-        { type: 'doc', label: 'Introduction to Web3', id: 'basics/web3/web3-overview', },
+        { type: 'doc', label: 'Intro to Web3', id: 'basics/web3/web3-overview', },
         { type: 'doc', label: 'Web2 vs Web3', id: 'basics/web3/web2-vs-web3', },
         { type: 'doc', label: 'Web3 Concepts', id: 'basics/web3/web3-concepts', },
         { type: 'doc', label: 'Future of Web3', id: 'basics/web3/future-of-web3', },
@@ -33,7 +33,7 @@ const sidebars = {
       type: "category",
       label: "Blockchain Basics",
       items: [
-        { type: 'doc', label: 'Introduction to Blockchain', id: 'basics/blockchain/overview', },
+        { type: 'doc', label: 'Intro to Blockchain', id: 'basics/blockchain/overview', },
         { type: 'doc', label: 'Algorand', id: 'basics/blockchain/algorand', },
         { type: 'doc', label: 'Conflux', id: 'basics/blockchain/conflux', },
         { type: 'doc', label: 'Ethereum', id: 'basics/blockchain/ethereum', },

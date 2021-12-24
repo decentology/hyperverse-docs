@@ -1,5 +1,5 @@
 ---
-title: Introduction to Blockchain
+title: Blockchain 101
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
