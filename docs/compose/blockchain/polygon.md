@@ -1,5 +1,5 @@
 ---
-title: Hyperverse Events
+title: Polygon
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Hyperverse Events
+# Polygon
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 

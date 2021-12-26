@@ -46,32 +46,32 @@ module.exports = {
             },
             items: [
                 {
-                    "to": "basics/introduction",
+                    "to": "basics/welcome",
                     "label": "Basics",
                     "position": "left"
                 },
                 {
-                    "to": "compose/overview",
+                    "to": "compose/introduction",
                     "label": "Compose",
                     "position": "left"
                 },
                 {
-                    "to": "discover/overview",
+                    "to": "discover/introduction",
                     "label": "Discover",
                     "position": "left"
                 },
                 {
-                    "to": "build/overview",
+                    "to": "build/introduction",
                     "label": "Build",
                     "position": "left"
                 },
                 {
-                    "to": "learn/overview",
+                    "to": "learn/introduction",
                     "label": "Learn",
                     "position": "left"
                 },
                 {
-                    "to": "contribute/overview",
+                    "to": "contribute/introduction",
                     "label": "Contribute",
                     "position": "left"
                 },

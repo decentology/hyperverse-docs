@@ -10,7 +10,7 @@ const FeatureList = [
       <>Start your journey by learning key concepts in Web3, blockchain, and—of course—the Hyperverse!</>
     ),
     link: (
-      <a href="/basics/introduction">Get Started with the Hyperverse</a>
+      <a href="/basics/welcome">Get Started with the Hyperverse</a>
     ),
   },
   {
@@ -20,7 +20,7 @@ const FeatureList = [
       <>Build, audit, and monitize composable smart modules on the Hyperverse.</>
     ),
     link: (
-      <a href="compose/overview">Compose the Hyperverse</a>
+      <a href="compose/introduction">Compose the Hyperverse</a>
     ),
   },
   {
@@ -30,7 +30,7 @@ const FeatureList = [
       <>Search for code in the most comprehensive marketplace for smart contracts ever created.</>
     ),
     link: (
-      <a href="/discover/overview">Discover the Hyperverse</a>
+      <a href="/discover/introduction">Discover the Hyperverse</a>
     ),
   },
   {
@@ -40,7 +40,7 @@ const FeatureList = [
       <>Accelerate your blockchain development journey with customized, full-stack code.</>
     ),
     link: (
-      <a href="build/overview">Build the Hyperverse</a>
+      <a href="build/introduction">Build the Hyperverse</a>
     ),
   },
   {
@@ -50,7 +50,7 @@ const FeatureList = [
       <>Explore basic, intermediate, and advanced concepts in Web3, blockchain, and Hyperverse.</>
     ),
     link: (
-      <a href="/learn/overview">Learn the Hyperverse</a>
+      <a href="/learn/introduction">Learn the Hyperverse</a>
     ),
   },
   {
@@ -60,7 +60,7 @@ const FeatureList = [
       <>Use your skills to support the mission to onboard 10 million new developers to Web3.</>
     ),
     link: (
-      <a href="/contribute/overview">Contribute to the Hyperverse</a>
+      <a href="/contribute/introduction">Contribute to the Hyperverse</a>
     ),
   },
 ];
