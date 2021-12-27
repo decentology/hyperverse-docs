@@ -1,5 +1,5 @@
 ---
-title: Hyperverse Technology
+title: Build on Solana
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,19 +8,17 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Technology
+# Build on Solana
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
 ---
 
-## Technology Supporting the Hyperverse
-
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Want to learn more about building on Solana with the Hyperverse? [Learn more](../../learn/blockchain/solana/welcome-to-solana)
 
 :::
 

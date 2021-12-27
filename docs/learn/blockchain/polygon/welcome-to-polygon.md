@@ -1,5 +1,5 @@
 ---
-title: Title Goes Here
+title: Welcome to Polygon
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Title Goes Here
+# Welcome to Polygon
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+You may start to [build](../../../build/blockchain/polygon), [discover](../../../discover/introduction), or [compose](../../../compose/blockchain/polygon) on Polygon at any time as you learn.
 
 :::
 
@@ -44,6 +44,6 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+For questions, comments, and discussions please use our [Discord](https://discord.com/invite/uqecGxg).
 
 :::

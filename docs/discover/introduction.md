@@ -17,19 +17,21 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to compose the Hyperverse? [Learn more](../basics/introduction.md).
+Not ready to discover the Hyperverse? [Learn more](../basics/welcome.md)
 
 :::
 
-## Get Started with the Hyperverse
+## Start Discovering
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="../module/helloworld" pageName="Hello World" />
+<PageRef url="../module/marketplace" pageName="Marketplace" />
+<PageRef url="../module/rewards" pageName="Rewards" />
+<PageRef url="../module/simpleNFT-marketplace" pageName="Simple NFT Marketplace" />
+<PageRef url="../module/simpleNFT" pageName="Simple NFT" />
+<PageRef url="../module/simpleToken" pageName="Simple Token" />
+<PageRef url="../module/tribes" pageName="Tribes" />
 
 :::info
 

@@ -17,7 +17,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
+Not ready to build a dApp on the Hyperverse? [Learn more](../introduction)
 
 :::
 
@@ -25,11 +25,9 @@ Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.m
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="run-your-dapp" pageName="Run your dApp" />
+<PageRef url="modify-the-client" pageName="Modify the Client" />
+<PageRef url="call-functions" pageName="Call Functions" />
 
 :::info
 

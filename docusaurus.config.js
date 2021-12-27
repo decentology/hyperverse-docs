@@ -51,8 +51,8 @@ module.exports = {
                     "position": "left"
                 },
                 {
-                    "to": "compose/introduction",
-                    "label": "Compose",
+                    "to": "build/introduction",
+                    "label": "Build",
                     "position": "left"
                 },
                 {
@@ -61,8 +61,8 @@ module.exports = {
                     "position": "left"
                 },
                 {
-                    "to": "build/introduction",
-                    "label": "Build",
+                    "to": "compose/introduction",
+                    "label": "Compose",
                     "position": "left"
                 },
                 {

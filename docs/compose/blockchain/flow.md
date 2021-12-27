@@ -1,5 +1,5 @@
 ---
-title: Flow
+title: Compose with Flow
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Flow
+# Compose with Flow
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Want to learn more about Flow development on the Hyperverse? [Learn more](../../learn/blockchain/flow/welcome-to-flow)
 
 :::
 

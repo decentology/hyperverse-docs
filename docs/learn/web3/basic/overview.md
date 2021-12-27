@@ -15,21 +15,16 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
-:::info
-
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
-
-:::
-
-## Get Started with the Hyperverse
+## Learn Web3 Basics
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="./welcome-to-web3" pageName="Welcome to Web3" />
+<PageRef url="./web2-vs-web3" pageName="Web2 vs Web3" />
+<PageRef url="./web3-concepts" pageName="Web3 Concepts" />
+<PageRef url="./future-of-web3" pageName="Future of Web3" />
+<PageRef url="./web3-tools" pageName="Web3 Tools" />
+<PageRef url="./web3-resources" pageName="Web3 Resources" />
 
 :::info
 

@@ -15,9 +15,11 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
+<PageRef url="/basics/quickstart" pageName="Quickstart" />
+
 :::info
 
-Not ready to learn the Hyperverse? [Visit our website](https://www.decentology.com/).
+First time seeing the Hyperverse? [Visit our website](https://www.decentology.com/)
 
 :::
 
@@ -25,12 +27,11 @@ Not ready to learn the Hyperverse? [Visit our website](https://www.decentology.c
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="/basics/hyperverse/why-hyperverse" pageName="Why Hyperverse" />
-<PageRef url="/basics/web3/web3-overview" pageName="Web3 Basics" />
-<PageRef url="/basics/blockchain/overview" pageName="Blockchain Basics" />
-<PageRef url="/basics/terminology" pageName="Terminology" />
-<PageRef url="./support" pageName="Support" />
-<PageRef url="./faq" pageName="FAQ" />
+<PageRef url="/basics/how-it-works" pageName="How it Works" />
+<PageRef url="/basics/key-concepts" pageName="Key Concepts" />
+<PageRef url="/basics/community" pageName="Community" />
+<PageRef url="/basics/glossary" pageName="Glossary" />
+<PageRef url="/faq" pageName="FAQ" />
 
 :::info
 

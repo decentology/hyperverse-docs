@@ -1,5 +1,5 @@
 ---
-title: Polygon
+title: Compose with Polygon
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Polygon
+# Compose with Polygon
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Want to learn more about Polygon development on the Hyperverse? [Learn more](../../learn/blockchain/polygon/welcome-to-polygon)
 
 :::
 

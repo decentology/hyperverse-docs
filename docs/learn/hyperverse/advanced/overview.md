@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Advanced Hyperverse
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Overview
+# Advanced Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
@@ -15,21 +15,14 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
-:::info
-
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
-
-:::
-
-## Get Started with the Hyperverse
+## Learn Advanced Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="../../../discover/introduction" pageName="Discover the Hyperverse" />
+<PageRef url="../../../compose/introduction" pageName="Compose the Hyperverse" />
+<PageRef url="../../../build/introduction" pageName="Build the Hyperverse" />
+<PageRef url="../../../contribute/introduction" pageName="Contribute to the Hyperverse" />
 
 :::info
 

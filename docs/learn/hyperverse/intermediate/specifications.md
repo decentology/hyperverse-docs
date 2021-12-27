@@ -1,5 +1,5 @@
 ---
-title: Next Steps
+title: Specifications
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Next Steps
+# Specifications
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 

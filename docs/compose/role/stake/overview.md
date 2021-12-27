@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Not interested in being a Smart Module Staker? [Choose your role](../overview.md)
 
 :::
 

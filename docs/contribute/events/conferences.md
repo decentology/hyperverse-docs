@@ -1,5 +1,5 @@
 ---
-title: Hyperverse Support
+title: Hyperverse Conferences
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Support
+# Conferences
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 

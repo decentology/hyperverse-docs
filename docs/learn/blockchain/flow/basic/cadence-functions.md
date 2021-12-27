@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-## Cadence Functions
+# Cadence Functions
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 

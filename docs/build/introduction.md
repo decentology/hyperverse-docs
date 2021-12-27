@@ -17,19 +17,16 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to build the Hyperverse? [Learn more](../basics/introduction.md).
+Not ready to build the Hyperverse? [Learn more](../basics/welcome.md)
 
 :::
 
-## Get Started with the Hyperverse
+## Start Building
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="environment/overview" pageName="Environment Setup" />
+<PageRef url="dapp/overview" pageName="Build a dApp" />
 
 :::info
 

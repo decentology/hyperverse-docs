@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Learn the Hyperverse
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Introduction
+# Learn the Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
@@ -17,19 +17,17 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
+Not ready to learn to the Hyperverse? [Learn more](../basics/welcome.md)
 
 :::
 
-## Get Started with the Hyperverse
+## Start Learning
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="web3/overview" pageName="Web3" />
+<PageRef url="blockchain/overview" pageName="Blockchain" />
+<PageRef url="hyperverse/overview" pageName="Hyperverse" />
 
 :::info
 

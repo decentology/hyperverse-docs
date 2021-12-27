@@ -1,5 +1,5 @@
 ---
-title: Ethereum
+title: Compose with Ethereum
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Ethereum
+# Compose with Ethereum
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Want to learn more about Ethereum development on the Hyperverse? [Learn more](../../learn/blockchain/ethereum/welcome-to-ethereum)
 
 :::
 

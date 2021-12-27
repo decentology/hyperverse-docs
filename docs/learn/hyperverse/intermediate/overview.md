@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Intermediate Hyperverse
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Overview
+# Intermediate Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
@@ -15,21 +15,16 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
-:::info
-
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
-
-:::
-
-## Get Started with the Hyperverse
+## Learn Intermediate Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="specifications" pageName="Specifications" />
+<PageRef url="smart-contracts" pageName="Smart Contracts" />
+<PageRef url="documentation" pageName="Documentation" />
+<PageRef url="code-examples" pageName="Code Examples" />
+<PageRef url="ui-harness" pageName="UI Harness" />
+<PageRef url="unit-tests" pageName="Unit Tests" />
 
 :::info
 

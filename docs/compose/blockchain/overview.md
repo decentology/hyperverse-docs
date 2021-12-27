@@ -6,44 +6,35 @@ description: An open, decentralized, blockchain-agnostic marketplace for composa
 import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import YouTube from '@components/YouTube';
 
-# Overview
+# Blockchain
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Want to learn more about blockchains and the Hyperverse? [Learn more](../../learn/blockchain/overview)
 
 :::
 
-## Point 1
+## Select a Blockchain
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-## Point 2
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+<PageRef url="algorand" pageName="Algorand" />
+<PageRef url="conflux" pageName="Conflux" />
+<PageRef url="ethereum" pageName="Ethereum" />
+<PageRef url="flow" pageName="Flow" />
+<PageRef url="near" pageName="Near" />
+<PageRef url="polygon" pageName="Polygon" />
+<PageRef url="solana" pageName="Solana" />
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+For questions, comments, and discussions please use our [Discord](https://discord.com/invite/uqecGxg).
 
 :::

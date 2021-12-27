@@ -1,7 +1,6 @@
 ---
 title: Marketplace
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-slug: module/marketplace
 ---
 
 import YouTube from '@components/YouTube';

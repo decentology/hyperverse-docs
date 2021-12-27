@@ -17,20 +17,39 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to learn the Hyperverse? [Visit our website](https://www.decentology.com/).
+Prefer to stick with the Hyperverse basics? [See how it works](./how-it-works)
 
 :::
 
-## Get Started with the Hyperverse
+## Build
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
-<PageRef url="/basics/hyperverse/why-hyperverse" pageName="Why Hyperverse" />
-<PageRef url="/basics/web3/web3-overview" pageName="Web3 Basics" />
-<PageRef url="/basics/blockchain/overview" pageName="Blockchain Basics" />
-<PageRef url="/basics/terminology" pageName="Terminology" />
-<PageRef url="./support" pageName="Support" />
-<PageRef url="./faq" pageName="FAQ" />
+<PageRef url="/build/introduction" pageName="Build on the Hyperverse" />
+
+## Discover
+
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+
+<PageRef url="/discover/introduction" pageName="Discover the Hyperverse" />
+
+## Learn
+
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+
+<PageRef url="/learn/introduction" pageName="Learn the Hyperverse" />
+
+## Compose
+
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+
+<PageRef url="/compose/introduction" pageName="Compose the Hyperverse" />
+
+## Contribute
+
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+
+<PageRef url="/contribute/introduction" pageName="Contribute to the Hyperverse" />
 
 :::info
 

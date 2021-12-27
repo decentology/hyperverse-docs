@@ -17,19 +17,18 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
+Not ready to contribute to the Hyperverse? [Learn more](../basics/welcome.md)
 
 :::
 
-## Get Started with the Hyperverse
+## Start Contributing
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="ambassadors/overview" pageName="Ambassadors" />
+<PageRef url="events/overview" pageName="Events" />
+<PageRef url="bounty-program" pageName="Bounty Program" />
+<PageRef url="code-of-conduct" pageName="Code of Conduct" />
 
 :::info
 

@@ -17,19 +17,18 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to compose the Hyperverse? [Learn more](../basics/introduction.md).
+Not ready to choose your role? [Learn more](../introduction)
 
 :::
 
-## Get Started with the Hyperverse
+## Choose your Role
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="develop/overview" pageName="Developer" />
+<PageRef url="review/overview" pageName="Reviewer" />
+<PageRef url="audit/overview" pageName="Auditor" />
+<PageRef url="stake/overview" pageName="Staker" />
 
 :::info
 

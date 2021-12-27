@@ -1,5 +1,5 @@
 ---
-title: Compose the Hyperverse
+title: Overview
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Compose the Hyperverse
+# Overview
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
@@ -17,17 +17,21 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to compose the Hyperverse? [Learn more](../basics/welcome.md)
+Not ready to build a dApp on the Hyperverse? [Learn more](../introduction)
 
 :::
 
-## Start Composing
+## Get Started with the Hyperverse
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="./role/overview" pageName="Choose your Role" />
-<PageRef url="./smart-modules/overview" pageName="Smart Modules" />
-<PageRef url="./blockchain/overview" pageName="Blockchains" />
+<PageRef url="algorand" pageName="Algorand" />
+<PageRef url="conflux" pageName="Conflux" />
+<PageRef url="ethereum" pageName="Ethereum" />
+<PageRef url="flow" pageName="Flow" />
+<PageRef url="near" pageName="Near" />
+<PageRef url="polygon" pageName="Polygon" />
+<PageRef url="solana" pageName="Solana" />
 
 :::info
 

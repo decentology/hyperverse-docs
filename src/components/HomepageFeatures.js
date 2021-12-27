@@ -14,13 +14,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Compose',
+    title: 'Build',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
-      <>Build, audit, and monitize composable smart modules on the Hyperverse.</>
+      <>Accelerate your blockchain development journey with customized, full-stack code.</>
     ),
     link: (
-      <a href="compose/introduction">Compose the Hyperverse</a>
+      <a href="build/introduction">Build the Hyperverse</a>
     ),
   },
   {
@@ -34,13 +34,13 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Build',
+    title: 'Compose',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
-      <>Accelerate your blockchain development journey with customized, full-stack code.</>
+      <>Build, audit, and monitize composable smart modules on the Hyperverse.</>
     ),
     link: (
-      <a href="build/introduction">Build the Hyperverse</a>
+      <a href="compose/introduction">Compose the Hyperverse</a>
     ),
   },
   {

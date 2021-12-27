@@ -1,5 +1,5 @@
 ---
-title: Compose with Algorand
+title: Build on Ethereum
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Compose on Algorand
+# Build on Ethereum
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Want to learn more about Algorand development on the Hyperverse? [Learn more](../../learn/blockchain/algorand/welcome-to-algorand)
+Want to learn more about building on Ethereum with the Hyperverse? [Learn more](../../learn/blockchain/ethereum/welcome-to-ethereum)
 
 :::
 

@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: Web3 Overview
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Overview
+# Web3 Overview
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
@@ -15,21 +15,13 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
-:::info
-
-Not ready to contribute to the Hyperverse? [Learn more](../basics/introduction.md).
-
-:::
-
-## Get Started with the Hyperverse
+## Start Learning Web3
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="basic/overview" pageName="Web3 Basics" />
+<PageRef url="" pageName="Intermediate Web3 (Coming soon)" />
+<PageRef url="" pageName="Advanced Web3 (Coming soon)" />
 
 :::info
 

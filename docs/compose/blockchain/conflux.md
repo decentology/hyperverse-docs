@@ -1,5 +1,5 @@
 ---
-title: Conflux
+title: Compose on Conflux
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Conflux
+# Compose with Conflux
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 
@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Want to learn more about Conflux development on the Hyperverse? [Learn more](../../learn/blockchain/conflux/welcome-to-conflux)
 
 :::
 

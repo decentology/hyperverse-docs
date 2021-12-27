@@ -18,7 +18,7 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+You may start to [build](../../../build/blockchain/ethereum), [discover](../../../discover/introduction), or [compose](../../../compose/blockchain/ethereum) on ethereum at any time as you learn.
 
 :::
 
@@ -44,6 +44,6 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+For questions, comments, and discussions please use our [Discord](https://discord.com/invite/uqecGxg).
 
 :::
