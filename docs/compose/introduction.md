@@ -9,11 +9,11 @@ import TabItem from '@theme/TabItem';
 
 # Compose the Hyperverse
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Develop, secure, and monetize composable smart modules on the Hyperverse.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+The single most important factor in the success of Web2 has been composability. Developers can easily wire-up different APIs to create a range of applications that would otherwise be time-consuming and cost-prohibitive to create. By composing Smart Modules on the Hyperverse, you're bringing composability to Web3 by developing reusable Smart Contracts for Web2 developers.
 
 :::info
 
@@ -23,7 +23,7 @@ Not ready to compose the Hyperverse? [Learn more](../basics/welcome.md)
 
 ## Start Composing
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Develop, secure, and monitize Smart Modules in the Hyperverse marketplace.
 
 <PageRef url="./role/overview" pageName="Choose your Role" />
 <PageRef url="./smart-modules/overview" pageName="Smart Modules" />

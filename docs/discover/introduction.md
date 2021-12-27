@@ -1,5 +1,5 @@
 ---
-title: Discover the Hyperverrse
+title: Discover the Hyperverse
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -9,11 +9,11 @@ import TabItem from '@theme/TabItem';
 
 # Discover the Hyperverse
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Explore secure Smart Contract code designed to accelerate your blockchain development.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Quickly find Smart Modules to help you develop your next Web3 application. Each Smart Module consists of composable smart contracts, documentation, code samples, UI harnesses, and unit tests built to make dApp development as simple as possible.
 
 :::info
 
@@ -23,7 +23,7 @@ Not ready to discover the Hyperverse? [Learn more](../basics/welcome.md)
 
 ## Start Discovering
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Find the latest ready-to-go Smart Modules prepared for your next blockchain application.
 
 <PageRef url="../module/helloworld" pageName="Hello World" />
 <PageRef url="../module/marketplace" pageName="Marketplace" />

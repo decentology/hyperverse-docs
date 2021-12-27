@@ -37,7 +37,7 @@ const FeatureList = [
     title: 'Compose',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
-      <>Build, audit, and monitize composable smart modules on the Hyperverse.</>
+      <>Develop, secure, and monetize composable smart modules on the Hyperverse.</>
     ),
     link: (
       <a href="compose/introduction">Compose the Hyperverse</a>
