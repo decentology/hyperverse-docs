@@ -10,7 +10,7 @@ import YouTube from '@components/YouTube';
 
 # FAQ
 
-Commonly asked questions about the Hyperverse.
+Answers to commonly asked questions about the Hyperverse.
 
 ---
 

@@ -7,7 +7,7 @@ const FeatureList = [
     title: 'Basics',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
-      <>Start your journey by learning key concepts in Web3, blockchain, and—of course—the Hyperverse!</>
+      <>Start your journey into the Hyperverse by learning its fundamental concepts and primary goals. </>
     ),
     link: (
       <a href="/basics/welcome">Get Started with the Hyperverse</a>
@@ -20,7 +20,7 @@ const FeatureList = [
       <>Accelerate your blockchain development journey with customized, full-stack code.</>
     ),
     link: (
-      <a href="build/introduction">Build the Hyperverse</a>
+      <a href="build/introduction">Build on the Hyperverse</a>
     ),
   },
   {
@@ -47,7 +47,7 @@ const FeatureList = [
     title: 'Learn',
     // Svg: require('../../static/img/homepage/1.svg').default,
     description: (
-      <>Explore basic, intermediate, and advanced concepts in Web3, blockchain, and Hyperverse.</>
+      <>Gain in-demand skills in Web3, blockchain, and—of course—the Hyperverse!</>
     ),
     link: (
       <a href="/learn/introduction">Learn the Hyperverse</a>

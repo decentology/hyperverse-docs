@@ -9,13 +9,17 @@ import TabItem from '@theme/TabItem';
 
 # Welcome to the Hyperverse
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Introduction to the Hyperverse and first steps to start your journey into Web3.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+## What is the Hyperverse?
 
-<PageRef url="/basics/quickstart" pageName="Quickstart" />
+The Hyperverse is an open, decentralized, blockchain-agnostic marketplace for composable smart contracts. Our mission is to onboard 10 million Web2 developers to Web3 by making it possible to build decentralized applications without writing a single line of smart contract code. Our cross-chain solutions for smart contract development, security, monetization and discoverability aim to make the Hyperverse the most comprehensive marketplace for smart contracts ever created.
+
+## Get Started with the Hyperverse
+
+<PageRef url="get-started" pageName="Get Started" />
 
 :::info
 
@@ -23,15 +27,13 @@ First time seeing the Hyperverse? [Visit our website](https://www.decentology.co
 
 :::
 
-## Get Started with the Hyperverse
+## Learn the Hyperverse Basics
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-<PageRef url="/basics/how-it-works" pageName="How it Works" />
-<PageRef url="/basics/key-concepts" pageName="Key Concepts" />
-<PageRef url="/basics/community" pageName="Community" />
-<PageRef url="/basics/glossary" pageName="Glossary" />
-<PageRef url="/faq" pageName="FAQ" />
+<PageRef url="how-it-works" pageName="How it Works" />
+<PageRef url="key-concepts" pageName="Key Concepts" />
+<PageRef url="community" pageName="Community" />
+<PageRef url="glossary" pageName="Glossary" />
+<PageRef url="faq" pageName="FAQ" />
 
 :::info
 

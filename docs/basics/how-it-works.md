@@ -14,7 +14,7 @@ Onboarding the next 10 million blockchain developers by bringing composability t
 
 ---
 
-## What is the Hyperverse?
+## Composing the Hyperverse
 
 The Hyperverse is an open, blockchain-agnostic, decentralized, marketplace for
 composable smart contracts. It is a solution specifically architected for

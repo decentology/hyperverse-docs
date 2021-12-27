@@ -10,40 +10,22 @@ import YouTube from '@components/YouTube';
 
 # Glossary
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+List of terms and definitions to help you get started in Web3.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## Blockchain
 
-:::info
+Blockchains are the underlying technology for the decentralized web.
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## DApp
 
-:::
+A computer application that runs on a distributed computing system. If you’ve ever developed “serverless” apps on Azure or Amazon this is a similar concept.
 
-## Point 1
+## Smart contract
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+A smart contract is the code executed on a blockchain.
 
-## Point 2
+## Solidity
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-:::info
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-:::
+An object-oriented programming language for writing smart contracts. It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum. Solidity is similar to JavaScript.
