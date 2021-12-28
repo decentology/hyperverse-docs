@@ -132,29 +132,40 @@ const sidebars = {
   
   learn: [  
       { type: 'doc', label: 'Introduction', id: 'learn/introduction', },
+      // {
+      //   type: "category",
+      //   label: "Web3",
+      //   items: [
+      //     { type: 'doc', label: 'Overview', id: 'learn/web3/overview', },
+      //     {
+      //       type: "category",
+      //       label: "Basic",
+      //       items: [
+      //         { type: 'doc', label: 'Overview', id: 'learn/web3/basic/overview', },
+      //         { type: 'doc', label: 'Welcome to Web3', id: 'learn/web3/basic/welcome-to-web3', },
+      //         { type: 'doc', label: 'Web2 vs Web3', id: 'learn/web3/basic/web2-vs-web3', },
+      //         { type: 'doc', label: 'Web3 Concepts', id: 'learn/web3/basic/web3-concepts', },
+      //         { type: 'doc', label: 'Future of Web3', id: 'learn/web3/basic/future-of-web3', },
+      //         { type: 'doc', label: 'Web3 Tools', id: 'learn/web3/basic/web3-tools', },
+      //         { type: 'doc', label: 'Web3 Resources', id: 'learn/web3/basic/web3-resources', },
+      //       ],
+      //     },
+      //   ],
+      // },
       {
         type: "category",
-        label: "Web3",
+        label: "Wallets",
         items: [
-          { type: 'doc', label: 'Overview', id: 'learn/web3/overview', },
-          {
-            type: "category",
-            label: "Basic",
-            items: [
-              { type: 'doc', label: 'Overview', id: 'learn/web3/basic/overview', },
-              { type: 'doc', label: 'Welcome to Web3', id: 'learn/web3/basic/welcome-to-web3', },
-              { type: 'doc', label: 'Web2 vs Web3', id: 'learn/web3/basic/web2-vs-web3', },
-              { type: 'doc', label: 'Web3 Concepts', id: 'learn/web3/basic/web3-concepts', },
-              { type: 'doc', label: 'Future of Web3', id: 'learn/web3/basic/future-of-web3', },
-              { type: 'doc', label: 'Web3 Tools', id: 'learn/web3/basic/web3-tools', },
-              { type: 'doc', label: 'Web3 Resources', id: 'learn/web3/basic/web3-resources', },
-            ],
-          },
+          { type: 'doc', label: 'Overview', id: 'learn/wallet/overview', },
+          { type: 'doc', label: 'Algorand', id: 'learn/wallet/algorand', },
+          { type: 'doc', label: 'Blocto', id: 'learn/wallet/blocto', },
+          { type: 'doc', label: 'MetaMask', id: 'learn/wallet/metamask', },
+          { type: 'doc', label: 'Fund your Wallet', id: 'learn/wallet/fund-your-wallet', },
         ],
       },
       {
         type: "category",
-        label: "Blockchain",
+        label: "Blockchains",
         items: [
           { type: 'doc', label: 'Overview', id: 'learn/blockchain/overview', },
           {
@@ -183,6 +194,7 @@ const sidebars = {
             label: "Flow",
             items: [
               { type: 'doc', label: 'Welcome to Flow', id: 'learn/blockchain/flow/welcome-to-flow', },
+              { type: 'doc', label: 'Overview', id: 'learn/blockchain/flow/overview', },
               {
                 type: "category",
                 label: "Basic",
@@ -253,46 +265,46 @@ const sidebars = {
         },
       ],
     },
-    {
-      type: "category",
-      label: "Hyperverse",
-      items: [
-        { type: 'doc', label: 'Overview', id: 'learn/hyperverse/overview', },
-        {
-          type: "category",
-          label: "Basic",
-          items: [
-            { type: 'doc', label: 'Overview', id: 'learn/hyperverse/basic/overview', },
-            { type: 'doc', label: 'Welcome to the Hyperverse', id: 'learn/hyperverse/basic/welcome-to-hyperverse', },
-            { type: 'doc', label: 'Your First Steps', id: 'learn/hyperverse/basic/first-steps', },
-            { type: 'doc', label: 'Composability', id: 'learn/hyperverse/basic/composability', },
-            { type: 'doc', label: 'Smart Modules', id: 'learn/hyperverse/basic/smart-modules', },
-            { type: 'doc', label: 'Examples', id: 'learn/hyperverse/basic/examples', },
+    // {
+    //   type: "category",
+    //   label: "Hyperverse",
+    //   items: [
+    //     { type: 'doc', label: 'Overview', id: 'learn/hyperverse/overview', },
+    //     {
+    //       type: "category",
+    //       label: "Basic",
+    //       items: [
+    //         { type: 'doc', label: 'Overview', id: 'learn/hyperverse/basic/overview', },
+    //         { type: 'doc', label: 'Welcome to the Hyperverse', id: 'learn/hyperverse/basic/welcome-to-hyperverse', },
+    //         { type: 'doc', label: 'Your First Steps', id: 'learn/hyperverse/basic/first-steps', },
+    //         { type: 'doc', label: 'Composability', id: 'learn/hyperverse/basic/composability', },
+    //         { type: 'doc', label: 'Smart Modules', id: 'learn/hyperverse/basic/smart-modules', },
+    //         { type: 'doc', label: 'Examples', id: 'learn/hyperverse/basic/examples', },
             
-          ],
-        },
-        {
-          type: "category",
-          label: "Intermediate",
-          items: [
-            { type: 'doc', label: 'Overview', id: 'learn/hyperverse/intermediate/overview', },
-            { type: 'doc', label: 'Specifications', id: 'learn/hyperverse/intermediate/specifications', },
-            { type: 'doc', label: 'Smart Contracts', id: 'learn/hyperverse/intermediate/smart-contracts', },
-            { type: 'doc', label: 'Documentation', id: 'learn/hyperverse/intermediate/documentation', },
-            { type: 'doc', label: 'Code Samples', id: 'learn/hyperverse/intermediate/code-examples', },
-            { type: 'doc', label: 'UI Harness', id: 'learn/hyperverse/intermediate/ui-harness', },            
-            { type: 'doc', label: 'Unit Tests', id: 'learn/hyperverse/intermediate/unit-tests', },  
-          ],
-        },
-        {
-          type: "category",
-          label: "Advanced",
-          items: [
-            { type: 'doc', label: 'Overview', id: 'learn/hyperverse/advanced/overview', },
-          ],
-        },
-      ],
-    },
+    //       ],
+    //     },
+    //     {
+    //       type: "category",
+    //       label: "Intermediate",
+    //       items: [
+    //         { type: 'doc', label: 'Overview', id: 'learn/hyperverse/intermediate/overview', },
+    //         { type: 'doc', label: 'Specifications', id: 'learn/hyperverse/intermediate/specifications', },
+    //         { type: 'doc', label: 'Smart Contracts', id: 'learn/hyperverse/intermediate/smart-contracts', },
+    //         { type: 'doc', label: 'Documentation', id: 'learn/hyperverse/intermediate/documentation', },
+    //         { type: 'doc', label: 'Code Samples', id: 'learn/hyperverse/intermediate/code-examples', },
+    //         { type: 'doc', label: 'UI Harness', id: 'learn/hyperverse/intermediate/ui-harness', },            
+    //         { type: 'doc', label: 'Unit Tests', id: 'learn/hyperverse/intermediate/unit-tests', },  
+    //       ],
+    //     },
+    //     {
+    //       type: "category",
+    //       label: "Advanced",
+    //       items: [
+    //         { type: 'doc', label: 'Overview', id: 'learn/hyperverse/advanced/overview', },
+    //       ],
+    //     },
+    //   ],
+    // },
   ], 
 
   // ######################################

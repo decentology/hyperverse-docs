@@ -13,19 +13,19 @@ Introduction to the Hyperverse and first steps to start your journey into Web3.
 
 ---
 
-## Introduction to the Docs
-
-This documentation is designed to help you build with the Hyperverse. It covers the Hyperverse as a concept, explains the Hyperverse tech stack, and documents advanced topics for more complex applications and use cases.
-
-This is an open-source community effort, so feel free to suggest new topics, add new content, and provide examples wherever you think it might be helpful. All documentation can be edited via GitHub – if you're unsure how, view [these insructions](../contribute/introduction).
-
 ## What is the Hyperverse?
 
 The Hyperverse is an open, decentralized, blockchain-agnostic marketplace for composable smart contracts. Our mission is to onboard 10 million Web2 developers to Web3 by making it possible to build decentralized applications without writing a single line of smart contract code. Our cross-chain solutions for smart contract development, security, monetization and discoverability aim to make the Hyperverse the most comprehensive marketplace for smart contracts ever created.
 
-## Get Started with the Hyperverse
-
 <PageRef url="get-started" pageName="Get Started" />
+
+## Contributing to the Docs
+
+This documentation is designed to help you build with the Hyperverse. It covers the Hyperverse as a concept, explains the Hyperverse tech stack, and documents advanced topics for more complex applications and use cases.
+
+This is an open-source community effort, so feel free to suggest new topics, add new content, and provide examples wherever you think it might be helpful. All documentation can be edited via GitHub and we provide instructions to help you get started.
+
+<PageRef url="../contribute/introduction" pageName="Start Contributing" />
 
 :::info
 

@@ -9,11 +9,11 @@ import TabItem from '@theme/TabItem';
 
 # Discover the Hyperverse
 
-Explore secure Smart Contract code designed to accelerate your blockchain development.
+Explore secure smart contract code designed to accelerate your blockchain development.
 
 ---
 
-Quickly find Smart Modules to help you develop your next Web3 application. Each Smart Module consists of composable smart contracts, documentation, code samples, UI harnesses, and unit tests built to make dApp development as simple as possible.
+Quickly find resources to help you develop your next Web3 application. Explore Smart Modules indlucing composable smart contracts, documentation, code samples, UI harnesses, and unit tests built to make dApp development as simple as possible.
 
 :::info
 

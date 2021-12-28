@@ -1,6 +1,6 @@
 ---
 title: Welcome to Conflux
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+description: Explore Conflux and find valuable resources to start learning more.
 ---
 
 import PageRef from '@components/PageRef'
@@ -10,7 +10,7 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Conflux
 
-Learn about Conflux, Teal, and find valuable resources to start learning more.
+Explore Conflux and find valuable resources to start learning more.
 
 ---
 
@@ -18,13 +18,15 @@ Learn about Conflux, Teal, and find valuable resources to start learning more.
 
 Conflux is a new secure and reliable public blockchain with very high performance and scalability. It can achieve the same level of decentralization and security as Bitcoin and Ethereum but provide more than two orders of magnitude improvement on transaction throughput (TPS) and finality latency.
 
+<YouTube videoId="T29gTT2jj0Q"/>
+
 :::info
 
 You may start to [build](../../../build/blockchain/conflux), [discover](../../../discover/introduction), or [compose](../../../compose/blockchain/conflux) on Conflux at any time as you learn.
 
 :::
 
-### Learn Algorand
+### Conflux Resources
 
 - [Confluxnetwork.org](https://confluxnetwork.org/en/)
 - [Coinmarketcap](https://coinmarketcap.com/currencies/conflux-network/)

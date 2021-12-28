@@ -1,6 +1,6 @@
 ---
 title: Welcome to Solana
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+description: Explore Solana and find valuable resources to start learning more.
 ---
 
 import PageRef from '@components/PageRef'
@@ -10,11 +10,15 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Solana
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Explore Solana and find valuable resources to start learning more.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is Solana?
+
+Solana is a highly functional open source project that banks on blockchain technology’s permissionless nature to provide decentralized finance (DeFi) solutions. While the idea and initial work on the project began in 2017, Solana was officially launched in March 2020 by the Solana Foundation with headquarters in Geneva, Switzerland.
+
+<YouTube videoId="xiJEESddB5A"/>
 
 :::info
 
@@ -22,25 +26,14 @@ You may start to [build](../../../build/blockchain/solana), [discover](../../../
 
 :::
 
-## Point 1
+### Solana Resources
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 2
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+- [solana.com](https://solana.com/)
+- [Coinmarketcap](https://coinmarketcap.com/currencies/solana/)
+- [Solana Documentation](https://docs.solana.com/)
+- [@Solana on Twitter](https://twitter.com/solana)
+- [Solana GitHub](https://github.com/solana-labs)
+- [Solana Discord](https://discord.com/invite/pquxPsq)
 
 :::info
 

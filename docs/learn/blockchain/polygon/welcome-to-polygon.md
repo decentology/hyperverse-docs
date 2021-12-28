@@ -1,6 +1,6 @@
 ---
 title: Welcome to Polygon
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+description: Explore Polygon and find valuable resources to start learning more.
 ---
 
 import PageRef from '@components/PageRef'
@@ -10,11 +10,15 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Polygon
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Explore Polygon and find valuable resources to start learning more.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is Polygon?
+
+Solana is a highly functional open source project that banks on blockchain technology’s permissionless nature to provide decentralized finance (DeFi) solutions. While the idea and initial work on the project began in 2017, Solana was officially launched in March 2020 by the Solana Foundation with headquarters in Geneva, Switzerland.
+
+<YouTube videoId="PKw0RTT1Hp4"/>
 
 :::info
 
@@ -22,25 +26,14 @@ You may start to [build](../../../build/blockchain/polygon), [discover](../../..
 
 :::
 
-## Point 1
+### Polygon Resources
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 2
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+- [polygon.technology](https://polygon.technology/)
+- [Coinmarketcap](https://coinmarketcap.com/currencies/polygon/)
+- [Polygon Documentation](https://docs.polygon.technology/)
+- [@0xPolygon on Twitter](https://twitter.com/0xPolygon)
+- [Polygon GitHub](https://github.com/maticnetwork)
+- [Polygon Discord](https://discord.com/invite/polygon)
 
 :::info
 

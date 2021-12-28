@@ -1,6 +1,6 @@
 ---
 title: Welcome to Near
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+description: Explore Near and find valuable resources to start learning more.
 ---
 
 import PageRef from '@components/PageRef'
@@ -10,11 +10,15 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Near
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Explore Near and find valuable resources to start learning more.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is Near?
+
+NEAR Protocol is a layer-one blockchain that was designed as a community-run cloud computing platform and that eliminates some of the limitations that have been bogging competing blockchains, such as low transaction speeds, low throughput and poor interoperability. This provides the ideal environment for DApps and creates a developer and user-friendly platform. For instance, NEAR uses human-readable account names, unlike the cryptographic wallet addresses common to Ethereum. NEAR also introduces unique solutions to scaling problems and has its own consensus mechanism called “Doomslug.”
+
+<YouTube videoId="aS_zb5Je4NI"/>
 
 :::info
 
@@ -22,25 +26,14 @@ You may start to [build](../../../build/blockchain/near), [discover](../../../di
 
 :::
 
-## Point 1
+### Near Resources
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 2
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+- [Near.org](https://near.org/)
+- [Coinmarketcap](https://coinmarketcap.com/currencies/near-protocol/)
+- [Near Documentation](https://docs.near.org/docs/develop/basics/getting-started)
+- [@NearProtocol on Twitter](https://twitter.com/NEARProtocol)
+- [Conflux GitHub](https://github.com/near)
+- [Conflux Discord](https://discord.com/invite/UY9Xf2k)
 
 :::info
 

@@ -34,7 +34,7 @@ We plan to integrate other blockchains into the Hyperverse ecosystem such as Eth
 
 None! The Hyperverse is meant to help web2 developers of all skill levels to begin building within the web3 space.
 
-## What are smart modules?
+## What are Smart Modules?
 
 They are composable smart contracts that developers will build within the Hyperverse. The Smart Modules will implement blockchain application primitives and have multi-tenancy.
 

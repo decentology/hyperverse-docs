@@ -25,9 +25,8 @@ Not ready to learn to the Hyperverse? [Learn more](../basics/welcome.md)
 
 Get started with Web3, blockchain, or the Hyperverse with our docs and educational resources.
 
-<PageRef url="web3/overview" pageName="Web3" />
-<PageRef url="blockchain/overview" pageName="Blockchain" />
-<PageRef url="hyperverse/overview" pageName="Hyperverse" />
+<PageRef url="wallet/overview" pageName="Wallets" />
+<PageRef url="blockchain/overview" pageName="Blockchains" />
 
 :::info
 

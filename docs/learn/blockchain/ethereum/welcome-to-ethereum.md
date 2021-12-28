@@ -1,6 +1,6 @@
 ---
 title: Welcome to Ethereum
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+description: Explore Ethereum & Solidity and find valuable resources to start learning more.
 ---
 
 import PageRef from '@components/PageRef'
@@ -10,7 +10,7 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Ethereum
 
-Learn about Ethereum, Solidity, and find valuable resources to start learning more.
+Explore Ethereum & Solidity and find valuable resources to start learning more.
 
 ---
 
@@ -18,13 +18,15 @@ Learn about Ethereum, Solidity, and find valuable resources to start learning mo
 
 Ethereum is a decentralized open-source blockchain system that features its own cryptocurrency, Ether. ETH works as a platform for numerous other cryptocurrencies, as well as for the execution of decentralized smart contracts. Ethereum’s goal is to become a global platform for decentralized applications, allowing users from all over the world to write and run software that is resistant to censorship, downtime and fraud.
 
+<YouTube videoId="IsXvoYeJxKA"/>
+
 :::info
 
 You may start to [build](../../../build/blockchain/ethereum), [discover](../../../discover/introduction), or [compose](../../../compose/blockchain/ethereum) on Ethereum at any time as you learn.
 
 :::
 
-### Learn Ethereum
+### Ethereum Resources
 
 - [Ethereum.org](https://ethereum.org/en/)
 - [Coinmarketcap](https://coinmarketcap.com/currencies/ethereum/)
@@ -37,7 +39,9 @@ You may start to [build](../../../build/blockchain/ethereum), [discover](../../.
 
 Solidity is an object-oriented, high-level programming language used to create smart contracts that automate transactions on the blockchain. After being proposed in 2014, the language used to be developed via participants to the Ethereum mission. The language is primarily used to create smart contracts on the Ethereum blockchain and create smart contracts on different blockchains.
 
-### Learn Solidity
+<YouTube videoId="kdvVwGrV7ec"/>
+
+### Solidity Resources
 
 - [Soliditylang.org](https://soliditylang.org/)
 - [Solidity Documentation](https://docs.soliditylang.org/en/v0.8.11/)
