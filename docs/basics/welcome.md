@@ -36,7 +36,7 @@ This documentation is designed to help you build with the Hyperverse. It covers 
 
 This is an open-source community effort, so feel free to suggest new topics, add new content, and provide examples wherever you think it might be helpful. All documentation can be edited via GitHub and we provide instructions to help you get started.
 
-<PageRef url="../contribute/introduction" pageName="Start Contributing" />
+<PageRef url="https://github.com/decentology/hyperverse-docs#hyperverse-documentation" pageName="Start Contributing" />
 
 :::info
 
