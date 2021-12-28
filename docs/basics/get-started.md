@@ -15,7 +15,7 @@ Join the mission to make Web3 accessible to millions of new developers.
 
 ## Start your Web3 Journey
 
-To make Web3 development simple, you need code that makes it easy to build, discover, compose, and learn. The Hyperverse provides solutions, resources, and opportunities that make sure it's quick and easy for you to get started, no matter how you'd like to start your Web3 journey. Choose from the options below to get started.
+To make Web3 development simple, you need code that makes it easy to build, discover, compose, and learn. The Hyperverse provides solutions, resources, and opportunities that make sure it's quick and easy for you to get started, no matter how you'd like to start your Web3 journey.
 
 :::info
 

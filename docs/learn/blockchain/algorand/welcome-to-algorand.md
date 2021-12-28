@@ -1,6 +1,6 @@
 ---
 title: Welcome to Algorand
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+description: Learn about Algorand, Teal, and find valuable resources to start learning more.
 ---
 
 import PageRef from '@components/PageRef'
@@ -10,11 +10,13 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Algorand
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Learn about Algorand, Teal, and find valuable resources to start learning more.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is Algorand?
+
+Algorand is a self-sustaining, decentralized, blockchain-based network that supports a wide range of applications. These systems are secure, scalable and efficient, all critical properties for effective applications in the real world. Algorand will support computations that require reliable performance guarantees to create new forms of trust.
 
 :::info
 
@@ -22,25 +24,25 @@ You may start to [build](../../../build/blockchain/algorand), [discover](../../.
 
 :::
 
-## Point 1
+### Learn Algorand
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+- [Algorand.com](https://www.algorand.com/)
+- [Coinmarketcap](https://coinmarketcap.com/currencies/algorand/)
+- [Algorand Documentation](https://developer.algorand.org/)
+- [@Algorand on Twitter](https://twitter.com/Algorand)
+- [Algorand GitHub](https://github.com/algorand/)
+- [Algorand Discord](https://discord.com/invite/algorand)
 
-## Point 2
+## What is Teal?
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+TEAL programming language used in Algorand is a good pick because it is simple for writing and debugging, Turing-incomplete which means it doesn’t support loops and by that, it is more secure than the Turing-complete programming languages such as Solidity. Because of that, it is an ideal programming language for decentralized finances, because, in DeFi, security is the most important as there is handled with huge amounts of finances.
 
-## Point 3
+### Learn Teal
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+- [Introducing Teal](https://developer.algorand.org/articles/introducing-teal-version-3/)
+- [Reference Specifications](https://developer.algorand.org/docs/get-details/dapps/avm/teal/specification/)
+- [Teal Documentation](https://developer.algorand.org/docs/get-details/dapps/avm/teal/)
+- [Pyteal GitHub](https://github.com/algorand/pyteal)
 
 :::info
 

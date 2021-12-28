@@ -10,11 +10,13 @@ import YouTube from '@components/YouTube';
 
 # Welcome to Conflux
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Learn about Conflux, Teal, and find valuable resources to start learning more.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is Conflux?
+
+Conflux is a new secure and reliable public blockchain with very high performance and scalability. It can achieve the same level of decentralization and security as Bitcoin and Ethereum but provide more than two orders of magnitude improvement on transaction throughput (TPS) and finality latency.
 
 :::info
 
@@ -22,25 +24,14 @@ You may start to [build](../../../build/blockchain/conflux), [discover](../../..
 
 :::
 
-## Point 1
+### Learn Algorand
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 2
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+- [Confluxnetwork.org](https://confluxnetwork.org/en/)
+- [Coinmarketcap](https://coinmarketcap.com/currencies/conflux-network/)
+- [Conflux Documentation](https://conflux-chain.github.io/conflux-doc/)
+- [@Conflux on Twitter](https://twitter.com/Conflux_Network)
+- [Conflux GitHub](https://github.com/conflux-chain)
+- [Conflux Discord](https://discord.com/invite/aCZkf2C)
 
 :::info
 
