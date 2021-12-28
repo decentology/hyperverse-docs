@@ -136,8 +136,8 @@ module.exports = {
                     title: "Community",
                     items: [
                         {
-                            href: "/contribute/overview",
-                            label: "Contributors",
+                            href: "/contribute/introduction",
+                            label: "Contribute",
                         },
                         // {
                         //     label: "Forum",
