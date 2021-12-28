@@ -154,7 +154,7 @@ const sidebars = {
       // },
       {
         type: "category",
-        label: "Wallets",
+        label: "Wallet",
         items: [
           { type: 'doc', label: 'Overview', id: 'learn/wallet/overview', },
           { type: 'doc', label: 'Algorand', id: 'learn/wallet/algorand', },
@@ -165,7 +165,7 @@ const sidebars = {
       },
       {
         type: "category",
-        label: "Blockchains",
+        label: "Blockchain",
         items: [
           { type: 'doc', label: 'Overview', id: 'learn/blockchain/overview', },
           {

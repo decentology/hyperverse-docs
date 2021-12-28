@@ -9,15 +9,17 @@ import TabItem from '@theme/TabItem';
 
 # Blockchain Overview
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Introduction to blockchains and helpful resources to help you learn more.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## What is a Blockchain?
+
+A blockchain is a decentralized, distributed, and oftentimes public, digital ledger consisting of records called blocks that is used to record transactions across many computers so that any involved block cannot be altered.
 
 ## Start Learning Blockchain
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+There are many different blockchains that each serve a specific purpose. The Hyperverse supports multiple blockchains (listed below) and provides resources to help you learn more. Choose the blockchain you'd like to get started with to begin your journey as a Web3 developer.
 
 <PageRef url="/learn/blockchain/algorand/welcome-to-algorand" pageName="Algorand" />
 <PageRef url="/learn/blockchain/conflux/welcome-to-conflux" pageName="Conflux" />
