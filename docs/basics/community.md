@@ -24,9 +24,3 @@ Our community includes highly motivated and experienced blockchain enthusiasts s
 - [Twitter](https://twitter.com/Decentology)
 - [Blog](https://www.decentology.com/blog)
 - [YouTube](https://www.youtube.com/c/Decentology)
-
-:::info
-
-Interested in contributing to the Hyperverse community? [Become a Contributor](../../contribute/introduction)
-
-:::
