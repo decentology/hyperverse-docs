@@ -33,6 +33,15 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Environment Setup",
+          items: [
+            { type: 'doc', label: 'Overview', id: 'compose/environment/overview', },
+            { type: 'doc', label: 'Using Mac', id: 'compose/environment/using-mac', },
+            { type: 'doc', label: 'Using Windows', id: 'compose/environment/using-windows', },
+          ],
+        },
+        {
+          type: "category",
           label: "Smart Module",
           items: [
             { type: 'doc', label: 'Overview', id: 'compose/smart-modules/overview', },
@@ -90,26 +99,7 @@ const sidebars = {
   
   build: [  
     { type: 'doc', label: 'Introduction', id: 'build/introduction' },
-    // { type: 'doc', label: 'Quickstart', id: 'build/quickstart' },
-    {
-      type: "category",
-      label: "Environment Setup",
-      items: [
-        { type: 'doc', label: 'Overview', id: 'build/environment/overview', },
-        { type: 'doc', label: 'Using Mac', id: 'build/environment/using-mac', },
-        { type: 'doc', label: 'Using Windows', id: 'build/environment/using-windows', },
-      ],
-    },
-    {
-      type: "category",
-      label: "Build a dApp",
-      items: [
-        { type: 'doc', label: 'Overview', id: 'build/dapp/overview', },
-        { type: 'doc', label: 'Run your dApp', id: 'build/dapp/run-your-dapp' },
-        { type: 'doc', label: 'Modify the Client', id: 'build/dapp/modify-the-client' },
-        { type: 'doc', label: 'Call Functions', id: 'build/dapp/call-functions' },
-      ],
-    },
+    { type: 'doc', label: 'Local Environment', id: 'build/environment' },
     {
       type: "category",
       label: "Blockchain",
@@ -122,6 +112,16 @@ const sidebars = {
         { type: 'doc', label: 'Near', id: 'build/blockchain/near', },
         { type: 'doc', label: 'Polygon', id: 'build/blockchain/polygon', },
         { type: 'doc', label: 'Solana', id: 'build/blockchain/solana', },
+      ],
+    },
+    {
+      type: "category",
+      label: "Build a dApp",
+      items: [
+        { type: 'doc', label: 'Overview', id: 'build/dapp/overview', },
+        { type: 'doc', label: 'Run your dApp', id: 'build/dapp/run-your-dapp' },
+        { type: 'doc', label: 'Modify the Client', id: 'build/dapp/modify-the-client' },
+        { type: 'doc', label: 'Call Functions', id: 'build/dapp/call-functions' },
       ],
     },
   ], 

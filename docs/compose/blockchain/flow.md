@@ -22,9 +22,23 @@ Want to learn more about Flow development on the Hyperverse? [Learn more](../../
 
 :::
 
-## Point 1
+## Install Flow
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Install [Flow CLI](https://docs.onflow.org/flow-cli/install)
+
+::info
+
+After installation run flow cadence install-vscode-extension to enable code highlighting for Cadence source files.
+
+:::
+
+## Clone Repository
+
+```
+$ git clone https://github.com/decentology/hyperhack_1
+$ cd hyperhack_1/
+
+```
 
 ## Point 2
 

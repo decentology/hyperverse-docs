@@ -10,40 +10,24 @@ import YouTube from '@components/YouTube';
 
 # Build on Flow
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Build decentralized applications on the Hyperverse using Flow.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+## Install Flow
+
+- Install [Flow CLI](https://docs.onflow.org/flow-cli/install)
+- After installation run `flow cadence install-vscode-extension` to enable code highlighting for Cadence source files.
+
+## Clone Repository
+
+```
+$ git clone https://github.com/decentology/hyperhack_1
+$ cd hyperhack_1/
+```
 
 :::info
 
 Want to learn more about building on Flow with the Hyperverse? [Learn more](../../learn/blockchain/flow/welcome-to-flow)
-
-:::
-
-## Point 1
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 2
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 3
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 4
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-## Point 5
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
-:::info
-
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
 :::
