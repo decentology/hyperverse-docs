@@ -54,15 +54,11 @@ Alphanumeric is something made up of both letters and numbers. Alpha- comes from
 
 An abbreviation of “Bitcoin alternative”. Currently, the majority of altcoins are forks of Bitcoin with usually minor changes to the proof of work (POW) algorithm of the Bitcoin blockchain. The most prominent altcoin is Litecoin. Litecoin introduces changes to the original Bitcoin protocol such as decreased block generation time, increased maximum number of coins and different hashing algorithm
 
-### AML
-
-Anti-Money Laundering or AML is a set of laws designed to prevent the conversion of illegally earned money into what appears to be legally earned money. Money laundering is the process of making illegally earned money appear to be legally earned.
-
 ### Anonymous
 
 Anonymous is something made or done by an unknown person or group. Compare this definition with “pseudonymous” which means acting or done under a false name.
 
-### Anti-Money Laundering
+### Anti-Money Laundering (AML)
 
 Anti-Money Laundering or AML is a set of laws designed to prevent the conversion of illegally earned money into what appears to be legally earned money. Money laundering is the process of making illegally earned money appear to be legally earned.
 
