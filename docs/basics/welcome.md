@@ -17,15 +17,15 @@ Introduction to the Hyperverse and first steps to start your journey into Web3.
 
 The Hyperverse is an open, decentralized, blockchain-agnostic marketplace for composable smart contracts. Our mission is to onboard 10 million Web2 developers to Web3 by making it possible to build decentralized applications without writing a single line of smart contract code. Our cross-chain solutions for smart contract development, security, monetization and discoverability aim to make the Hyperverse the most comprehensive marketplace for smart contracts ever created.
 
-## Start your Journey
-
-<PageRef url="get-started" pageName="Get Started" />
-
 :::info
 
 First time visiting the Hyperverse? [View our website](https://www.decentology.com/)
 
 :::
+
+## Start your Journey
+
+<PageRef url="get-started" pageName="Get Started" />
 
 ## Learn the Basics
 
