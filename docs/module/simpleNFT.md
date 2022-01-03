@@ -1,5 +1,5 @@
 ---
-title: Simple NFT
+title: Simple NFT Marketplace
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 id: simpleNFT
 ---
@@ -9,17 +9,103 @@ import PageRef from '@components/PageRef';
 
 # Simple NFT
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Give the users the ability to mint, own, and trade SimpleNFTs.
 
 ---
 
+## Introduction
+
 The aim of SimpleNFT module is to give the users the ability to mint, own, and trade SimpleNFTs.
 
-For example, Alice creates a SimpleNFT instance and therefore becomes a tenant of the SimpleNFT module.
+- [GitHub](https://www.decentology.com/)
+- [Homepage](https://www.decentology.com/)
 
-Alice can now give other users in the ecosystem minting rights (ability to create an NFT). Once the user has the minting rights, the user can then go ahead and actually mint an NFT.
-Now that the NFT has come into existence, it can be transfer the NFT from one user to another.
+**Blockchains**: Ethereum, Flow
 
-Check out this video to understand the SimpleNFT module.
+## Code Samples
 
-<YouTube videoId="OMdBFHjiJwY"/>
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+
+- [Online Demo](https://www.decentology.com/)
+
+## Installation
+
+**Install Hyperverse Smart Module**
+
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+
+```jsx
+npm install hyperverse hello-world
+```
+
+**CLI Executable**
+
+```jsx
+npm install -g hyperverse hello-world
+```
+
+**Usage**
+
+```jsx
+usage: hello-world [-h] [-v] [-c] [-t] file
+
+Positional arguments:
+  file           File with YAML document(s)
+
+Optional arguments:
+  -h, --help     Show this help message and exit.
+  -v, --version  Show program's version number and exit.
+  -c, --compact  Display errors in compact mode
+  -t, --trace    Show stack trace on error
+
+```
+
+## Smart Contract
+
+Description of Smart Contract goes here.
+
+```jsx
+// SPDX-License-Identifier: MIT
+// compiler version must be greater than or equal to 0.8.10 and less than 0.9.0
+pragma solidity ^0.8.10;
+
+contract HelloWorld {
+    string public greet = "Hello World!";
+}
+```
+
+## UI Harness
+
+Description of UI Harness goes here.
+
+```jsx
+ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById("root"));
+```
+
+## Unit Tests
+
+Description of unit tests goes here.
+
+```jsx
+var assert = require("assert");
+describe("Basic Mocha String Test", function () {
+  it("should return number of charachters in a string", function () {
+    assert.equal("Hello".length, 4);
+  });
+  it("should return first charachter of the string", function () {
+    assert.equal("Hello".charAt(0), "H");
+  });
+});
+```
+
+## API
+
+Description of API goes here.
+
+## Caveats
+
+Description of caveats goes here.
+
+## Additional Resources
+
+- [SimpleNFT](https://www.youtube.com/watch?v=OMdBFHjiJwY) - Check out this video to understand how to use the SimpleNFT Marketplace module.

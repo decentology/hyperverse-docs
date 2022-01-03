@@ -1,5 +1,5 @@
 ---
-title: How it Works
+title: Why Hyperverse
 description: Onboarding the next 10 million blockchain developers by bringing composability to Web3.
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# How it Works
+# Why Hyperverse
 
 Onboarding the next 10 million blockchain developers by bringing composability to Web3.
 

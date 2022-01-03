@@ -6,7 +6,7 @@ const { docs, developers } = require('./sidebars');
 const DefaultLocale = 'en';
 
 module.exports = {
-    title: "Hyperverse Documentation",
+    title: "Hyperverse Docs",
     tagline: "Explore the latest documentation, tutorials, code, and updates.",
     url: "https://docs.hyperverse.dev",
     baseUrl: "/",
@@ -105,8 +105,8 @@ module.exports = {
             anonymizeIP: true, // Should IPs be anonymized?
         },
         // algolia: {
-        //     appId: 'xxxx',
-        //     apiKey: 'xxxx',
+        //     appId: 'VTOK77FLR7',
+        //     apiKey: 'b295be99cba0b8841827d1c24faae777',
         //     indexName: 'hyperverse',
         //     contextualSearch: true,
         //     debug: false
