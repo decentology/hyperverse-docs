@@ -14,7 +14,7 @@ Join the community onboarding the next 10 million Web2 developers to Web3.
 
 ---
 
-## Hyperverse Community
+## Join the Community
 
 Our community includes highly motivated and experienced blockchain enthusiasts spread across the world with the sole purpose of making the Hyperverse a reality. Our community is growing fast. We have great blockchain partners in Flow and Algorand, and we're making new connections every day. Our investors are global, crypto-native and highly supportive. Join our community to get started as an early adoptor of the Hyperverse.
 

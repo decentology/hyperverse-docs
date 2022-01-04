@@ -23,17 +23,43 @@ First time visiting the Hyperverse? [View our website](https://www.decentology.c
 
 :::
 
-## Start your Journey
+## Hyperverse Overview
 
-<PageRef url="get-started" pageName="Get Started" />
+The Hyperverse consists of three distinct components:
 
-## Learn the Basics
+- Website
+- CLI
+- Registry
 
-<PageRef url="how-it-works" pageName="How it Works" />
-<PageRef url="key-concepts" pageName="Key Concepts" />
-<PageRef url="community" pageName="Community" />
-<PageRef url="glossary" pageName="Glossary" />
-<PageRef url="faq" pageName="FAQ" />
+Use the **website** to discover Smart Modules, set up profiles, and manage other aspects of your Hyperverse experience. For example, you can set up organizations to manage access to public or private packages. The **CLI** runs from a terminal, and is how most developers interact with the Hyperverse. The **registry** is a large database of Smart Modules and the meta-information surrounding it.
+
+## Use the Hyperverse to...
+
+- Adapt Smart Modules for your apps, or incorporate Smart Modules as they are.
+- Download standalone tools you can use right away.
+- Run packages without downloading using npx.
+- Share code with any Hyperverse user, anywhere.
+- Restrict code to specific developers.
+- Create organizations to coordinate Smart Module maintenance, coding, and developers.
+- Form virtual teams by using organizations.
+- Manage multiple versions of code and code dependencies.
+- Update applications easily when underlying code is updated.
+- Discover multiple ways to solve the same puzzle.
+- Find other developers who are working on similar problems and projects.
+
+## Getting started
+
+To get started with Hyperverse, you can create an account, which will be available at http://www.hyperverse.dev/~*yourusername*. After you set up a Hyperverse account, the next step is to use the command line interface (CLI) to install the Hyperverse. We look forward to seeing what you create!
+
+## Learn more
+
+To learn more about Hyperverse as a product, upcoming new features, and interesting uses of the Hyperverse, sign up for our newsletter at hyperverse-weekly, and be sure to follow @hyperverse on Twitter.
+
+For mentoring, tutorials, and learning, visit node school. Consider attending or hosting a nodeschool event (usually free!) at a site near you, or use the self-help tools you can find on the site.
+
+## CLI reference documentation
+
+While relevant CLI commands are covered throughout this user documentation, the CLI includes command line help, its own documentation section, and instant help (man pages).
 
 :::info
 

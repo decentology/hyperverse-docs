@@ -5,8 +5,8 @@ const sidebars = {
   // ######################################
 
   basics: [
-    { type: 'doc', label: 'Welcome', id: 'basics/welcome', },
-    { type: 'doc', label: 'Get Started', id: 'basics/get-started', },
+    { type: 'doc', label: 'Get Started', id: 'basics/welcome', },
+    // { type: 'doc', label: 'Get Started', id: 'basics/get-started', },
     { type: 'doc', label: 'How it Works', id: 'basics/how-it-works', },
     { type: 'doc', label: 'Key Concepts', id: 'basics/key-concepts', },
     { type: 'doc', label: 'Community', id: 'basics/community', },
