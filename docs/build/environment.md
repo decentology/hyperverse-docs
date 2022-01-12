@@ -1,5 +1,5 @@
 ---
-title: Local Environment
+title: Environment
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Local Environment
+# Environment
 
 Get started with the Hyperverse by setting up your local environment.
 

@@ -25,7 +25,7 @@ Not ready to build the Hyperverse? [Learn more](../basics/welcome.md)
 
 Get started with a development environment, build decentralized applications, and deploy to your preferred blockchain.
 
-<PageRef url="environment/overview" pageName="Environment Setup" />
+<PageRef url="environment" pageName="Environment Overview" />
 <PageRef url="blockchain/overview" pageName="Deploy to a Blockchain" />
 <PageRef url="dapp/overview" pageName="Build a dApp" />
 
