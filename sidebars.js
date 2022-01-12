@@ -99,7 +99,7 @@ const sidebars = {
   
   build: [  
     { type: 'doc', label: 'Introduction', id: 'build/introduction' },
-    { type: 'doc', label: 'Local Environment', id: 'build/environment' },
+    { type: 'doc', label: 'Installation', id: 'build/environment' },
     {
       type: "category",
       label: "Blockchain",

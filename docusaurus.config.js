@@ -46,11 +46,6 @@ module.exports = {
             },
             items: [
                 {
-                    "to": "/",
-                    "label": "Basics",
-                    "position": "left"
-                },
-                {
                     "to": "build/introduction",
                     "label": "Build",
                     "position": "left"
@@ -66,13 +61,13 @@ module.exports = {
                     "position": "left"
                 },
                 {
-                    "to": "learn/introduction",
-                    "label": "Learn",
+                    "to": "contribute/introduction",
+                    "label": "Contribute",
                     "position": "left"
                 },
                 {
-                    "to": "contribute/introduction",
-                    "label": "Contribute",
+                    "to": "learn/introduction",
+                    "label": "Learn",
                     "position": "left"
                 },
                 {
