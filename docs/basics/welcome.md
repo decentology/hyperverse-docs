@@ -1,6 +1,7 @@
 ---
 title: Welcome to the Hyperverse
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+slug: /
 ---
 
 import PageRef from '@components/PageRef'

@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #558edb;
+  --ifm-color-primary: #2596be;
   /* Alternate Color (Green is hard to read) */
   /* --ifm-color-primary: #3476F2; */
   --ifm-color-primary-dark: #558edb;
@@ -224,14 +224,14 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #18191a;
+  --ifm-footer-background-color: #0d1b31;
   --ifm-footer-color: var(--ifm-footer-link-color);
   --ifm-footer-link-color: var(--ifm-color-secondary);
   --ifm-footer-title-color: var(--ifm-color-white);
 }
 
 .navbar--dark {
-  background-color: #18191a;
+  background-color: #0d1b31;
   box-shadow: var(--ifm-navbar-shadow);
   display: flex;
   height: var(--ifm-navbar-height);
@@ -240,6 +240,6 @@ html[data-theme="dark"] .header-github-link:before {
 }
 
 html[data-theme="dark"] {
-  --ifm-background-color: #111214;
-  --ifm-background-surface-color: #18191a;
+  --ifm-background-color: #07142a;
+  --ifm-background-surface-color: #0d1b31;
 }

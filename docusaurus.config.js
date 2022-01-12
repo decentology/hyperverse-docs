@@ -46,7 +46,7 @@ module.exports = {
             },
             items: [
                 {
-                    "to": "basics/welcome",
+                    "to": "/",
                     "label": "Basics",
                     "position": "left"
                 },

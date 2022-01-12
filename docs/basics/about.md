@@ -12,7 +12,7 @@ import YouTube from '@components/YouTube';
 
 ## Table of contents
 
-The Hyperverse is an open, decentralized, blockchain-agnostic marketplace for composable smart contracts. Open source developers from every continent use npm to share and borrow packages, and many organizations use the Hyperverse to manage private development as well.
+The Hyperverse is an open, decentralized, blockchain-agnostic marketplace for composable smart contracts. Open source developers from every continent use Hyperverse to share and borrow smart modules, and many organizations use the Hyperverse to manage private development as well.
 
 The Hyperverse consists of three distinct components:
 
@@ -20,11 +20,11 @@ The Hyperverse consists of three distinct components:
 - the Command Line Interface (CLI)
 - the registry
 
-Use the website to discover packages, set up profiles, and manage other aspects of your Hyperverse experience. For example, you can set up organizations to manage access to public or private packages.
+Use the website to discover Smart Modules, set up profiles, and manage other aspects of your Hyperverse experience. For example, you can set up organizations to manage access to public or private packages.
 
 The CLI runs from a terminal, and is how most developers interact with the Hyperverse.
 
-The registry is a large public database of JavaScript software and the meta-information surrounding it.
+The registry is a large public database of software and the meta-information surrounding it.
 
 ## Use the Hyperverse to...
 
@@ -42,17 +42,19 @@ The registry is a large public database of JavaScript software and the meta-info
 
 ## Getting started
 
-To get started with npm, you can create an account, which will be available at http://www.npmjs.com/~*yourusername*.
+To get started with Hyperverse, you can create an account, which will be available at http://www.hyperverse.dev/~*yourusername*.
 
-After you set up an npm account, the next step is to use the command line interface (CLI) to install npm. We look forward to seeing what you create!
+After you set up a Hyperverse account, the next step is to use the command line interface (CLI) to install hyperverse. We look forward to seeing what you create!
 
-Sharing packages and collaborating with others
-If you choose to share your packages publicly, there is no cost. To use and share private packages, you need to upgrade your account. To share with others, create organizations, called npm organizations, and invite others to work with you, privately (for a fee) or publicly (for free).
+## Sharing packages and collaborating with others
 
-You can also use a private npm package registry like GitHub Packages or the open source Verdaccio project. This lets you develop packages internally that are not shared publicly.
+If you choose to share your packages publicly, there is no cost. To use and share private packages, you need to upgrade your account. To share with others, create organizations, called Hyperverse organizations, and invite others to work with you, privately (for a fee) or publicly (for free).
 
-Learn more
-To learn more about npm as a product, upcoming new features, and interesting uses of npm, sign up for our newsletter at npm-weekly, and be sure to follow @npmjs on Twitter.
+You can also use a private Hyperverse package registry like GitHub Packages or the open source Verdaccio project. This lets you develop packages internally that are not shared publicly.
+
+## Learn more
+
+To learn more about Hyperverse as a product, upcoming new features, and interesting uses of the Hyperverse, sign up for our newsletter at hyperverse-weekly, and be sure to follow @hyperverse on Twitter.
 
 For mentoring, tutorials, and learning, visit node school. Consider attending or hosting a nodeschool event (usually free!) at a site near you, or use the self-help tools you can find on the site.
 
