@@ -20,17 +20,17 @@ const sidebars = {
 
   compose: [
         { type: 'doc', label: 'Introduction', id: 'compose/introduction', } ,
-        // {
-        //   type: "category",
-        //   label: "Choose your Role",
-        //   items: [
-        //     { type: 'doc', label: 'Overview', id: 'compose/role/overview', } ,
-        //     { type: 'doc', label: 'Develop', id: 'compose/role/develop/overview', } ,
-        //     { type: 'doc', label: 'Review', id: 'compose/role/review/overview', } ,
-        //     { type: 'doc', label: 'Audit', id: 'compose/role/audit/overview', } ,
-        //     { type: 'doc', label: 'Stake', id: 'compose/role/stake/overview', } ,
-        //   ],
-        // },
+        {
+          type: "category",
+          label: "Roles",
+          items: [
+            { type: 'doc', label: 'Overview', id: 'compose/role/overview', } ,
+            { type: 'doc', label: 'Develop', id: 'compose/role/develop/overview', } ,
+            { type: 'doc', label: 'Review', id: 'compose/role/review/overview', } ,
+            { type: 'doc', label: 'Audit', id: 'compose/role/audit/overview', } ,
+            { type: 'doc', label: 'Stake', id: 'compose/role/stake/overview', } ,
+          ],
+        },
         {
           type: "category",
           label: "Installation",
