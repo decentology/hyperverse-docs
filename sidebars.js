@@ -20,20 +20,20 @@ const sidebars = {
 
   compose: [
         { type: 'doc', label: 'Introduction', id: 'compose/introduction', } ,
+        // {
+        //   type: "category",
+        //   label: "Choose your Role",
+        //   items: [
+        //     { type: 'doc', label: 'Overview', id: 'compose/role/overview', } ,
+        //     { type: 'doc', label: 'Develop', id: 'compose/role/develop/overview', } ,
+        //     { type: 'doc', label: 'Review', id: 'compose/role/review/overview', } ,
+        //     { type: 'doc', label: 'Audit', id: 'compose/role/audit/overview', } ,
+        //     { type: 'doc', label: 'Stake', id: 'compose/role/stake/overview', } ,
+        //   ],
+        // },
         {
           type: "category",
-          label: "Choose your Role",
-          items: [
-            { type: 'doc', label: 'Overview', id: 'compose/role/overview', } ,
-            { type: 'doc', label: 'Develop', id: 'compose/role/develop/overview', } ,
-            { type: 'doc', label: 'Review', id: 'compose/role/review/overview', } ,
-            { type: 'doc', label: 'Audit', id: 'compose/role/audit/overview', } ,
-            { type: 'doc', label: 'Stake', id: 'compose/role/stake/overview', } ,
-          ],
-        },
-        {
-          type: "category",
-          label: "Environment Setup",
+          label: "Installation",
           items: [
             { type: 'doc', label: 'Overview', id: 'compose/environment/overview', },
             { type: 'doc', label: 'Using Mac', id: 'compose/environment/using-mac', },
@@ -224,7 +224,7 @@ const sidebars = {
                 label: "Basic",
                 items: [
                   { type: 'doc', label: 'Overview', id: 'learn/blockchain/flow/basic/overview', },
-                  { type: 'doc', label: 'Environment Setup', id: 'learn/blockchain/flow/basic/environment-setup', },
+                  { type: 'doc', label: 'Environment', id: 'learn/blockchain/flow/basic/environment-setup', },
                   { type: 'doc', label: 'Cadence Syntax', id: 'learn/blockchain/flow/basic/cadence-syntax', },
                   { type: 'doc', label: 'Cadence Functions', id: 'learn/blockchain/flow/basic/cadence-functions', },
                   { type: 'doc', label: 'Playing with Cadence', id: 'learn/blockchain/flow/basic/playing-with-cadence', },

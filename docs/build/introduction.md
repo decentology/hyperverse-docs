@@ -1,5 +1,5 @@
 ---
-title: Build on the Hyperverrse
+title: Build on the Hyperverse
 description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 

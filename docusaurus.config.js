@@ -51,13 +51,13 @@ module.exports = {
                     "position": "left"
                 },
                 {
-                    "to": "discover/introduction",
-                    "label": "Discover",
+                    "to": "compose/introduction",
+                    "label": "Compose",
                     "position": "left"
                 },
                 {
-                    "to": "compose/introduction",
-                    "label": "Compose",
+                    "to": "discover/introduction",
+                    "label": "Discover",
                     "position": "left"
                 },
                 {
