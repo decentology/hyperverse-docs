@@ -74,7 +74,12 @@ module.exports = {
                     href: 'https://www.decentology.com/blog',
                     position: 'right',
                     label: "Blog",
-                },             
+                },   
+                {
+                    href: 'https://github.com/decentology/hyperverse-docs/issues/new',
+                    position: 'right',
+                    label: "Feedback",
+                },           
                 // {
                 //     type: 'localeDropdown',
                 //     position: 'right',
