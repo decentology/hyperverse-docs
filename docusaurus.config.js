@@ -45,11 +45,11 @@ module.exports = {
         src: "img/color-logo.png",
       },
       items: [
-        {
-          to: "build/introduction",
-          label: "Build",
-          position: "left",
-        },
+        // {
+        //   to: "build/introduction",
+        //   label: "Build",
+        //   position: "left",
+        // },
         // {
         //   to: "compose/introduction",
         //   label: "Compose",
@@ -65,11 +65,11 @@ module.exports = {
         //   label: "Contribute",
         //   position: "left",
         // },
-        {
-          to: "learn/introduction",
-          label: "Learn",
-          position: "left",
-        },
+        // {
+        //   to: "learn/introduction",
+        //   label: "Learn",
+        //   position: "left",
+        // },
         {
           href: "https://www.decentology.com/blog",
           position: "right",
@@ -152,10 +152,10 @@ module.exports = {
         {
           title: "Community",
           items: [
-            {
-              href: "/contribute/introduction",
-              label: "Contribute",
-            },
+            // {
+            //   href: "/contribute/introduction",
+            //   label: "Contribute",
+            // },
             // {
             //     label: "Forum",
             //     href: "https://forum.hyperverse.org/",

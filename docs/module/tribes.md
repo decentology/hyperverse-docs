@@ -1,111 +1,94 @@
 ---
 title: Tribes
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-id: tribes
+description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
 ---
 
-import YouTube from '@components/YouTube';
-import PageRef from '@components/PageRef';
+import PageRef from '@components/PageRef'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-# Tribes
+# Join a Tribe
 
-Allow users to create a new tribe or community (example: archers, warriors, or soldiers)
+Join, leave, create and grow a new tribe (or a community) with the tribes smart module.
 
 ---
 
-## Introduction
+Tribes allows you to create communities that people can join, leave, or create. These tribes can be anything at all like teams, animals, anime characters, hobbies, or interests. Below are the steps you'll need to take to join, leave, or add a tribe to your community.
 
-The aim of the tribes module is for a user to create, join, or exit a tribe (or a community) such as archers, warriors, or soldiers.
+:::info
+Follow the [Environment Setup Guide](../basics/environment) and install the Tribes module before getting started with this application.
+:::
 
-- [GitHub](https://www.decentology.com/)
-- [Homepage](https://www.decentology.com/)
+## Join a Tribe
 
-**Blockchains**: Ethereum, Flow
+Navigate to [localhost:3000](localhost:3000) to view the Tribes application.
 
-## Code Samples
+![1](/img/content/docs/tribes/1.png)
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Connect your wallet to the appropriate test network using the **Connect Wallet Button**. (example: Ethereum Rinkeby Testnet)
 
-- [Online Demo](https://www.decentology.com/)
+![4](/img/content/docs/tribes/4.png)
 
-## Installation
+Select the **Join a Tribe** button that appeared after connecting your wallet.
 
-**Install Hyperverse Smart Module**
+![3](/img/content/docs/tribes/3.png)
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Select from one of the default tribes options provided.
 
-```jsx
-npm install hyperverse hello-world
-```
+![6](/img/content/docs/tribes/6.png)
 
-**CLI Executable**
+Confirm the transaction and wait for the transaction to process.
 
-```jsx
-npm install -g hyperverse hello-world
-```
+![8](/img/content/docs/tribes/8.png)
 
-**Usage**
+You are now a member of the tribe you chose.
 
-```jsx
-usage: hello-world [-h] [-v] [-c] [-t] file
+![9](/img/content/docs/tribes/9.png)
 
-Positional arguments:
-  file           File with YAML document(s)
+## Leave a Tribe
 
-Optional arguments:
-  -h, --help     Show this help message and exit.
-  -v, --version  Show program's version number and exit.
-  -c, --compact  Display errors in compact mode
-  -t, --trace    Show stack trace on error
+Select the **Leave Tribe** button at the bottom of the [localhost:3000/my-tribe](localhost:3000/my-tribe) screen.
 
-```
+![11](/img/content/docs/tribes/11.png)
 
-## Smart Contract
+Confirm the transaction created by leaving the tribe and wait for the transaction to process.
 
-Description of Smart Contract goes here.
+![10](/img/content/docs/tribes/10.png)
 
-```jsx
-// SPDX-License-Identifier: MIT
-// compiler version must be greater than or equal to 0.8.10 and less than 0.9.0
-pragma solidity ^0.8.10;
+You are now back at the **Join a Tribe** screen and can select a new tribe.
 
-contract HelloWorld {
-    string public greet = "Hello World!";
-}
-```
+![5](/img/content/docs/tribes/5.png)
 
-## UI Harness
+## Add a Tribe
 
-Description of UI Harness goes here.
+:::info
 
-```jsx
-ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById("root"));
-```
+Before creating a tribe, you should first create your own instance. [Learn more](../learn/hyperverse/create-instance)
 
-## Unit Tests
+:::
 
-Description of unit tests goes here.
+Navigate to [localhost:3000/setup](localhost:3000/setup) after [creating your own instance](../learn/hyperverse/create-instance). From here, you may add a name, image, and description for your tribe. After filling out the details of your tribe, select **Add Tribe**.
 
-```jsx
-var assert = require("assert");
-describe("Basic Mocha String Test", function () {
-  it("should return number of charachters in a string", function () {
-    assert.equal("Hello".length, 4);
-  });
-  it("should return first charachter of the string", function () {
-    assert.equal("Hello".charAt(0), "H");
-  });
-});
-```
+![13](/img/content/docs/tribes/13.png)
 
-## API
+Confirm the transaction created by adding a tribe and wait for the transaction to process. You may create any number of tribes.
 
-Description of API goes here.
+![14](/img/content/docs/tribes/14.png)
 
-## Caveats
+Repeat this process to add the details for any number of tribes you would like to include. Select the **Home Button** when you are done to return to the home screen.
 
-Description of caveats goes here.
+![13](/img/content/docs/tribes/13.png)
 
-## Additional Resources
+From the home screen you may select **Join a Tribe** to join any of the tribes you created.
 
-- [Tribes](https://www.youtube.com/watch?v=4nA5ZnBbhUQ&feature=emb_title) - Check out this video to understand how to use the Tribes module.
+![15](/img/content/docs/tribes/15.png)
+
+You should now see all of the tribes customized to match the details you provided.
+
+![6](/img/content/docs/tribes/6.png)
+
+:::info
+
+Join us on [Discord](https://discord.com/invite/uqecGxg) view the [Forum](https://forum.decentology.com/) for support using the Hyperverse.
+
+:::

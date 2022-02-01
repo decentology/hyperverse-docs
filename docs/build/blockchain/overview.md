@@ -1,37 +1,33 @@
 ---
-title: Overview
-description: An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+title: Blockchain
+description: Learn more about blockchains supported by the Hyperverse.
 ---
 
 import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Overview
+# Blockchain
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+Learn more about blockchains supported by the Hyperverse.
 
 ---
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts. An open, decentralized, blockchain-agnostic marketplace for composable smart contracts
+Blockchain networks support decentralized applications (dApps) which are the combination of smart contracts and a frontend user interface. Using the Hyperverse you can build dApps across a growing number of blockchain platforms without ever writing smart contract code.
 
 :::info
 
-Not ready to build a dApp on the Hyperverse? [Learn more](../introduction)
+Already chose on a blockchain? [Complete environment setup](../../basics/environment)
 
 :::
 
-## Get Started with the Hyperverse
+## Choose a Blockchain
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="algorand" pageName="Algorand" />
-<PageRef url="conflux" pageName="Conflux" />
 <PageRef url="ethereum" pageName="Ethereum" />
 <PageRef url="flow" pageName="Flow" />
-<PageRef url="near" pageName="Near" />
-<PageRef url="polygon" pageName="Polygon" />
-<PageRef url="solana" pageName="Solana" />
+<PageRef url="algorand" pageName="Algorand" />
 
 :::info
 

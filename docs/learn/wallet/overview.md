@@ -17,6 +17,12 @@ Learn how to install, manage, and fund your blockchain wallet.
 
 A blockchain wallet is a digital wallet that allows users to store and manage their Bitcoin, Ether, and other cryptocurrencies. A blockchain wallet allows transfers in cryptocurrencies and the ability to convert them back into a user's local currency. By installing, managing, and funding a blockchain wallet you will be able to deploy and manage transactions on the Hyperverse.
 
+:::info
+
+Already have a funded wallet? [Complete environment setup](../../basics/environment)
+
+:::
+
 ## Get your Blockchain Wallet
 
 Choose a blockchain wallet to get started.
@@ -24,12 +30,6 @@ Choose a blockchain wallet to get started.
 <PageRef url="algorand" pageName="Algorand Wallet" />
 <PageRef url="blocto" pageName="Blocto" />
 <PageRef url="metamask" pageName="MetaMask" />
-
-## Fund your Wallet
-
-Fund your wallet with tokens for your specific blockchain using a [faucet](../../basics/glossary#faucet).
-
-<PageRef url="fund-your-wallet" pageName="Fund your Wallet" />
 
 :::info
 

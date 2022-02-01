@@ -43,3 +43,9 @@ Looking for a different wallet? [View wallets](overview)
 
 - [Blocto Documentation](https://docs.blocto.app/)
 - [Blocto Help Center](https://portto.zendesk.com/hc/en-us)
+
+:::info
+
+Interested in using the Blocto wallet to develop on a blockchain? View [Flow](../../build/blockchain/flow).
+
+:::

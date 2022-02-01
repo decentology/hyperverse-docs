@@ -44,3 +44,9 @@ Looking for a different wallet? [View wallets](overview)
 ## Algorand Wallet Resources
 
 - [Algorand Documentation](https://developer.algorand.org/)
+
+:::info
+
+Interested in using the Algorand wallet to develop on a blockchain? View [Algorand](../../build/blockchain/algorand).
+
+:::
