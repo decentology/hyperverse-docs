@@ -15,6 +15,12 @@ Build decentralized applications without writing smart contract code.
 
 ---
 
+:::caution Private Preview
+
+The Hyperverse is currently in **Private Preview**. The team is releasing new features often and is currently working with the community to collect feedback and improve the Hyperverse experience. Get started with your Hyperverse environment, try building with the Tribes module, and join us on [Discord](https://discord.com/invite/uqecGxg) and the [Forum](https://forum.decentology.com/) to learn more.
+
+:::
+
 ## What is the Hyperverse?
 
 The Hyperverse makes it simple for any web developer to build decentralized applications without writing smart contract code. Our goal is to enable millions of Web2 developers to build for Web3 and unlock its full potential.
