@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Join a Tribe
+# Tribes
 
 Join, leave, create and grow a new tribe (or a community) with the tribes smart module.
 

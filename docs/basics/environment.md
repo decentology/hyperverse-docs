@@ -79,7 +79,7 @@ _**Example:** Tribes Module_
 
 :::info
 
-Interesting in developing with the Tribes application? [Learn more](../module/tribes/tribes)
+Interesting in developing with the Tribes application? [Learn more](../module/tribes)
 
 :::
 
