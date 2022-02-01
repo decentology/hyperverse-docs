@@ -53,7 +53,7 @@ cd hyperverse-mono/apps/algorand/web
 
 :::info
 
-Learn more about each [blockchain](../../build/blockchain/overview) and set up your [wallet](../../learn/wallet/overview) to help you get started.
+Learn more about each [blockchain](/build/blockchain/overview) and set up your [wallet](/learn/wallet/overview) to help you get started.
 
 :::
 

@@ -1,5 +1,5 @@
 ---
-title: Blockchain
+title: Blockchain Overview
 description: Learn more about blockchains supported by the Hyperverse.
 ---
 
@@ -7,7 +7,7 @@ import PageRef from '@components/PageRef'
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-# Blockchain
+# Blockchain Overview
 
 Learn more about blockchains supported by the Hyperverse.
 

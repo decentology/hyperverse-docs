@@ -25,8 +25,6 @@ Already have a funded wallet? [Complete environment setup](../../basics/environm
 
 ## Get your Blockchain Wallet
 
-Choose a blockchain wallet to get started.
-
 <PageRef url="algorand" pageName="Algorand Wallet" />
 <PageRef url="blocto" pageName="Blocto" />
 <PageRef url="metamask" pageName="MetaMask" />
