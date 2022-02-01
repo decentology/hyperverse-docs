@@ -23,8 +23,6 @@ Already chose on a blockchain? [Complete environment setup](../../basics/environ
 
 ## Choose a Blockchain
 
-An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
-
 <PageRef url="ethereum" pageName="Ethereum" />
 <PageRef url="flow" pageName="Flow" />
 <PageRef url="algorand" pageName="Algorand" />
