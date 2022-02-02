@@ -4,7 +4,8 @@ const sidebars = {
   // ######################################
 
   basics: [
-    { type: "doc", label: "Getting Started", id: "basics/welcome" },
+    { type: "doc", label: "Private Preview", id: "private-preview" },
+    { type: "doc", label: "Introduction", id: "basics/welcome" },
     { type: "doc", label: "Environment Setup", id: "basics/environment" },
     // {
     //   type: "category",

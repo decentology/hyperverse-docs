@@ -1,7 +1,7 @@
 ---
 title: Introduction to the Hyperverse
 description: Build decentralized applications without writing smart contract code.
-slug: /
+# slug: /
 ---
 
 import PageRef from '@components/PageRef'
@@ -14,12 +14,6 @@ import YouTube from '@components/YouTube';
 Build decentralized applications without writing smart contract code.
 
 ---
-
-:::caution Private Preview
-
-The Hyperverse is currently in **Private Preview**. The team is releasing new features often and is currently working with the community to collect feedback and improve the Hyperverse experience. Get started with your environment, try building with the Tribes module, and join us on our [Discord](https://discord.com/invite/uqecGxg) and [Forum](https://forum.decentology.com/) to learn more.
-
-:::
 
 ## What is the Hyperverse?
 
