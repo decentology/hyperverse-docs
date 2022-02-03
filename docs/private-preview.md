@@ -15,7 +15,7 @@ Overview of the **Hyperverse Private Preview** and how to get started with your 
 
 ---
 
-## Welcome to the Hyperverse
+## Getting started
 
 Welcome to the Hyperverse — the `npm install` for smart contracts! We're so excited you joined us and can't wait for you to get started with our private preview. Our team has been working hard to build an incredible experience for JavaScript developers interested in building web3 applications. Now it's time to let you try it for yourself and improve the Hyperverse before releasing it to the public.
 
@@ -78,11 +78,11 @@ To take things a step further, you can build a custom tribes instance and add yo
 - [Create an Instance](/learn/hyperverse/create-instance)
 - [Add a Tribe](/module/tribes#add-a-tribe)
 
-## Thank you for joining us
+## Thanks for participating!
 
 Thanks for participating in the Hyperverse private preview! We're so excited that you joined us and can't wait to see what you build using the Hyperverse. We'll be here to support any questions you have and will do our best to make sure you have the best possible experience getting started.
 
-:::info Join us!
+:::info Connect with us
 
 Join us on [Discord](https://discord.com/invite/uqecGxg) or view the [Forum](https://forum.decentology.com/) if you have any questions at all while getting started with the Hyperverse.
 

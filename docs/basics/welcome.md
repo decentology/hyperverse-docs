@@ -15,7 +15,7 @@ Build decentralized applications without writing smart contract code.
 
 ---
 
-## Introduction to the Hyperverse
+## What is the Hyperverse?
 
 The Hyperverse makes it simple for any web developer to build decentralized applications without writing smart contract code. Our goal is to enable millions of Web2 developers to build for Web3 and unlock its full potential.
 ![1](/img/content/docs/gif/lego-person.gif)
@@ -25,7 +25,7 @@ Start building right away with the [Hyperverse Environment Setup](basics/environ
 
 :::
 
-## NPM for Smart Contracts
+## NPM init for Smart Contracts
 
 We like to think of the Hyperverse as **npm** for smart contracts. It's a growing collection of community built, reviewed, and audited code that you can easily access to quickly and easily build blockchain applications.
 
