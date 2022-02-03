@@ -13,7 +13,7 @@ Join, leave, create and grow a new tribe (or a community) with the tribes smart 
 
 ---
 
-Tribes allows you to create communities that people can join, leave, or create. These tribes can be anything at all like teams, animals, anime characters, hobbies, or interests. Below are the steps you'll need to take to join, leave, or add a tribe to your community.
+Tribes allows you to build communities that people can join, leave, or create. These tribes can be anything at all like teams, animals, anime characters, hobbies, or interests. Below are the steps you'll need to take to join, leave, or add a tribe to your community.
 
 :::info
 Follow the [Environment Setup Guide](../basics/environment) and install the Tribes module before getting started with this application.
