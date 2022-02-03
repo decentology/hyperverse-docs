@@ -99,7 +99,7 @@ module.exports = {
               label: "Discord",
             },
             {
-              to: "https://github.com/decentology/hyperverse-docs/issues/new",
+              to: "https://forum.decentology.com/c/feedback/18",
               label: "Feedback",
             },
           ],

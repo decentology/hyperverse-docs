@@ -23,7 +23,7 @@ Welcome to the Hyperverse — the `npm install` for smart contracts! We're so ex
 
 :::info Connect with us
 
-Connect with our team at any time by [leaving feedback](https://github.com/decentology/hyperverse-docs/issues/new), [chatting with us](https://discord.com/invite/uqecGxg), or [asking questions on the Forum](https://forum.decentology.com/).
+Connect with our team at any time by [leaving feedback](https://forum.decentology.com/c/feedback/18), [chatting with us](https://discord.com/invite/uqecGxg), or [asking questions on the Forum](https://forum.decentology.com/).
 
 :::
 
