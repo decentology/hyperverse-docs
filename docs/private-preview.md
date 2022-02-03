@@ -15,39 +15,51 @@ Overview of the **Hyperverse Private Preview** and how to get started with your 
 
 ---
 
-## Welcome to the Private Preview
+## Welcome to the Hyperverse
 
-Welcome to the Hyperverse — the `npm install` for smart contracts! We're so excited you joined us and can't wait for you to get started. Our team has been working hard to build an incredible experience for JavaScript developers interested in building web3 applications. Now it's time to let some of you kick the tires and help us improve the Hyperverse before releasing it to the public.
+Welcome to the Hyperverse — the `npm install` for smart contracts! We're so excited you joined us and can't wait for you to get started with our private preview. Our team has been working hard to build an incredible experience for JavaScript developers interested in building web3 applications. Now it's time to let you try it for yourself and improve the Hyperverse before releasing it to the public.
+
+[What is the Hyperverse?](/basics/welcome)
+
+:::info Connect with us
+
+Connect with our team at any time by [leaving feedback](https://github.com/decentology/hyperverse-docs/issues/new), [chatting with us](https://discord.com/invite/uqecGxg), or [asking questions on the Forum](https://forum.decentology.com/).
+
+:::
 
 ## What to expect
 
-This preview gives you access to the Hyperverse features so that you can build web3 applications hyperfast. We're hoping that you'll have an amazing time building while sharing anything that could help us improve our product. Throughout your journey you can leave feedback, chat with us, and ask any questions you have.
+This private preview gives you exclusive access to the Hyperverse features so that you can build web3 applications hyperfast. During the preview you'll **build a web3 app**, **explore your new app**, **share what you built**, and **customize your app**.
 
-- [Leave feedback](https://github.com/decentology/hyperverse-docs/issues/new)
-- [Chat on Discord](https://discord.com/invite/uqecGxg)
-- [Ask questions on the Forum](https://forum.decentology.com/)
+![1](/img/content/docs/private-preview/process.png)
 
-## How to start building
+:::info Before getting started
+
+If you're new to web3 you may need to [choose a blockchain](/build/blockchain/overview) and [set up your wallet](/learn/wallet/overview) before getting started.
+
+:::
+
+## Step 1: Build your web3 app
 
 Using the Hyperverse, you'll build a simple web3 application using what we call the **Tribes Module**. This module allows you to create communities based on your interests that others can join or leave at anytime. To do that, you'll need to get a basic introduction to the Hyperverse and run the Hyperverse Tribes module in your local environment.
 
-- [2 mins: What is the Hyperverse?](/basics/welcome)
-- [5 mins: Environment Setup](/basics/environment)
+[Environment Setup](/basics/environment)
 
-## Brand new to web3?
+<YouTube videoId="QuskcrR03Iw"/>
 
-If you're brand new to web3, you'll still be able to build a web3 application! In fact, the entire point of the Hyperverse is to make it as easy as possible for you to get started with web3. That said, before building your application you'll just need to choose a blockchain and create your wallet.
+:::info
 
-- [5 mins: Choose a Blockchain](/build/blockchain/overview) - [_Recommendation: Ethereum_](/build/blockchain/ethereum)
-- [5 mins: Setup a Wallet](/learn/wallet/overview) - [_Recommendation: MetaMask_](/learn/wallet/metamask)
+This video covers getting started with [Flow](/build/blockchain/flow) but you can follow the same steps to build on [Ethereum](build/blockchain/ethereum) or [Algorand](build/blockchain/algorand).
 
-## Your Hyperverse application
+:::
 
-After completing these steps, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this private preview by establishing your connection to the Hyperverse with a web3 application.
+## Step 2: Explore your new app
+
+After setting up your environment, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this private preview by establishing your connection to the Hyperverse with a web3 application!
 
 ![1](/img/content/docs/tribes/1.png)
 
-## Share your work
+## Step 3: Share what you built
 
 To share your experience, we'd love if you could update the text **Tribes** on your homepage to your name, alias, or twitter handle and share it with us on [Discord](https://discord.com/invite/uqecGxg). If you'd like, you can even share it on Twitter to show the world what you built using the Hyperverse!
 
@@ -59,12 +71,12 @@ Navigate to `src/pages/index.tsx` and replace the **h1** on line 29 with your ne
 
 :::
 
-## Customize your application
+## Step 4: Customize your app
 
 To take things a step further, you can build a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
 
-- [5 mins: Create an Instance](/learn/hyperverse/create-instance)
-- [5 mins: Add a Tribe](/module/tribes#add-a-tribe)
+- [Create an Instance](/learn/hyperverse/create-instance)
+- [Add a Tribe](/module/tribes#add-a-tribe)
 
 ## Thank you for joining us
 
