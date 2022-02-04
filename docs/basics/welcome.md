@@ -11,13 +11,14 @@ import YouTube from '@components/YouTube';
 
 # Welcome to the Hyperverse
 
-Build decentralized applications without writing smart contract code.
+Build web3 applications without writing smart contract code.
 
 ---
 
 ## What is the Hyperverse?
 
-The Hyperverse makes it simple for any web developer to build decentralized applications without writing smart contract code. Our goal is to enable millions of Web2 developers to build for Web3 and unlock its full potential.
+The Hyperverse makes it simple for JavaScript developers to build web3 apps without writing a single line of smart contract code. It's an open marketplace of community-built, audited, easy to discover **smart modules** that include _smart contracts_, _UI harness_, _documentation_, and _sample apps_. Our goal is to enable millions of web2 developers to build for web3 and unlock its full potential. Think of it as `npm init` for smart contracts.
+
 ![1](/img/content/docs/gif/lego-person.gif)
 :::info Quickstart
 
@@ -25,13 +26,9 @@ Start building right away with the [Hyperverse Environment Setup](basics/environ
 
 :::
 
-## NPM init for Smart Contracts
-
-We like to think of the Hyperverse as **npm** for smart contracts. It's a growing collection of community built, reviewed, and audited code that you can easily access to quickly and easily build blockchain applications.
-
 ## Why use the Hyperverse?
 
-The Hyperverse is built for Web Developers and makes blockchain development super simple. Here are a few reasons we think you'll love building amazing new blockchain applications on the Hyperverse.
+The Hyperverse is built for Web Developers and makes web3 development super simple. Here are a few reasons we think you'll love building with the Hyperverse.
 
 - Build blockchain applications without writing smart contracts
 - Access well-written, reviewed, and audited smart contract code

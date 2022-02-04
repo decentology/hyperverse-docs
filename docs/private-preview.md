@@ -11,7 +11,7 @@ import YouTube from '@components/YouTube';
 
 # Hyperverse Private Preview
 
-Overview of the **Hyperverse Private Preview** and how to get started with your web3 application!
+Start building web3 applications in the **Hyperverse Private Preview**.
 
 ---
 
