@@ -39,7 +39,7 @@ If you're new to web3 you may need to [choose a blockchain](/build/blockchain/ov
 
 :::
 
-## Step 1: Build your web3 app
+## Step 1: Build your web3 dApp
 
 Using the Hyperverse, you'll build a simple web3 application using what we call the **Tribes Module**. This module allows you to create communities based on your interests that others can join or leave at anytime. To do that, you'll need to get a basic introduction to the Hyperverse and run the Hyperverse Tribes module in your local environment.
 
@@ -47,13 +47,22 @@ Using the Hyperverse, you'll build a simple web3 application using what we call 
 
 <YouTube videoId="QuskcrR03Iw"/>
 
+<!-- <Tabs>
+  <TabItem value="flow" label="Flow" default>
+    <YouTube videoId="QuskcrR03Iw"/>
+  </TabItem>
+  <TabItem value="ethereum" label="Ethereum">
+    <YouTube videoId="QuskcrR03Iw"/>
+  </TabItem>
+</Tabs> -->
+
 :::info
 
-This video covers getting started with [Flow](/build/blockchain/flow) but you can follow the same steps to build on [Ethereum](build/blockchain/ethereum) or [Algorand](build/blockchain/algorand).
+These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethereum](build/blockchain/ethereum) but you may use these steps to build on [Algorand](build/blockchain/algorand).
 
 :::
 
-## Step 2: Explore your new app
+## Step 2: Explore your new dApp
 
 After setting up your environment, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this private preview by establishing your connection to the Hyperverse with a web3 application!
 
@@ -71,7 +80,7 @@ Navigate to `src/pages/index.tsx` and replace the **h1** on line 29 with your ne
 
 :::
 
-## Step 4: Customize your app
+## Step 4: Customize your dApp
 
 To take things a step further, you can build a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
 
