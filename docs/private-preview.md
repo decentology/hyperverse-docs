@@ -17,7 +17,7 @@ Start building web3 applications in the **Hyperverse Private Preview**.
 
 ## Getting started
 
-Welcome to the Hyperverse — the `npm install` for smart contracts! We're so excited you joined us and can't wait for you to get started with our private preview. Our team has been working hard to build an incredible experience for JavaScript developers interested in building web3 applications. Now it's time to let you try it for yourself and improve the Hyperverse before releasing it to the public.
+Welcome to the Hyperverse — the **npm for smart contracts**! We're so excited you joined us and can't wait for you to get started with our private preview. Our team has been working hard to build an incredible experience for JavaScript developers interested in building web3 applications. Now it's time to let you try it for yourself and improve the Hyperverse before releasing it to the public.
 
 [What is the Hyperverse?](/basics/welcome)
 
@@ -29,7 +29,7 @@ Connect with our team at any time by [leaving feedback](https://forum.decentolog
 
 ## What to expect
 
-This private preview gives you exclusive access to the Hyperverse features so that you can build web3 applications hyperfast. During the preview you'll **build a web3 app**, **explore your new app**, **share what you built**, and **customize your app**.
+As part of the private preview, you get the opportunity to build a web3 application using the world’s first Hyperverse module. Your participation will guide the development of future modules and give you exclusive access to the latest Hyperverse features. During the preview you'll **build a web3 app**, **explore your new app**, **share what you built**, and **customize your app**.
 
 ![1](/img/content/docs/private-preview/process.png)
 
@@ -45,16 +45,14 @@ Using the Hyperverse, you'll build a simple web3 application using what we call 
 
 [Environment Setup](/basics/environment)
 
-<YouTube videoId="QuskcrR03Iw"/>
-
-<!-- <Tabs>
+<Tabs>
   <TabItem value="flow" label="Flow" default>
     <YouTube videoId="QuskcrR03Iw"/>
   </TabItem>
   <TabItem value="ethereum" label="Ethereum">
-    <YouTube videoId="QuskcrR03Iw"/>
+    <YouTube videoId="UnCNpVR58Fs"/>
   </TabItem>
-</Tabs> -->
+</Tabs>
 
 :::info
 

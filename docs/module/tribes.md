@@ -61,7 +61,7 @@ You are now back at the **Join a Tribe** screen and can select a new tribe.
 
 ## Add a Tribe
 
-:::info
+:::warning
 
 Before creating a tribe, you should first create your own instance. [Learn more](../learn/hyperverse/create-instance)
 

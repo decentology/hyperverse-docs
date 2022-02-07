@@ -105,7 +105,7 @@ module.exports = {
           ],
         },
         {
-          href: "https://github.com/decentology/hyperverse-docs",
+          href: "https://github.com/decentology/hyperverse-mono",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
