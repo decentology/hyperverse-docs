@@ -14,7 +14,24 @@ Start building on the Hyperverse in 15 minutes or less.
 
 ---
 
+## Set up your Local Environment
+
 Use the [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono) to view the project source code and start building your application.
+
+<Tabs>
+  <TabItem value="flow" label="Flow" default>
+    <YouTube videoId="QuskcrR03Iw"/>
+  </TabItem>
+  <TabItem value="ethereum" label="Ethereum">
+    <YouTube videoId="UnCNpVR58Fs"/>
+  </TabItem>
+</Tabs>
+
+:::info
+
+These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethereum](build/blockchain/ethereum) but you may use these steps to build on [Algorand](build/blockchain/algorand).
+
+:::
 
 ## System Requirements
 

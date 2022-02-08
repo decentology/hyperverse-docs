@@ -17,19 +17,7 @@ Start building web3 applications in the **Hyperverse Private Preview**.
 
 ## Getting started
 
-Welcome to the Hyperverse — the **npm for smart contracts**! We're so excited you joined us and can't wait for you to get started with our private preview. Our team has been working hard to build an incredible experience for JavaScript developers interested in building web3 applications. Now it's time to let you try it for yourself and improve the Hyperverse before releasing it to the public.
-
-[What is the Hyperverse?](/basics/welcome)
-
-:::info Connect with us
-
-Connect with our team at any time by [leaving feedback](https://forum.decentology.com/c/feedback/18), [chatting with us](https://discord.com/invite/uqecGxg), or [asking questions on the Forum](https://forum.decentology.com/).
-
-:::
-
-## What to expect
-
-As part of the private preview, you get the opportunity to build a web3 application using the world’s first Hyperverse module. Your participation will guide the development of future modules and give you exclusive access to the latest Hyperverse features. During the preview you'll **build a web3 app**, **explore your new app**, **share what you built**, and **customize your app**.
+Welcome to the **Hyperverse Private Preview**! This preview gives you the opportunity to build a web3 application using the world’s first Hyperverse module. During the preview you'll **build a web3 app**, **explore your new app**, **share what you built**, and **customize your app**.
 
 ![1](/img/content/docs/private-preview/process.png)
 
@@ -39,26 +27,12 @@ If you're new to web3 you may need to [choose a blockchain](/build/blockchain/ov
 
 :::
 
-## Step 1: Build your web3 dApp
+## Step 1: Build your web3 app
 
-Using the Hyperverse, you'll build a simple web3 application using what we call the **Tribes Module**. This module allows you to create communities based on your interests that others can join or leave at anytime. To do that, you'll need to get a basic introduction to the Hyperverse and run the Hyperverse Tribes module in your local environment.
+Using the Hyperverse, you'll build a simple web3 application using what is known as the **Tribes Module**. This module allows you to create communities based on your interests that others can join or leave at anytime. To do that, you'll need a basic introduction to the Hyperverse and to run the Hyperverse Tribes module in your local environment.
 
-[Environment Setup](/basics/environment)
-
-<Tabs>
-  <TabItem value="flow" label="Flow" default>
-    <YouTube videoId="QuskcrR03Iw"/>
-  </TabItem>
-  <TabItem value="ethereum" label="Ethereum">
-    <YouTube videoId="UnCNpVR58Fs"/>
-  </TabItem>
-</Tabs>
-
-:::info
-
-These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethereum](build/blockchain/ethereum) but you may use these steps to build on [Algorand](build/blockchain/algorand).
-
-:::
+- [What is the Hyperverse?](/basics/welcome)
+- [Environment Setup](/basics/environment)
 
 ## Step 2: Explore your new app
 
@@ -66,12 +40,18 @@ After setting up your environment, you'll see an app that allows users to join o
 
 ![1](/img/content/docs/tribes/1.png)
 
-## Step 3: Customize your app
+## Step 3: Customize your app (Ethereum only)
 
 To take things a step further, you can create a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
 
 - [Create an Instance](/learn/hyperverse/create-instance)
 - [Add a Tribe](/module/tribes#add-a-tribe)
+
+:::warning Experimental feature
+
+This is an experimental feature meant to give you more flexibility with your application during the private preview. In the future, you will be able to easily build your own custom instance using the Hyperverse.
+
+:::
 
 ## Step 4: Share what you built
 
