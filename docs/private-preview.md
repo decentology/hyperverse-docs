@@ -17,7 +17,7 @@ Start building web3 applications in the **Hyperverse Private Preview**.
 
 ## Getting started
 
-Welcome to the **Hyperverse Private Preview**! This preview gives you the opportunity to build a web3 application using the world’s first Hyperverse module. During the preview you'll **build a web3 app**, **explore your new app**, **share what you built**, and **customize your app**.
+Welcome to the **Hyperverse Private Preview**! This preview gives you the opportunity to build a web3 application using the world’s first Hyperverse module. During the preview you'll **build a web3 app**, **explore your new app**, **customize your app**, and **share what you built**.
 
 ![1](/img/content/docs/private-preview/process.png)
 

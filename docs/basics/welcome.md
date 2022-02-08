@@ -17,7 +17,7 @@ Build web3 applications without writing smart contract code.
 
 ## What is the Hyperverse?
 
-The Hyperverse makes it simple for JavaScript developers to build web3 apps without writing a single line of smart contract code. It's an open marketplace of community-built, audited, easy to discover **smart modules** that include _smart contracts_, _UI harness_, _documentation_, and _sample apps_. Our goal is to enable millions of web2 developers to build for web3 and unlock its full potential.
+Welcome to the Hyperverse — the npm install for smart contracts! We make it super simple for JavaScript developers to build web3 apps without writing a single line of smart contract code. Our mission is to onboard 10 million web2 developers to web3 with our growing marketplace of community-built, audited and easy-to-discover smart modules.
 
 <!-- ![1](/img/content/docs/gif/lego-person.gif) -->
 
