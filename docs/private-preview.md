@@ -60,13 +60,20 @@ These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethere
 
 :::
 
-## Step 2: Explore your new dApp
+## Step 2: Explore your new app
 
 After setting up your environment, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this private preview by establishing your connection to the Hyperverse with a web3 application!
 
 ![1](/img/content/docs/tribes/1.png)
 
-## Step 3: Share what you built
+## Step 3: Customize your app
+
+To take things a step further, you can create a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
+
+- [Create an Instance](/learn/hyperverse/create-instance)
+- [Add a Tribe](/module/tribes#add-a-tribe)
+
+## Step 4: Share what you built
 
 To share your experience, we'd love if you could update the text **Tribes** on your homepage to your name, alias, or twitter handle and share it with us on [Discord](https://discord.com/invite/uqecGxg). If you'd like, you can even share it on Twitter to show the world what you built using the Hyperverse!
 
@@ -77,13 +84,6 @@ To share your experience, we'd love if you could update the text **Tribes** on y
 Navigate to `src/pages/index.tsx` and replace the **h1** on line 29 with your new text.
 
 :::
-
-## Step 4: Customize your dApp
-
-To take things a step further, you can build a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
-
-- [Create an Instance](/learn/hyperverse/create-instance)
-- [Add a Tribe](/module/tribes#add-a-tribe)
 
 ## Thanks for participating!
 
