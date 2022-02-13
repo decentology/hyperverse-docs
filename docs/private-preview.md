@@ -40,7 +40,7 @@ After setting up your environment, you'll see an app that allows users to join o
 
 ![1](/img/content/docs/tribes/1.png)
 
-## Step 3: Customize your app (Ethereum only)
+## Step 3: Customize your app
 
 To take things a step further, you can create a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
 

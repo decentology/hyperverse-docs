@@ -13,7 +13,9 @@ Create a personal instance by connecting your wallet to the Hyperverse.
 
 ---
 
-Navigate to [localhost:3000/setup](localhost:3000/setup)
+## Setup
+
+Navigate to [localhost:3000/setup](http://localhost:3000/setup)
 
 ![1](/img/content/docs/create-instance/1.png)
 
@@ -21,15 +23,23 @@ Copy the address from your wallet (example: MetaMask)
 
 ![1](/img/content/docs/create-instance/9.png)
 
-Navigate to `setup.tsx` and replace the `TENANT_ADDRESS` with your address. (example: Ethereum)
+## On Ethereum
+
+Navigate to `ethereum/tribes/src/pages/setup.tsx` and replace the `TENANT_ADDRESS` with your address.
 
 ![1](/img/content/docs/create-instance/2.png)
 
-Navigate to `Provider.tsx` and replace the `TENANT_ADDRESS` with your address. (example: Ethereum)
+Navigate to `hyperverse-ethereum-tribes/source/Provider.tsx` and replace the `TENANT_ADDRESS` with your address.
 
 ![1](/img/content/docs/create-instance/3.png)
 
-Navigate back to [localhost:3000/setup](localhost:3000/setup) and select **Create Instance**
+## On Flow
+
+Navigate to `flow/tribes/pages/shared.tsx` and replace the `TENANT_ADDRESS` with your wallet address.
+
+## Create Instance
+
+Navigate back to [localhost:3000/setup](http://localhost:3000/setup) and select **Create Instance**
 
 ![1](/img/content/docs/create-instance/4.png)
 
