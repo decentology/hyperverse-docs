@@ -25,17 +25,15 @@ Copy the address from your wallet (example: MetaMask)
 
 ## On Ethereum
 
-Navigate to `ethereum/tribes/src/pages/setup.tsx` and replace the `TENANT_ADDRESS` with your address.
-
-![1](/img/content/docs/create-instance/2.png)
-
-Navigate to `hyperverse-ethereum-tribes/source/Provider.tsx` and replace the `TENANT_ADDRESS` with your address.
+Navigate to `packages/hyperverse-ethereum-tribes/source/Provider.tsx` and replace the `TENANT_ADDRESS` with your wallet address.
 
 ![1](/img/content/docs/create-instance/3.png)
 
 ## On Flow
 
 Navigate to `flow/tribes/pages/shared.tsx` and replace the `TENANT_ADDRESS` with your wallet address.
+
+![1](/img/content/docs/create-instance/10.png)
 
 ## Create Instance
 
