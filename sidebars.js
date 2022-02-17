@@ -124,7 +124,7 @@ const sidebars = {
       items: [
         {
           type: "doc",
-          label: "ETHDenver 2022",
+          label: "EthDenver 2022",
           id: "learn/hyperverse/workshops/ETHDenver-2022",
         },
       ],

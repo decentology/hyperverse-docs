@@ -57,10 +57,8 @@ Our mission is to onboard 10 million driven web developers to Web3, by making it
 
 ## What we are building
 
-_Shain Dholakiya: Software Engineer [@shain_dholakiya](https://twitter.com/shain_dholakiya)_
-
-- [Ethereum Tribes](https://github.com/decentology/hyperverse-mono/tree/main/apps/ethereum/tribes): Demo of the Tribes application on Ethereum using the Hyperverse.
 - [Metis Tribes](https://github.com/decentology/hyperverse-mono/tree/main/apps/metis/tribes) Demo of the Tribes application on Metis using the Hyperverse.
+- [Ethereum Tribes](https://github.com/decentology/hyperverse-mono/tree/main/apps/ethereum/tribes): Demo of the Tribes application on Ethereum using the Hyperverse.
 - [Random Pick](https://github.com/decentology/hyperverse-mono/blob/main/apps/ethereum/tribes/src/pages/battle.tsx): Randomly pick a Tribe by combining Hyperverse modules and accessing Chainlink.
 
 ![1](/img/content/docs/ethdenver-2022/battle.png)
@@ -98,7 +96,7 @@ _Shain Dholakiya: Software Engineer [@shain_dholakiya](https://twitter.com/shain
 - [Learn about Metis](../../../build/blockchain/metis)
 - [Get Metis Test Tokens](../../../learn/tokens/metis)
 
-### Demo 1: Ethereum Tribes
+### Demo 1: Metis Tribes
 
 Clone the Hyperverse Monorepo.
 
@@ -106,10 +104,10 @@ Clone the Hyperverse Monorepo.
 git clone https://github.com/decentology/hyperverse-mono
 ```
 
-Change into the Ethereum Tribes directory.
+Change into the Metis Tribes directory.
 
 ```
-cd hyperverse-mono/apps/ethereum/tribes
+cd hyperverse-mono/apps/metis/tribes
 ```
 
 Install project dependencies.
@@ -124,7 +122,7 @@ Run the development server.
 yarn dev
 ```
 
-### Demo 2: Metis Tribes
+### Demo 2: Ethereum Tribes
 
 Clone the Hyperverse Monorepo.
 
@@ -132,10 +130,10 @@ Clone the Hyperverse Monorepo.
 git clone https://github.com/decentology/hyperverse-mono
 ```
 
-Change into the Metis Tribes directory.
+Change into the Ethereum Tribes directory.
 
 ```
-cd hyperverse-mono/apps/metis/tribes
+cd hyperverse-mono/apps/ethereum/tribes
 ```
 
 Install project dependencies.
