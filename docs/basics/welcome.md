@@ -19,11 +19,11 @@ Build web3 applications without writing smart contract code.
 
 Welcome to the Hyperverse — the npm install for smart contracts! We make it super simple for JavaScript developers to build web3 apps without writing a single line of smart contract code. Our mission is to onboard 10 million web2 developers to web3 with our growing marketplace of community-built, audited and easy-to-discover smart modules.
 
-<!-- ![1](/img/content/docs/gif/lego-person.gif) -->
+<YouTube videoId="7bNxMIRINAI"/>
 
 :::info Quickstart
 
-Start building right away with the [Hyperverse Environment Setup](basics/environment).
+Start building right away with the [Hyperverse Environment Setup](environment).
 
 :::
 

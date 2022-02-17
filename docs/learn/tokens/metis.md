@@ -1,5 +1,5 @@
 ---
-title: Get Metis Test Tokens
+title: Metis Test Tokens
 description: How to get metis test tokens for Hyperverse development.
 ---
 
@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Get Metis Test Tokens
+# Metis Test Tokens
 
 How to get Metis test tokens for Hyperverse development.
 

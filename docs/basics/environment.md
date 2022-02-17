@@ -29,7 +29,7 @@ Use the [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono) to
 
 :::info
 
-These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethereum](build/blockchain/ethereum) but you may use these steps to build on [Algorand](build/blockchain/algorand).
+These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethereum](/build/blockchain/ethereum) but you may use these steps to build on [Metis](/build/blockchain/metis) or [Algorand](/build/blockchain/algorand).
 
 :::
 
