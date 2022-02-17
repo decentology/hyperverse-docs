@@ -25,6 +25,7 @@ Already chose on a blockchain? [Complete environment setup](../../basics/environ
 
 <PageRef url="ethereum" pageName="Ethereum" />
 <PageRef url="flow" pageName="Flow" />
+<PageRef url="metis" pageName="Metis" />
 <PageRef url="algorand" pageName="Algorand" />
 
 :::info

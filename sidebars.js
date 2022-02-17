@@ -31,6 +31,7 @@ const sidebars = {
             // { type: "doc", label: "Conflux", id: "build/blockchain/conflux" },
             { type: "doc", label: "Ethereum", id: "build/blockchain/ethereum" },
             { type: "doc", label: "Flow", id: "build/blockchain/flow" },
+            { type: "doc", label: "Metis", id: "build/blockchain/metis" },
             { type: "doc", label: "Algorand", id: "build/blockchain/algorand" },
             // { type: "doc", label: "Near", id: "build/blockchain/near" },
             // { type: "doc", label: "Polygon", id: "build/blockchain/polygon" },
@@ -51,6 +52,14 @@ const sidebars = {
             //   id: "learn/wallet/fund-your-wallet",
             // },
           ],
+        },
+        {
+          type: "category",
+          label: "Tokens",
+          items: [
+            { type: "doc", label: "Overview", id: "learn/tokens/overview" },
+          ],
+          items: [{ type: "doc", label: "Metis", id: "learn/tokens/metis" }],
         },
       ],
     },
@@ -107,6 +116,17 @@ const sidebars = {
         //     },
         //   ],
         // },
+      ],
+    },
+    {
+      type: "category",
+      label: "Workshops",
+      items: [
+        {
+          type: "doc",
+          label: "ETHDenver 2022",
+          id: "learn/hyperverse/workshops/ETHDenver-2022",
+        },
       ],
     },
     { type: "doc", label: "Community", id: "basics/community" },
