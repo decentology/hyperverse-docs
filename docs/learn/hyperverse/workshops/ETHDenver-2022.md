@@ -43,7 +43,7 @@ contracts marketplace that makes it easy for developers to discover, build, and 
 Web3 applications. The Hyperverse is the evolution of DappStarter, Decentology's
 blockchain-agnostic code generation platform for Web2 developers. Founded in 2019 in
 Mountain View, California, the company employs a global team with a mission to onboard the
-first 10 million developers to Web3. To deliver on its mission, Decentology partners with some of the leading blockchains in the industry, such as Flow, Algorand, Avalanche, and Conflux. Learn more about Decentology at: [decentology.com](decentology.com)
+first 10 million developers to Web3. To deliver on its mission, Decentology partners with some of the leading blockchains in the industry, such as Flow, Algorand, Avalanche, and Conflux.
 
 ### What is the Hyperverse?
 
@@ -154,8 +154,6 @@ yarn dev
 
 Open the Ethereum Tribes module and select **Battle** to run the Random Pick Demo
 
-![1](/img/content/docs/ethdenver-2022/battle.png)
-
 _While we wait..._
 
 ### What is a Blockchain Oracle?
@@ -172,7 +170,7 @@ Essentially an oracle provides a bridge from on chain to off chain data. It enab
 ## Q/A
 
 - [Discourse Forum](https://gov.decentology.com/)
-- [FAQ](../../../faq)
+- [FAQ](../../../basics/faq.md)
 - [Glossary](../../../basics/glossary)
 
 ## Join the Community
