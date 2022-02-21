@@ -14,6 +14,12 @@ Get started with the Hyperverse at our ETHDenver 2022 workshop.
 
 ---
 
+## Build Web3 Apps using JS on Metis, Ethereum, and Chainlink
+
+Learn how to build Web3 apps at hyperspeed using JavaScript on Metis, Ethereum, and Chainlink.
+
+<YouTube videoId="PiUJrmVHTRs"/>
+
 ### Today's presenters
 
 - Nik Kalyani: Founder/CEO [@techbubble](https://twitter.com/techbubble)
