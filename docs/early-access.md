@@ -30,7 +30,7 @@ If you're new to web3 you may need to [choose a blockchain](/build/blockchain/ov
 
 Using the Hyperverse, you'll build a simple web3 application using what is known as the **Tribes Module**. This module allows you to create communities based on your interests that others can join or leave at anytime. To do that, you'll need a basic introduction to the Hyperverse and to run the Hyperverse Tribes module in your local environment.
 
-- [What is the Hyperverse?](/basics/welcome)
+- [What is the Hyperverse?](/)
 - [Environment Setup](/basics/environment)
 
 ## Step 2: Explore and connect smart modules
