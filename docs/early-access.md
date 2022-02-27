@@ -1,7 +1,6 @@
 ---
-title: Hyperverse Private Preview
+title: Hyperverse Early Access
 description: Build decentralized applications without writing smart contract code.
-slug: /
 ---
 
 import PageRef from '@components/PageRef'
@@ -9,15 +8,15 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Hyperverse Private Preview
+# Build Web3 Apps | Early Access
 
-Start building web3 applications in the **Hyperverse Private Preview**.
+Start building web3 applications with the with the **Hyperverse Early Access** program.
 
 ---
 
 ## Getting started
 
-Welcome to the **Hyperverse Private Preview**! This preview gives you the opportunity to build a web3 application using the world’s first Hyperverse module. During the preview you'll **build a web3 app**, **explore your new app**, **customize your app**, and **share what you built**.
+Welcome to **Hyperverse Early Access** program! This program gives you the opportunity to build a web3 application using Hyperverse modules. In this program you'll **build a web3 app**, **explore your new app**, **customize your app**, and **share what you built**.
 
 ![1](/img/content/docs/private-preview/process.png)
 
@@ -27,20 +26,20 @@ If you're new to web3 you may need to [choose a blockchain](/build/blockchain/ov
 
 :::
 
-## Step 1: Build your web3 app
+## Step 1: Start building using JavaScript
 
 Using the Hyperverse, you'll build a simple web3 application using what is known as the **Tribes Module**. This module allows you to create communities based on your interests that others can join or leave at anytime. To do that, you'll need a basic introduction to the Hyperverse and to run the Hyperverse Tribes module in your local environment.
 
 - [What is the Hyperverse?](/basics/welcome)
 - [Environment Setup](/basics/environment)
 
-## Step 2: Explore your new app
+## Step 2: Explore and connect smart modules
 
-After setting up your environment, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this private preview by establishing your connection to the Hyperverse with a web3 application!
+After setting up your environment, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this early access by establishing your connection to the Hyperverse with a web3 application!
 
 ![1](/img/content/docs/tribes/1.png)
 
-## Step 3: Customize your app
+## Step 3: Customize your web3 app
 
 To take things a step further, you can create a custom tribes instance and add your own unique set of tribes. After doing this, you'll have built a completely unique web3 experience using the Hyperverse! Complete the steps here to customize your tribes application.
 
@@ -49,11 +48,11 @@ To take things a step further, you can create a custom tribes instance and add y
 
 :::warning Experimental feature
 
-This is an experimental feature meant to give you more flexibility with your application during the private preview. In the future, you will be able to easily build your own custom instance using the Hyperverse.
+This is an experimental feature meant to give you more flexibility with your application during early access. In the future, you will be able to easily build your own custom instance using the Hyperverse.
 
 :::
 
-## Step 4: Share what you built
+## Step 4: Share what you built with us
 
 To share your experience, we'd love if you could update the text **Tribes** on your homepage to your name, alias, or twitter handle and share it with us on [Discord](https://discord.com/invite/uqecGxg). If you'd like, you can even share it on Twitter to show the world what you built using the Hyperverse!
 
@@ -67,7 +66,7 @@ Navigate to `src/pages/index.tsx` and replace the **h1** on line 29 with your ne
 
 ## Thanks for participating!
 
-Thanks for participating in the Hyperverse private preview! We're so excited that you joined us and can't wait to see what you build using the Hyperverse. We'll be here to support any questions you have and will do our best to make sure you have the best possible experience getting started.
+Thanks for participating in Hyperverse Early Access! We're so excited that you joined us and can't wait to see what you build using the Hyperverse. We'll be here to support any questions you have and will do our best to make sure you have the best possible experience getting started.
 
 :::info Connect with us
 

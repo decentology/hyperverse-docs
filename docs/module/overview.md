@@ -17,19 +17,23 @@ An open, decentralized, blockchain-agnostic marketplace for composable smart con
 
 :::info
 
-Not ready to contribute to the Hyperverse? [Learn more](../basics/welcome.md).
+Not ready to build on the Hyperverse? [Learn more](../basics/welcome.md).
 
 :::
 
-## Get Started with the Hyperverse
+## Choose a Hyperverse Module
 
 An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
 
-<PageRef url="test" pageName="Section 1" />
-<PageRef url="test" pageName="Section 2" />
-<PageRef url="test" pageName="Section 3" />
-<PageRef url="test" pageName="Section 4" />
-<PageRef url="test" pageName="Section 5" />
+<PageRef url="tribes" pageName="Tribes" />
+<PageRef url="ERC721" pageName="ERC721" />
+<PageRef url="ERC20" pageName="ERC20" />
+
+## Create an Instance
+
+An open, decentralized, blockchain-agnostic marketplace for composable smart contracts.
+
+<PageRef url="Create an Instance" pageName="create-an-instance" />
 
 :::info
 

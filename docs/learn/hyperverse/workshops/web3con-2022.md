@@ -1,6 +1,6 @@
 ---
-title: EthDenver 2022 Workshop
-description: Get started with the Hyperverse at our EthDenver 2022 workshop.
+title: web3con 2022 Workshop
+description: Get started with the Hyperverse at our web3con 2022 workshop.
 ---
 
 import PageRef from '@components/PageRef'
@@ -8,9 +8,9 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# EthDenver 2022 Workshop
+# web3con Workshop
 
-Get started with the Hyperverse at our ETHDenver 2022 workshop.
+Get started with the Hyperverse at our web3Con 2022 workshop.
 
 ---
 
@@ -18,13 +18,11 @@ Get started with the Hyperverse at our ETHDenver 2022 workshop.
 
 Learn how to build Web3 apps at hyperspeed using JavaScript on Metis, Ethereum, and Chainlink.
 
-<YouTube videoId="PiUJrmVHTRs"/>
-
 ### Today's presenters
 
 - Nik Kalyani: Founder/CEO [@techbubble](https://twitter.com/techbubble)
 - Kendyl Key: Software Engineer [@kendylcodes](https://twitter.com/KendylCodes)
-- Shain Dholakiya: Software Engineer [@shaincodes](https://twitter.com/shain_dholakiya)
+- Shain Dholakiya: Software Engineer [@shain_dholakiya](https://twitter.com/shain_dholakiya)
 
 :::info Our team
 
