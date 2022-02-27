@@ -4,9 +4,7 @@ const sidebars = {
   // ######################################
 
   basics: [
-    { type: "doc", label: "Private Preview", id: "private-preview" },
     { type: "doc", label: "Introduction", id: "basics/welcome" },
-    { type: "doc", label: "Environment Setup", id: "basics/environment" },
     // {
     //   type: "category",
     //   label: "Basics",
@@ -19,50 +17,6 @@ const sidebars = {
     // { type: "doc", label: "FAQ", id: "basics/faq" },
     //   ],
     // },
-    {
-      type: "category",
-      label: "Learn the Basics",
-      items: [
-        {
-          type: "category",
-          label: "Blockchain",
-          items: [
-            { type: "doc", label: "Overview", id: "build/blockchain/overview" },
-            // { type: "doc", label: "Conflux", id: "build/blockchain/conflux" },
-            { type: "doc", label: "Ethereum", id: "build/blockchain/ethereum" },
-            { type: "doc", label: "Flow", id: "build/blockchain/flow" },
-            { type: "doc", label: "Metis", id: "build/blockchain/metis" },
-            { type: "doc", label: "Algorand", id: "build/blockchain/algorand" },
-            // { type: "doc", label: "Near", id: "build/blockchain/near" },
-            // { type: "doc", label: "Polygon", id: "build/blockchain/polygon" },
-            // { type: "doc", label: "Solana", id: "build/blockchain/solana" },
-          ],
-        },
-        {
-          type: "category",
-          label: "Wallet",
-          items: [
-            { type: "doc", label: "Overview", id: "learn/wallet/overview" },
-            { type: "doc", label: "MetaMask", id: "learn/wallet/metamask" },
-            { type: "doc", label: "Blocto", id: "learn/wallet/blocto" },
-            { type: "doc", label: "Algorand", id: "learn/wallet/algorand" },
-            // {
-            //   type: "doc",
-            //   label: "Fund your Wallet",
-            //   id: "learn/wallet/fund-your-wallet",
-            // },
-          ],
-        },
-        {
-          type: "category",
-          label: "Tokens",
-          items: [
-            { type: "doc", label: "Overview", id: "learn/tokens/overview" },
-          ],
-          items: [{ type: "doc", label: "Metis", id: "learn/tokens/metis" }],
-        },
-      ],
-    },
     // {
     //   type: "category",
     //   label: "Getting Started",
@@ -71,9 +25,13 @@ const sidebars = {
     // },
     {
       type: "category",
-      label: "Use Modules",
+      label: "Build web3 apps",
       items: [
-        { type: "doc", label: "Tribes", id: "module/tribes" },
+        { type: "doc", label: "Overview", id: "early-access" },
+        { type: "doc", label: "Environment Setup", id: "basics/environment" },
+        { type: "doc", label: "Tribes Example", id: "module/tribes" },
+        // { type: "doc", label: "ERC20", id: "module/ERC20" },
+        // { type: "doc", label: "ERC721", id: "module/ERC721" },
         {
           type: "doc",
           label: "Create an Instance",
@@ -120,6 +78,86 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Create modules",
+      items: [
+        {
+          type: "doc",
+          label: "Overview",
+          id: "compose/introduction",
+        },
+        {
+          type: "doc",
+          label: "Environment Setup",
+          id: "compose/smart-modules/environment-setup",
+        },
+        // {
+        //   type: "doc",
+        //   label: "Smart Contract",
+        //   id: "compose/smart-modules/smart-contracts",
+        // },
+        // {
+        //   type: "doc",
+        //   label: "Unit Test",
+        //   id: "compose/smart-modules/unit-tests",
+        // },
+        // {
+        //   type: "doc",
+        //   label: "JavaScript API",
+        //   id: "compose/smart-modules/javascript-api",
+        // },
+        // {
+        //   type: "doc",
+        //   label: "Example App",
+        //   id: "compose/smart-modules/example-application",
+        // },
+      ],
+    },
+    {
+      type: "category",
+      label: "Learn the Basics",
+      items: [
+        {
+          type: "category",
+          label: "Blockchain",
+          items: [
+            { type: "doc", label: "Overview", id: "build/blockchain/overview" },
+            // { type: "doc", label: "Conflux", id: "build/blockchain/conflux" },
+            { type: "doc", label: "Ethereum", id: "build/blockchain/ethereum" },
+            { type: "doc", label: "Flow", id: "build/blockchain/flow" },
+            { type: "doc", label: "Metis", id: "build/blockchain/metis" },
+            { type: "doc", label: "Algorand", id: "build/blockchain/algorand" },
+            // { type: "doc", label: "Near", id: "build/blockchain/near" },
+            // { type: "doc", label: "Polygon", id: "build/blockchain/polygon" },
+            // { type: "doc", label: "Solana", id: "build/blockchain/solana" },
+          ],
+        },
+        {
+          type: "category",
+          label: "Wallet",
+          items: [
+            { type: "doc", label: "Overview", id: "learn/wallet/overview" },
+            { type: "doc", label: "MetaMask", id: "learn/wallet/metamask" },
+            { type: "doc", label: "Blocto", id: "learn/wallet/blocto" },
+            { type: "doc", label: "Algorand", id: "learn/wallet/algorand" },
+            // {
+            //   type: "doc",
+            //   label: "Fund your Wallet",
+            //   id: "learn/wallet/fund-your-wallet",
+            // },
+          ],
+        },
+        {
+          type: "category",
+          label: "Tokens",
+          items: [
+            { type: "doc", label: "Overview", id: "learn/tokens/overview" },
+          ],
+          items: [{ type: "doc", label: "Metis", id: "learn/tokens/metis" }],
+        },
+      ],
+    },
+    {
+      type: "category",
       label: "Workshops",
       items: [
         {
@@ -127,6 +165,11 @@ const sidebars = {
           label: "EthDenver 2022",
           id: "learn/hyperverse/workshops/ETHDenver-2022",
         },
+        // {
+        //   type: "doc",
+        //   label: "web3con 2022",
+        //   id: "learn/hyperverse/workshops/web3con-2022",
+        // },
       ],
     },
     { type: "doc", label: "Community", id: "basics/community" },
