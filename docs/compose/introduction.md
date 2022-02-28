@@ -18,9 +18,9 @@ Start building smart modules with the with the **Hyperverse Early Access** progr
 
 Welcome to **Hyperverse Early Access** program! This program gives you the opportunity to build a smart module for the Hyperverse. To complete your smart module you'll **create a smart contract**, **write unit tests**, **build a JavaScript API**, and **create an example application**.
 
-:::info Before getting started
+:::info Explore Smart Modules
 
-Not ready to compose Smart Modules? Check out [Welcome to the Hyperverse](/) before getting started.
+Explore smart modules that are currently available [here](/basics/modules).
 
 :::
 
