@@ -37,7 +37,15 @@ Using the Hyperverse, you'll build a simple web3 application using what is known
 
 After setting up your environment, you'll see an app that allows users to join or leave a set of tribes. At this point, you've completed what we're looking to test in this early access by establishing your connection to the Hyperverse with a web3 application!
 
+**Example application using the Tribes Module.**
+
 ![1](/img/content/docs/tribes/1.png)
+
+:::info Explore Smart Modules
+
+Explore the smart modules that are available to you [here](/basics/modules).
+
+:::
 
 ## Step 3: Customize your web3 app
 

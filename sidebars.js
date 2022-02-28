@@ -5,6 +5,7 @@ const sidebars = {
 
   basics: [
     { type: "doc", label: "Introduction", id: "basics/welcome" },
+    { type: "doc", label: "Explore modules", id: "basics/modules" },
     // {
     //   type: "category",
     //   label: "Basics",
