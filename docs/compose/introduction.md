@@ -20,9 +20,15 @@ Welcome to **Hyperverse Early Access** program! This program gives you the oppor
 
 :::info Explore Smart Modules
 
-Explore smart modules that are currently available [here](/basics/modules).
+View a list of available smart modules [here](/basics/modules).
 
 :::
+
+## Hyperverse Smart Module Demo
+
+Watch the video below to learn how to build a smart module.
+
+<YouTube videoId="E9WrvKwUnpg"/>
 
 ## Step 1: Set up your Environment
 
