@@ -36,7 +36,7 @@ https://github.com/YOUR-PROFILE/hyperverse-mono.git
 
 ## Create a new branch
 
-Change into the **hyperverse-mono **folder
+Change into the **hyperverse-mono** folder
 
 ```
 https://github.com/decentology/hyperverse-mono.git
@@ -45,7 +45,7 @@ https://github.com/decentology/hyperverse-mono.git
 Create a branch with the name of the blockchain and smart module you plan to create.
 
 ```
-git checkout -b ethereum-greeter
+git checkout -b blockchain-module
 ```
 
 ## View the project directory
@@ -67,9 +67,9 @@ Within this project directory you will see the following folders and files:
 - **Contracts:** Contains the Hyperverse smart module contracts
 - **Scripts:** Contains the deploy scripts for the Hyperverse smart module
 - **Source:** Contains the smart module Javascript API
-- **Tests: **Contains the tests used to ensure the security of the smart module
-- **.gitignore: **Ignores node_modules. .env, and other files that git can ignore
+- **Tests:** Contains the tests used to ensure the security of the smart module
+- **.gitignore:** Ignores node_modules. .env, and other files that git can ignore
 - **hardhat.config**: Includes application deployment information
-- **package.json: **Includes all smart module dependencies
+- **package.json:** Includes all smart module dependencies
 
 Your project environment is now ready to begin building your smart module.
