@@ -14,30 +14,93 @@ Start building on the Hyperverse in 15 minutes or less.
 
 ---
 
-## Set up your Local Environment
+## How to set up your local environment
 
-Use the [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono) to view the project source code and start building your application.
+When building on the Hyperverse, you have the option to set up your local environment using [create-next-app](https://nextjs.org/) or by cloning the [Hyperverse monorepo](https://github.com/decentology/hyperverse-mono). Check that you have the correct system requirements then choose from the options below to get started.
 
-:::info
-
-These videos cover getting started with [Flow](/build/blockchain/flow) & [Ethereum](/build/blockchain/ethereum) but you may use these steps to build on [Metis](/build/blockchain/metis) or [Algorand](/build/blockchain/algorand).
-
-:::
-
-## System Requirements
+### System Requirements
 
 - [Visual Studio Code](https://code.visualstudio.com/download) (or any IDE for editing JavaScript)
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en/) >= 14.0.0
 - [Yarn](https://classic.yarnpkg.com/en/docs/install#mac-stable)
 
-## Clone the repo
+<PageRef url="#using-create-next-app" pageName="Using create-next-app" />
+<PageRef url="#using-the-hyperverse-monorepo" pageName="Using the Hyperverse Monorepo" />
+
+## Using create-next-app
+
+Follow the steps below to get your app up and running using `create-next-app`. View the [HyperverseStarterDapp](https://github.com/ShainDholakiya/HyperverseStarterDapp) on GitHub or [How to Get Hooked Up to the Hyperverse From Scratch](https://www.decentology.com/blog/how-to-get-hooked-up-to-the-hyperverse-from-scratch) blog post for more detail.
+
+### Initialize React Next App
+
+```jsx
+npx create-next-app example-dapp --ts
+```
+
+### Change ito the project folder
+
+```jsx
+cd example-dapp
+```
+
+### Install the Hyperverse
+
+```jsx
+yarn add @decentology/hyperverse
+```
+
+### Install Blockchain Package
+
+```jsx
+yarn add @decentology/hyperverse-ethereum
+```
+
+### Update \_app.tsx file
+
+Open your `_app.tsx` file and replace it with the following code.
+
+```jsx
+import "../styles/globals.css";
+import type { AppProps } from "next/app";
+import { initialize, Provider, Network } from "@decentology/hyperverse";
+import { Ethereum } from "@decentology/hyperverse-ethereum";
+
+function MyApp({ Component, pageProps }: AppProps) {
+  const hyperverse = initialize({
+    blockchain: Ethereum,
+    network: Network.Testnet,
+    modules: [],
+  });
+  return (
+    <Provider initialState={hyperverse}>
+      <Component {...pageProps} />
+    </Provider>
+  );
+}
+
+export default MyApp;
+```
+
+### Run the development server
+
+```
+yarn dev
+```
+
+You may now view your running application on [localhost:3000](http://localhost:3000/).
+
+## Using the Hyperverse Monorepo
+
+Use the [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono) to view the project source code and start building your application.
+
+### Clone the repo
 
 ```jsx
 git clone https://github.com/decentology/hyperverse-mono
 ```
 
-## Choose your module
+### Choose your module
 
 Navigate to your preferred module within the Hyperverse Monorepo.
 
@@ -65,19 +128,19 @@ Learn more about each [blockchain](/build/blockchain/overview) and set up your [
 
 :::
 
-## Install project dependencies
+### Install project dependencies
 
 ```
 yarn
 ```
 
-## Run the development server
+### Run the development server
 
 ```
 yarn dev
 ```
 
-## View the application
+### View the application
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view your application.
 
@@ -91,7 +154,7 @@ Interesting in developing with the Tribes application? [Learn more](../module/tr
 
 :::
 
-## Important Links and File Locations
+### Important Links and File Locations
 
 Here are some links and locations of files related to the tribes mobule:
 
