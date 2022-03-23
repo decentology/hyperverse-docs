@@ -52,9 +52,28 @@ yarn add @decentology/hyperverse
 
 ### Install Blockchain Package
 
-```jsx
-yarn add @decentology/hyperverse-ethereum
-```
+<Tabs>
+  <TabItem value="ethereum" label="Ethereum" default>
+  <b>
+  yarn add @decentology/hyperverse-ethereum
+  </b>
+  </TabItem>
+  <TabItem value="Metis" label="Metis">
+  <b>
+    yarn add @decentology/hyperverse-metis
+  </b>
+  </TabItem>
+  <TabItem value="Flow" label="Flow">
+  <b>
+    yarn add @decentology/hyperverse-flow
+  </b>
+  </TabItem>
+    <TabItem value="Algorand" label="Algorand">
+  <b>
+    yarn add @decentology/hyperverse-algorand
+  </b>
+  </TabItem>
+</Tabs>
 
 ### Update \_app.tsx file
 
@@ -65,6 +84,9 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { initialize, Provider, Network } from "@decentology/hyperverse";
 import { Ethereum } from "@decentology/hyperverse-ethereum";
+// import { Metis } from '@decentology/hyperverse-metis';
+// import { Flow } from '@decentology/hyperverse-flow';
+// import { Algorand } from '@decentology/hyperverse-algorand';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const hyperverse = initialize({
@@ -81,6 +103,8 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 export default MyApp;
 ```
+
+The code above defaults to the Ethereum network but you can change it to any other available blockchain.
 
 ### Run the development server
 
