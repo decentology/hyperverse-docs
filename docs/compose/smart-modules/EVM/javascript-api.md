@@ -20,20 +20,11 @@ Once your smart contract is built, tested, and deployed, you'll build a JavaScri
 
 ![1](/img/content/docs/builderkit/6.png)
 
-:::info Smart Contracts Setup
+:::info Additional resources
 
-Haven't written your unit tests? See [Unit Tests](unit-tests) before moving forward.
+Haven't written your unit tests? See [Unit Tests](unit-tests) before moving forward. The JavaScript API is written using [React](https://reactjs.org/) and makes use of both [React Query](https://react-query.tanstack.com/) and [React Hooks](https://reactjs.org/docs/hooks-intro.html). It also uses [Ethers](https://github.com/ethers-io/ethers.js/#the-ethers-project) to interact with the Ethereum Network.
 
 :::
-
-## Helpful Resources
-
-The JavaScript API is written using React.js and makes use of both React Query and React Hooks. It also uses Ether to interact with the Ethereum Network. This guide assumes you have some understanding of these tools and you can use the links below to find additional information.
-
-- [React](https://reactjs.org/)
-- [React Query](https://react-query.tanstack.com/)
-- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
-- [Ethers](https://github.com/ethers-io/ethers.js/#the-ethers-project)
 
 ## Source Folder
 
@@ -50,6 +41,9 @@ The [source](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/
 The [moduleLibrary.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/moduleLibrary.ts) contains the detailed functions that read & write to the blockchain.
 
 ```jsx
+// highlight-start
+// Update file name to match smart module (ex. erc20Library.ts)
+// highlight-end
 import { HyperverseConfig } from "@decentology/hyperverse";
 import { EvmLibraryBase, getProvider } from "@decentology/hyperverse-evm";
 import { ethers } from "ethers";
@@ -81,8 +75,15 @@ async function ModuleLibraryInternal(
 		providerOrSigner
 	);
 
+	// highlight-start
+	// Add additional functionality to read and write from smart contract
+	// highlight-end
+
 	return {
 		...base
+		// highlight-start
+		// Return all additional consts as specified above
+		// highlight-end
 	}
 }
 ```
@@ -92,37 +93,57 @@ async function ModuleLibraryInternal(
 [useHook.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/useHook.ts) provides hooks that expose your library to the React ecosystem.
 
 ```jsx
-
+// highlight-start
+// Update file name to match smart module (ex. useERC20.ts)
+// highlight-end
 import { useState, useEffect } from 'react';
 import { createContainer, useContainer } from '@decentology/unstated-next';
 import { useEvm } from '@decentology/hyperverse-evm';
+// highlight-start
+// Update imports to match smart module
 import { ModuleLibrary, ModuleLibraryType } from './moduleLibrary';
+// highlight-end
 import { useHyperverse } from '@decentology/hyperverse';
 
+// highlight-start
+// Update name to match smart module
 function ModuleState(initialState: { tenantId: string } = { tenantId: '' }) {
+// highlight-end
 	const { tenantId } = initialState;
 	const { address, connectedProvider, readOnlyProvider } = useEvm();
 	const hyperverse = useHyperverse();
+	// highlight-start
+	// Update name to match smart module
 	const [hyperverseModule, setHyperverseModule] = useState<ModuleLibraryType>();
+	// highlight-end
 
 
 	useEffect(() => {
+		// highlight-start
+		// Update library to match smart module
 		const lib = ModuleLibrary(hyperverse, connectedProvider || readOnlyProvider).then(setHyperverseModule)
+		// highlight-end
 		return lib.cancel;
 	}, [connectedProvider])
 
 
 	return {
+		// highlight-start
+		// Update name to match smart module
 		...hyperverseModule,
+		// highlight-end
 		tenantId,
 	};
 }
 
+// highlight-start
+// Update occurrences of module to match smart module
 export const Module = createContainer(ModuleState);
 
 export function useModule() {
 	return useContainer(Module);
 }
+// highlight-end
 ```
 
 :::info
@@ -138,8 +159,11 @@ View an example of the completed **useERC20.ts** file [here](https://github.com/
 ```jsx
 import { FC } from "react";
 import { QueryClientProvider, QueryClient } from "react-query";
+// highlight-start
+// Update occurrences of module to match smart module
 import { HyperverseModuleInstance } from "@decentology/hyperverse";
 import { Module } from "./useHook";
+// highlight-end
 const client = new QueryClient();
 
 const Provider: FC<HyperverseModuleInstance> = ({ children, tenantId }) => {
@@ -147,11 +171,14 @@ const Provider: FC<HyperverseModuleInstance> = ({ children, tenantId }) => {
     throw new Error("Tenant ID is required");
   }
   return (
+    // highlight-start
+    // Update occurrences of module to match smart module
     <QueryClientProvider client={client}>
       <Module.Provider initialState={{ tenantId: tenantId }}>
         {children}
       </Module.Provider>
     </QueryClientProvider>
+    // highlight-end
   );
 };
 
@@ -176,11 +203,15 @@ import {
 	EvmEnvironment,
 	NetworkConfig,
 } from '@decentology/hyperverse';
+
+// highlight-start
+// Update occurrences of module in imports and exports to match smart module
 import Factory from '../artifacts/contracts/ModuleFactory.sol/ModuleFactory.json';
 import Contract from '../artifacts/contracts/Module.sol/Module.json';
 import Contracts from '../contracts.json';
 export const ContractABI = Contract.abi;
 export const FactoryABI = Factory.abi;
+// highlight-end
 
 const environment = Contracts as EvmEnvironment;
 
@@ -218,15 +249,21 @@ View an example of the completed **ERC20 environment.ts** file [here](https://gi
 [index.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/index.ts) handles imports and exports for JavaScript API.
 
 ```jsx
+// highlight-start
+// Update occurrences of module to match smart module
 export { useModule } from "./useHook";
+// highlight-end
 import { Provider } from "./Provider";
 export { Provider } from "./Provider";
+// highlight-start
+// Update occurrences of module to match smart module
 export const ModuleName = "CustomModule";
 export { ModuleLibrary } from "./moduleLibrary";
 export const CustomModule = {
   Provider,
   ModuleName,
 };
+// highlight-end
 ```
 
 :::info

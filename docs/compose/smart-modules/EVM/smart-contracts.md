@@ -16,23 +16,15 @@ How to build smart contracts with the Hyperverse Builderkit.
 
 ## Getting Started
 
-Now that you've set up your environment, you may begin building your smart contracts in the [contracts](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/contracts) directory.
+After setting up your local environment, you're ready to build your smart contract. EVM Smart Modules are written in Solidity and use Hardhat to compile and deploy smart contracts in the [contracts](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/contracts) directory.
 
 ![1](/img/content/docs/builderkit/4.png)
 
-:::info Environment Setup
+:::info Additional resources
 
-Haven't set up your environment? See [Environment Setup](evm-setup) before moving forward.
+Haven't set up your environment? See [Environment Setup](evm-setup) before moving forward. Check out [Ethereum](https://ethereum.org/en/), [Solidity](https://soliditylang.org/), [Hardhat](https://hardhat.org/) for additional resources to help you get started.
 
 :::
-
-## Helpful Resources
-
-EVM Smart Modules are written in Solidity and use Hardhat to compile and deploy smart contracts. This guide assumes you have some understanding of these tools and you can use the links below to find additional information.
-
-- [Ethereum](https://ethereum.org/en/)
-- [Solidity](https://soliditylang.org/)
-- [Hardhat](https://hardhat.org/)
 
 ## Contracts Folder
 
@@ -41,13 +33,7 @@ The [contracts](https://github.com/decentology/hyperverse-evm-builderkit/tree/ma
 - [Module.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/Module.sol) - Contains the core functionality of your smart module.
 - [ModuleFactory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/ModuleFactory.sol) - Contains the clone factory implementation of the smart module.
 - [hyperverse/CloneFactory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/hyperverse/CloneFactory.sol) - Enables the ModuleFactory to deploy clones for your smart module.
-- [hyperverse/IHyperverseModule.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/hyperverse/IHyperverseModule.sol) - Contains the Decentology Smart Module standard on Ethereum.
-
-:::warning
-
-You will only make changes to **Module.sol** and **ModuleFactory.sol**. **CloneFactory.sol** and **IHyperverseModule.sol** should not be modified.
-
-:::
+- [hyperverse/IHyperverseModule.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/hyperverse/IHyperverseModule.sol) - Contains the Hyperverse EVM Smart Module standard.
 
 :::info Example
 
@@ -60,16 +46,18 @@ View examples of a completed ERC20 EVM Module contracts [here](https://github.co
 The [Module.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/Module.sol) file contains the core functionality of your smart module. To update this contract, import interfaces and utilities, update the contract name & metadata, and add all smart contract functionality.
 
 ```jsx
+// highlight-start
+// Update file name to match smart module (ex. ERC20.sol)
+// highlight-end
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 pragma experimental ABIEncoderV2;
 // highlight-start
-// Step 1: IMPORT REQUIRED INTERFACES AND UTILITIES
-// ...
+// Import interfaces and utilities
 // highlight-end
 import './hyperverse/IHyperverseModule.sol';
 // highlight-start
-// Step 2: UPDATE CONTRACT NAME AD INCLUDE INHERITED CONTRACTS
+// Update contract name and include inherited contracts
 contract Module is IHyperverseModule {
 // highlight-end
    address public immutable contractOwner;
@@ -77,7 +65,7 @@ contract Module is IHyperverseModule {
 
    constructor(address _owner) {
        // highlight-start
-       // STEP 3: UPDATE METADATA
+       // Update metadata
        metadata = ModuleMetadata(
            'Module',
            Author(_owner, 'https://externallink.net'),
@@ -88,13 +76,11 @@ contract Module is IHyperverseModule {
        // highlight-end
        contractOwner = _owner;
    }
-   /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TENANT FUNCTIONALITIES  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
    function init(address _tenant) external {
        tenantOwner = _tenant;
    }
    // highlight-start
-   // Step 4: ADD SMART CONTRACT FUNCTIONALITY
-   // ...
+   // Add smart contract functionality
    // highlight-end
 }
 ```
@@ -110,6 +96,9 @@ View an example of a completed **Module.sol** contract at [ERC20.sol](https://gi
 The [ModuleFactory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/ModuleFactory.sol) file contains the clone factory implementation of the smart module. To update this contract, update the contract name to reflect changes in your **Module.sol** contract.
 
 ```jsx
+// highlight-start
+// Update file name to match smart module (ex. ERC20Factory.sol)
+// highlight-end
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 pragma experimental ABIEncoderV2;
@@ -117,7 +106,7 @@ pragma experimental ABIEncoderV2;
 import './hyperverse/CloneFactory.sol';
 import './hyperverse/IHyperverseModule.sol';
 // highlight-start
-// Step 1: IMPORT SMART CONTRACT FROM MODULE
+// Import smart contract
 import './Module.sol';
 // highlight-end
 
@@ -126,12 +115,9 @@ import './Module.sol';
 */
 
 // highlight-start
-// Step 2: UPDATE ModuleFactory TO NEW MODULE NAME
+// Update occurrences of module name
 contract ModuleFactory is CloneFactory {
-// highlight-end
    struct Tenant {
-       // highlight-start
-       // Step 3: UPDATE MODULE TO NEW NAME
        Module module;
        // highlight-end
        address owner;
@@ -142,7 +128,7 @@ contract ModuleFactory is CloneFactory {
    address public immutable owner;
    address public immutable masterContract;
     // highlight-start
-    // Step 4: UPDATE ADMIN TO ETHEREUM ADDRESS
+    // Update admin ethereum address
    address private hyperverseAdmin = 0xD847C7408c48b6b6720CCa75eB30a93acbF5163D;
    // highlight-end
 
@@ -170,7 +156,7 @@ contract ModuleFactory is CloneFactory {
 
 	function createInstance(address _tenant) external isAllowedToCreateInstance(_tenant) {
         // highlight-start
-        // Step 5: UPDATE MODULE NAME
+        // Update module name
 		Module m = Module(createClone(masterContract));
         // highlight-end
 
@@ -180,7 +166,7 @@ contract ModuleFactory is CloneFactory {
 		//set Tenant data
 		Tenant storage newTenant = tenants[_tenant];
         // highlight-start
-        // Step 6: UPDATE MODULE NAME
+        // Update occurrences of module name
 		newTenant.module = m;
         // highlight-end
 		newTenant.owner = _tenant;
@@ -213,14 +199,14 @@ const main = async () => {
   console.log("Deployer Address: ", deployer.address);
   const hyperverseAdmin = deployer.address;
   // highlight-start
-  // Step 1: UPDATE Module NAME
+  // Update module name
   const BaseModule = await hre.ethers.getContractFactory("Module");
   // highlight-end
   const baseContract = await BaseModule.deploy(hyperverseAdmin);
   await baseContract.deployed();
   console.log("Module Contract deployed to: ", baseContract.address);
   // highlight-start
-  // Step 1: UPDATE ModuleFactory NAME
+  // Update module factory name
   const ModuleFactory = await hre.ethers.getContractFactory("ModuleFactory");
   const moduleFactory = await ModuleFactory.deploy(
     baseContract.address,
@@ -235,7 +221,7 @@ const main = async () => {
 
   env[hre.network.name].testnet.contractAddress = baseContract.address;
   // highlight-start
-  // Step 3: UPDATE moduleFactory
+  // Update occurrences of module factory
   env[hre.network.name].testnet.factoryAddress = moduleFactory.address;
   // highlight-end
 
@@ -245,7 +231,7 @@ const main = async () => {
   // Deploy default tenant
   let proxyAddress = constants.AddressZero;
   // highlight-start
-  // Step 4: UPDATE moduleFactory
+  // Update occurrences of module factory
   await moduleFactory.createInstance(deployer.address);
   while (proxyAddress === constants.AddressZero) {
     proxyAddress = await moduleFactory.getProxy(deployer.address);

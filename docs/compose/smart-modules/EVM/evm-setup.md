@@ -57,11 +57,32 @@ cd hyperverse-evm-builderkit/
 ### Install Project Dependencies
 
 ```
-yarn
+pnpm i
 ```
+
+:::info
+
+View [pnpm](https://pnpm.io/installation) for installation instructions.
+
+:::
+
+### Start the Builderkit
+
+Starting the builderkit will create a local environment for you to build your smart module.
+
+```
+pnpm storybook
+```
+
+### View your Builderkit
+
+Navigate to [localhost:6006](http://localhost:6006/?path=/story/example-test1--example) to view your builderkit. Users will be able to view and interact with your completed smart module from this page.
+
+![1](/img/content/docs/builderkit/9.png)
 
 ## Build Smart Contracts
 
 You're now ready to start building your smart contracts!
 
 <PageRef url="smart-contracts" pageName="Step 2: Smart Contracts" />
+```

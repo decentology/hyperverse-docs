@@ -22,7 +22,7 @@ Smart modules are a pre-build package of code containing smart contracts, unit t
 
 :::info
 
-View a list of Hyperverse smart modules [here](/basics/modules).
+View a list of Hyperverse smart modules [here](/basics/modules) and check out the [Hyperverse Monorepo](./smart-modules/hyperverse-monorepo) and [Smart Module Specifications](./smart-modules/smart-module-specifications) to start building your own smart modules.
 
 :::
 

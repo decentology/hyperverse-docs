@@ -86,11 +86,6 @@ const sidebars = {
           label: "Overview",
           id: "compose/introduction",
         },
-        // {
-        //   type: "doc",
-        //   label: "Environment Setup",
-        //   id: "compose/smart-modules/environment-setup",
-        // },
         {
           type: "category",
           label: "EVM Builderkit",
@@ -131,6 +126,16 @@ const sidebars = {
             //   id: "compose/smart-modules/EVM/example-application",
             // },
           ],
+        },
+        {
+          type: "doc",
+          label: "Module Specifications",
+          id: "compose/smart-modules/smart-module-specifications",
+        },
+        {
+          type: "doc",
+          label: "Hyperverse Monorepo",
+          id: "compose/smart-modules/hyperverse-monorepo",
         },
       ],
     },
