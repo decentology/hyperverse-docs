@@ -1,6 +1,6 @@
 ---
-title: Hyperverse Early Access
-description: Start building smart modules with the with the **Hyperverse Early Access** program.
+title: Build Smart Modules
+description: Start building Hyperverse smart modules.
 ---
 
 import PageRef from '@components/PageRef'
@@ -8,19 +8,21 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Build Smart Modules | Early Access
+# Build Smart Modules
 
-Start building smart modules with the with the **Hyperverse Early Access** program.
+Step-by-step guides to help you build Hyperverse Smart Modules.
 
 ---
 
-## Getting started
+## What is a Smart Module?
 
-Welcome to **Hyperverse Early Access** program! This program gives you the opportunity to build a smart module for the Hyperverse. To complete your smart module you'll **create a smart contract**, **write unit tests**, **build a JavaScript API**, and **create an example application**.
+Smart modules are a pre-build package of code containing smart contracts, unit tests, JavaScript API, and UI harness. As a Web3 developer, you can build these smart modules and enable JavaScript developers to build blockchain applications without writing a single line of smart contract code.
 
-:::info Explore Smart Modules
+![1](/img/content/docs/builderkit/1.png)
 
-View a list of available smart modules [here](/basics/modules).
+:::info
+
+View a list of Hyperverse smart modules [here](/basics/modules) and check out the [Hyperverse Monorepo](./smart-modules/hyperverse-monorepo) and [Smart Module Specifications](./smart-modules/smart-module-specifications) to start building your own smart modules.
 
 :::
 
@@ -54,20 +56,22 @@ When you are ready, navigate to the [/scripts/deploy.js](https://github.com/dece
 
 No smart contract is complete without having been thoroughly tested. To test your smart contract, write unit tests inside of the [/tests/module-tests.js](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/test/module-tests.js) file. Continue refining your contract and redeploying until you're happy with your smart contract.
 
-![1](/img/content/docs/create-smart-module/4.png)
+## What is a Builderkit?
 
-## Step 4: Build JavaScript API
+Hyperverse Builderkits help you build smart modules. It provides the core functionality you need to quickly build, deploy, test, and publish your smart module to the Hyperverse.
+
+![1](/img/content/docs/builderkit/2.png)
 
 Once your smart contract is built, tested, and deployed, you can build a JavaScript API to interact with your smart contract. Navigate to the [/source](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/source) folder to build and edit your JavaScript API.
 
-![1](/img/content/docs/create-smart-module/5.png)
+## Available Builderkits
 
-## Thanks for participating!
+The following Builderkits are available for Web3 developers:
 
-Thanks for participating in Hyperverse Early Access! We're so excited that you joined us and can't wait to see what you build using the Hyperverse. We'll be here to support any questions you have and will do our best to make sure you have the best possible experience getting started.
+<PageRef url="./smart-modules/EVM/evm-builderkit" pageName="EVM Builderkit" />
 
-:::info Connect with us
+:::info
 
-Join us on [Discord](https://discord.com/invite/uqecGxg) or view the [Forum](https://forum.decentology.com/) if you have any questions at all while getting started with the Hyperverse.
+The team is currently working to provide a Builderkit for each Hyperverse blockchain. For questions, comments, and discussions please use our [Discord](https://discord.com/invite/uqecGxg).
 
 :::

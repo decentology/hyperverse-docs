@@ -87,30 +87,56 @@ const sidebars = {
           id: "compose/introduction",
         },
         {
-          type: "doc",
-          label: "Environment Setup",
-          id: "compose/smart-modules/environment-setup",
+          type: "category",
+          label: "EVM Builderkit",
+          items: [
+            {
+              type: "doc",
+              label: "Overview",
+              id: "compose/smart-modules/EVM/evm-builderkit",
+            },
+            {
+              type: "doc",
+              label: "Environment Setup",
+              id: "compose/smart-modules/EVM/evm-setup",
+            },
+            {
+              type: "doc",
+              label: "Smart Contract",
+              id: "compose/smart-modules/EVM/smart-contracts",
+            },
+            {
+              type: "doc",
+              label: "Unit Tests",
+              id: "compose/smart-modules/EVM/unit-tests",
+            },
+            {
+              type: "doc",
+              label: "JavaScript API",
+              id: "compose/smart-modules/EVM/javascript-api",
+            },
+            {
+              type: "doc",
+              label: "UI Harness",
+              id: "compose/smart-modules/EVM/ui-harness",
+            },
+            // {
+            //   type: "doc",
+            //   label: "Example App",
+            //   id: "compose/smart-modules/EVM/example-application",
+            // },
+          ],
         },
-        // {
-        //   type: "doc",
-        //   label: "Smart Contract",
-        //   id: "compose/smart-modules/smart-contracts",
-        // },
-        // {
-        //   type: "doc",
-        //   label: "Unit Test",
-        //   id: "compose/smart-modules/unit-tests",
-        // },
-        // {
-        //   type: "doc",
-        //   label: "JavaScript API",
-        //   id: "compose/smart-modules/javascript-api",
-        // },
-        // {
-        //   type: "doc",
-        //   label: "Example App",
-        //   id: "compose/smart-modules/example-application",
-        // },
+        {
+          type: "doc",
+          label: "Module Specifications",
+          id: "compose/smart-modules/smart-module-specifications",
+        },
+        {
+          type: "doc",
+          label: "Hyperverse Monorepo",
+          id: "compose/smart-modules/hyperverse-monorepo",
+        },
       ],
     },
     {
