@@ -26,36 +26,6 @@ View a list of Hyperverse smart modules [here](/basics/modules) and check out th
 
 :::
 
-## Hyperverse Smart Module Demo
-
-Watch the video below to learn how to build a smart module.
-
-<YouTube videoId="E9WrvKwUnpg"/>
-
-## Step 1: Set up your Environment
-
-Using the Hyperverse, you'll build a smart module using the [smart module starterkit](https://github.com/decentology/hyperverse-evm-builderkit). This starterkit allows you to begin with the core functionality you need to build ad deploy your smart module. To get started, you'll need to set up your local environment.
-
-- [Environment Setup](smart-modules/environment-setup)
-
-After completing this step you should have a working Hyperverse environment.
-
-![1](/img/content/docs/create-smart-module/1.png)
-
-## Step 2: Write your smart contract
-
-Now that you've set up your working environment, you're ready to begin building your smart contract. Navigate to the [contracts](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/contracts) directory to edit your smart contracts.
-
-![1](/img/content/docs/create-smart-module/2.png)
-
-When you are ready, navigate to the [/scripts/deploy.js](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/scripts/deploy.js) file to update your deploy scripts.
-
-![1](/img/content/docs/create-smart-module/3.png)
-
-## Step 3: Write unit tests
-
-No smart contract is complete without having been thoroughly tested. To test your smart contract, write unit tests inside of the [/tests/module-tests.js](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/test/module-tests.js) file. Continue refining your contract and redeploying until you're happy with your smart contract.
-
 ## What is a Builderkit?
 
 Hyperverse Builderkits help you build smart modules. It provides the core functionality you need to quickly build, deploy, test, and publish your smart module to the Hyperverse.
