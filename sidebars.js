@@ -88,6 +88,28 @@ const sidebars = {
         },
         {
           type: "category",
+          label: "Basics",
+          items: [
+            {
+              type: "doc",
+              label: "Specifications",
+              id: "compose/smart-modules/smart-module-specifications",
+            },
+            {
+              type: "doc",
+              label: "Factory Pattern",
+              id: "compose/smart-modules/factory-pattern",
+            },
+            {
+              type: "doc",
+              label: "Monorepo",
+              id: "compose/smart-modules/hyperverse-monorepo",
+            },
+          ],
+        },
+
+        {
+          type: "category",
           label: "EVM Builderkit",
           items: [
             {
@@ -126,16 +148,6 @@ const sidebars = {
             //   id: "compose/smart-modules/EVM/example-application",
             // },
           ],
-        },
-        {
-          type: "doc",
-          label: "Module Specifications",
-          id: "compose/smart-modules/smart-module-specifications",
-        },
-        {
-          type: "doc",
-          label: "Hyperverse Monorepo",
-          id: "compose/smart-modules/hyperverse-monorepo",
         },
       ],
     },
