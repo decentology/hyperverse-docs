@@ -14,18 +14,18 @@ Overview and structure of the Hyperverse Monorepo.
 
 ---
 
-:::info
-
-View the [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/source/index.ts) on GitHub to get started with the Hyperverse!
-
-:::
-
 ## Monorepo Architecture
 
 The [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono) contains code packages and applications for the Hyperverse.
 
 - [packages](https://github.com/decentology/hyperverse-mono/tree/main/packages): Blockchain implementations, smart modules and starterkits.
 - [apps](https://github.com/decentology/hyperverse-mono/tree/main/apps): Example applications organized by blockchain.
+
+:::info
+
+View the [Hyperverse Monorepo](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/source/index.ts) on GitHub to get started with the Hyperverse!
+
+:::
 
 ### Packages
 
