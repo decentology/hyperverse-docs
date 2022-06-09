@@ -28,9 +28,12 @@ Haven't written your JavaScript API? See [JavaScript API](javascript-api) before
 
 ### Update Example.stories.tsx
 
-The [Example.stories.tsx](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/stories/Example.stories.tsx) contains the code for your UI harness.
+The `Example.stories.tsx` contains the code for your UI harness.
 
 ```jsx
+// highlight-start
+// Update file name to match smart module (ex. GetBalanceOf.stories.js)
+// highlight-end
 import { HyperverseProvider } from './utils/Provider';
 import { Meta, Story } from '@storybook/react';
 // highlight-start
@@ -52,9 +55,9 @@ export default {
    // highlight-start
    // Update title and component name
    title: 'Example/Test1',
+   // highlight-end
    component: Button,
    // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
-   // highlight-end
 } as Meta;
 
 // highlight-start
@@ -80,7 +83,62 @@ Example.args = {};
 
 :::info
 
-View an example of the completed **GetBalanceOf.stories.tsx** file for the ERC20 Smart Module [here](https://github.com/decentology/hyperverse-mono/tree/main/packages/hyperverse-evm-erc20/stories)
+View an example of the completed `GetBalanceOf.stories.tsx` file for the ERC721 Smart Module [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/stories/getBalanceOf.tsx)
+
+:::
+
+### Update Example.tsx
+
+The `Example.tsx` contains the component for the front end of your UI harness.
+
+```jsx
+// highlight-start
+// Update file name to match smart module (ex. getBalanceOf.js)
+// highlight-end
+// highlight-start
+// Import hook from smart module
+import { useHook } from '../source';
+// highlight-end
+import { useEvm } from '@decentology/hyperverse-evm';
+import { useEffect, useState } from 'react';
+
+// highlight-start
+// Update GetFunctionName, module, useHook, & setState
+export const GetFunctionName = ({ ...props }: {account: string}) => {
+	const module = useHook();
+   // highlight-end
+	const { address } = useEvm();
+	const [state, setState] = useState(null);
+
+	useEffect(() => {
+      // highlight-start
+      // Update module, getFunctionName, and setState
+		if (module.getFunctionName) {
+			module.getFunctioName(props.account).then(setState);
+		}
+	}, [module.getFunctionName]);
+   // highlight-end
+
+   // highlight-start
+   // Update functionName
+	const functionName = () => {
+   // highlight-end
+		return data ? (
+			<p>{JSON.stringify(data)}</p>
+		) : (
+			<p>Error.</p>
+		);
+	};
+   // highlight-start
+   // update className and functionName
+	return <div className="functionName"> Balance of: {props.account} {functionName()}</div>;
+   // highlight-end
+
+```
+
+:::info
+
+View an example of the completed `getBalanceOf.tsx` file for the ERC721 Smart Module [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/stories/getBalanceOf.tsx).
 
 :::
 

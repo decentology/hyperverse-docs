@@ -30,19 +30,19 @@ Haven't written your unit tests? See [Unit Tests](unit-tests) before moving forw
 
 The [source](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/source) folder contains the following files for the JavaScript API.
 
-- [moduleLibrary.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/moduleLibrary.ts) - Library that contains the detailed functions that read & write to the blockchain.
-- [useHook.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/useHook.ts) - React hook that exposes your library to the react ecosystem.
-- [Provider.tsx](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/Provider.tsx) - Hyperverse modules use the React Context to expose state to child components.
-- [environment.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/environment.ts) - Simple component that will identify which blockchain and network your module is being used under.
-- [index.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/index.ts) - Handles imports and exports for JavaScript API.
+- `moduleLibrary.ts` - Library that contains the detailed functions that read & write to the blockchain.
+- `useHook.ts` - React hook that exposes your library to the react ecosystem.
+- `Provider.tsx` - Hyperverse modules use the React Context to expose state to child components.
+- `environment.ts` - Simple component that will identify which blockchain and network your module is being used under.
+- `index.ts` - Handles imports and exports for JavaScript API.
 
 ## Update moduleLibrary.ts
 
-The [moduleLibrary.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/moduleLibrary.ts) contains the detailed functions that read & write to the blockchain.
+The `moduleLibrary.ts` contains the detailed functions that read & write to the blockchain.
 
 ```jsx
 // highlight-start
-// Update file name to match smart module (ex. erc20Library.ts)
+// Update file name to match smart module (ex. erc721Library.ts)
 // highlight-end
 import { HyperverseConfig } from "@decentology/hyperverse";
 import { EvmLibraryBase, getProvider } from "@decentology/hyperverse-evm";
@@ -88,13 +88,19 @@ async function ModuleLibraryInternal(
 }
 ```
 
+:::info
+
+View an example of the completed `erc721Library.ts` file [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/erc721Library.ts)
+
+:::
+
 ## Update useHook.ts
 
-[useHook.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/useHook.ts) provides hooks that expose your library to the React ecosystem.
+`useHook.ts` provides hooks that expose your library to the React ecosystem.
 
 ```jsx
 // highlight-start
-// Update file name to match smart module (ex. useERC20.ts)
+// Update file name to match smart module (ex. useERC721.ts)
 // highlight-end
 import { useState, useEffect } from 'react';
 import { createContainer, useContainer } from '@decentology/unstated-next';
@@ -148,13 +154,13 @@ export function useModule() {
 
 :::info
 
-View an example of the completed **useERC20.ts** file [here](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/source/useERC20.ts)
+View an example of the completed `useERC721.ts` file [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/useERC721.ts)
 
 :::
 
 ## Update Provider.tsx
 
-[provider.tsx](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/Provider.tsx) contains the React Context to expose state to child components.
+`provider.tsx` contains the React Context to expose state to child components.
 
 ```jsx
 import { FC } from "react";
@@ -187,13 +193,13 @@ export { Provider };
 
 :::info
 
-View an example of the completed **ERC20 Provider.tsx** [here](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/source/Provider.tsx)
+View an example of the completed ERC721 `Provider.tsx` [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/Provider.tsx)
 
 :::
 
 ## Update environment.ts
 
-[environment.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/environment.ts) is a simple component that will identify which blockchain and network your module is being used under. This allows EVM modules to easily work with any supported EVM module
+`environment.ts` is a simple component that will identify which blockchain and network your module is being used under. This allows EVM modules to easily work with any supported EVM module
 
 ```jsx
 import {
@@ -240,13 +246,13 @@ export { environment, getEnvironment };
 
 :::info
 
-View an example of the completed **ERC20 environment.ts** file [here](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/source/environment.ts)
+View an example of the completed ERC721 `environment.ts` file [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/environment.ts)
 
 :::
 
 ## Update index.ts
 
-[index.ts](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/index.ts) handles imports and exports for JavaScript API.
+`index.ts` handles imports and exports for JavaScript API.
 
 ```jsx
 // highlight-start
@@ -268,7 +274,7 @@ export const CustomModule = {
 
 :::info
 
-View an example of the completed **ERC20 index.ts** file [here](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/source/index.ts)
+View an example of the completed ERC721 `index.ts` file [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/source/index.ts)
 
 :::
 
