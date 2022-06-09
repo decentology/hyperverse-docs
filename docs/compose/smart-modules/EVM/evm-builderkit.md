@@ -24,10 +24,6 @@ Watch the video below to learn how to build a smart module using the EVM Builder
 
 <YouTube videoId="0A_Eg66psRU"/>
 
-:::info
-This demo is currently out of date with the latest version of the EVM Builderkit. You may use it to help support your development but refer to the documentation for the most recent details.
-:::
-
 ## Step 1: Set up your Environment
 
 To build your EVM Smart Module, start by setting up your Hyperverse EVM Builderkit local environment.
