@@ -28,26 +28,26 @@ Haven't set up your environment? See [Environment Setup](evm-setup) before movin
 
 ## Contracts Folder
 
-The [contracts](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/contracts) folder contains the following files.
+The **contracts** folder contains the following files.
 
-- [Module.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/Module.sol) - Contains the core functionality of your smart module.
-- [ModuleFactory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/ModuleFactory.sol) - Contains the clone factory implementation of the smart module.
-- [hyperverse/CloneFactory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/hyperverse/CloneFactory.sol) - Enables the ModuleFactory to deploy clones for your smart module.
-- [hyperverse/IHyperverseModule.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/hyperverse/IHyperverseModule.sol) - Contains the Hyperverse EVM Smart Module standard.
+- `Module.sol` - Contains the core functionality of your smart module.
+- `ModuleFactory.sol` - Contains the clone factory implementation of the smart module.
+- `CloneFactory.sol` - Enables the ModuleFactory to deploy clones for your smart module.
+- `IHyperverseModule.sol` - Contains the Hyperverse EVM Smart Module standard.
 
 :::info Example
 
-View examples of a completed ERC20 EVM Module contracts [here](https://github.com/decentology/hyperverse-mono/tree/main/packages/hyperverse-evm-erc20/contracts).
+The Builderkit contains examples of completed ERC721 EVM Module contracts [here](https://github.com/decentology/hyperverse-evm-builderkit/tree/main/contracts).
 
 :::
 
 ### Update Module.sol
 
-The [Module.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/Module.sol) file contains the core functionality of your smart module. To update this contract, import interfaces and utilities, update the contract name & metadata, and add all smart contract functionality.
+The `Module.sol` file contains the core functionality of your smart module. To update this contract, import interfaces and utilities, update the contract name & metadata, and add all smart contract functionality.
 
 ```jsx
 // highlight-start
-// Update file name to match smart module (ex. ERC20.sol)
+// Update file name to match smart module (ex. ERC721.sol)
 // highlight-end
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -87,17 +87,17 @@ contract Module is IHyperverseModule {
 
 :::info Example
 
-View an example of a completed **Module.sol** contract at [ERC20.sol](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/contracts/ERC20.sol)
+View an example of a completed `Module.sol` contract at [ERC721.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/ERC721.sol)
 
 :::
 
 ## Update ModuleFactory.sol
 
-The [ModuleFactory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/ModuleFactory.sol) file contains the clone factory implementation of the smart module. To update this contract, update the contract name to reflect changes in your **Module.sol** contract.
+The `ModuleFactory.sol` file contains the clone factory implementation of the smart module. To update this contract, update the contract name to reflect changes in your `Module.sol` contract.
 
 ```jsx
 // highlight-start
-// Update file name to match smart module (ex. ERC20Factory.sol)
+// Update file name to match smart module (ex. ERC721Factory.sol)
 // highlight-end
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
@@ -111,7 +111,7 @@ import './Module.sol';
 // highlight-end
 
 /**
-* @dev Clone Factory Implementation for ERC20 Token.
+* @dev Clone Factory Implementation
 */
 
 // highlight-start
@@ -180,7 +180,7 @@ contract ModuleFactory is CloneFactory {
 
 :::info
 
-View an example of a completed **ModuleFactory.sol** contract at [ERC20Factory.sol](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/contracts/ERC20Factory.sol)
+View an example of a completed `ModuleFactory.sol` contract at [ERC721Factory.sol](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/contracts/ERC721Factory.sol)
 
 :::
 
@@ -251,6 +251,12 @@ const runMain = async () => {
 
 runMain();
 ```
+
+:::info Example
+
+View an example of a completed `deploy.js` [here](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/scripts/deploy.js)
+
+:::
 
 ## Build Unit Tests
 

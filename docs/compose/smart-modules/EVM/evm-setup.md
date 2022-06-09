@@ -36,7 +36,7 @@ git clone https://github.com/decentology/hyperverse-mono
 
 :::info Example
 
-Throughout this section, there will be references to a completed ERC20 Smart Module. This is an example of a smart module that has been deployed as part of the Hyperverse Monorepo. You can view this module at `hyperverse-mono/packages/hyperverse-evm-erc20/`.
+Throughout this section, there will be references to a completed ERC721 Smart Module. This is an example of a smart module that has been deployed as part of the Hyperverse Monorepo. You can view this module at `https://github.com/decentology/hyperverse-evm-builderkit`.
 
 :::
 
@@ -85,4 +85,3 @@ Navigate to [localhost:6006](http://localhost:6006/?path=/story/example-test1--e
 You're now ready to start building your smart contracts!
 
 <PageRef url="smart-contracts" pageName="Step 2: Smart Contracts" />
-```

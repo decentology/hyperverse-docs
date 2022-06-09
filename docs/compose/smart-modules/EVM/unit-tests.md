@@ -16,7 +16,7 @@ How to build unit tests for your smart contract.
 
 ## Getting Started
 
-No smart contract is complete without having been thoroughly tested. To test your smart contract, write unit tests inside of the [/tests/module-tests.js](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/test/module-tests.js) file. Continue refining your contract and redeploying until you're happy with your smart contract.
+No smart contract is complete without having been thoroughly tested. To test your smart contract, write unit tests inside of the `/tests/module-tests.js` file. Continue refining your contract and redeploying until you're happy with your smart contract.
 
 ![1](/img/content/docs/builderkit/5.png)
 
@@ -28,9 +28,12 @@ Haven't written your smart contracts? See [Smart Contracts](smart-contracts) bef
 
 ### Update module-test.js
 
-The [module-test.js](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/test/module-tests.js) file should contain all of the unit tests for your smart contract. To complete this file, update the module description, module name, and add unit tests for each of your smart contract functions to match your smart contract.
+The `module-test.js` file should contain all of the unit tests for your smart contract. To complete this file, update the module description, module name, and add unit tests for each of your smart contract functions to match your smart contract.
 
 ```jsx
+// highlight-start
+// Update file name to match smart module (ex. ERC721-test.js)
+// highlight-end
 const { ethers } = require("hardhat");
 const { expect } = require("chai");
 
@@ -87,7 +90,7 @@ describe("Module", function () {
 
 :::info Example
 
-View an example of a completed **module-test.js** file at [token-test.js](https://github.com/decentology/hyperverse-mono/blob/main/packages/hyperverse-evm-erc20/test/token-test.js).
+View an example of a completed `module-test.js` file at [sample-test.js](https://github.com/decentology/hyperverse-evm-builderkit/blob/main/test/sample-test.js).
 
 :::
 
