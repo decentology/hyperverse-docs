@@ -22,7 +22,7 @@ The EVM Builderkit provides a set of tools to help you build EVM compatible smar
 
 Watch the video below to learn how to build a smart module using the EVM Builderkit.
 
-<YouTube videoId="E9WrvKwUnpg"/>
+<YouTube videoId="0A_Eg66psRU"/>
 
 :::info
 This demo is currently out of date with the latest version of the EVM Builderkit. You may use it to help support your development but refer to the documentation for the most recent details.
