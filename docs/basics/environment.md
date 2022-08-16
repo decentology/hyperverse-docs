@@ -82,11 +82,11 @@ Open your `_app.tsx` file and replace it with the following code.
 ```jsx
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
-import { initialize, Provider, Network } from "@decentology/hyperverse";
-import { Ethereum } from "@decentology/hyperverse-ethereum";
-// import { Metis } from '@decentology/hyperverse-metis';
-// import { Flow } from '@decentology/hyperverse-flow';
-// import { Algorand } from '@decentology/hyperverse-algorand';
+import { initialize, Provider, Network } from "@decentology/hyperverse/react";
+import { Ethereum } from "@decentology/hyperverse-ethereum/react";
+// import { Metis } from '@decentology/hyperverse-metis/react';
+// import { Flow } from '@decentology/hyperverse-flow/react';
+// import { Algorand } from '@decentology/hyperverse-algorand/react';
 
 function MyApp({ Component, pageProps }: AppProps) {
   const hyperverse = initialize({
