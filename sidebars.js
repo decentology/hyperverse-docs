@@ -29,7 +29,8 @@ const sidebars = {
       label: "Build web3 apps",
       items: [
         { type: "doc", label: "Overview", id: "early-access" },
-        { type: "doc", label: "Environment Setup", id: "basics/environment" },
+        { type: "doc", label: "Local Environment", id: "basics/environment" },
+        { type: "doc", label: "Ethereum UI", id: "basics/ethereum" },
         { type: "doc", label: "Tribes Example", id: "module/tribes" },
         // { type: "doc", label: "ERC20", id: "module/ERC20" },
         // { type: "doc", label: "ERC721", id: "module/ERC721" },
