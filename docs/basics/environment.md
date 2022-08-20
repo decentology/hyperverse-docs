@@ -8,7 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import YouTube from '@components/YouTube';
 
-# Environment Setup
+# Local Environment
 
 Start building on the Hyperverse in 15 minutes or less.
 
