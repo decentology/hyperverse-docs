@@ -18,6 +18,12 @@ Start building on the Hyperverse in 15 minutes or less.
 
 When building on the Hyperverse, you have the option to set up your local environment using [create-next-app](https://nextjs.org/) or by cloning the [Hyperverse monorepo](https://github.com/decentology/hyperverse-mono). Check that you have the correct system requirements then choose from the options below to get started.
 
+:::info
+
+See [Ethereum UI](/basics/ethereum) to build dApps using the Hyperverse without using code.
+
+:::
+
 ### System Requirements
 
 - [Visual Studio Code](https://code.visualstudio.com/download) (or any IDE for editing JavaScript)
