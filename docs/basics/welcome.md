@@ -19,6 +19,12 @@ Build web3 applications without writing smart contract code.
 
 The Hyperverse is an open marketplace of community-built, audited, easy to discover smart modules. Our goal - to make it easy for JavaScript developers to build Web3 apps without writing a single line of smart contract code. Think `npm for smart contracts`.
 
+:::info Hyperverse ❤️ Feedback
+
+If you have any ideas to improve the docs please make an [issue](https://github.com/decentology/hyperverse-docs/issues), discuss in the [forum](https://forum.decentology.com/), or [submit a PR](https://github.com/decentology/hyperverse-docs/pulls).
+
+:::
+
 ## Quickstart
 
 Start building Web3 applications or create Hyperverse smart modules.

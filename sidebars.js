@@ -214,6 +214,11 @@ const sidebars = {
     { type: "doc", label: "Community", id: "basics/community" },
     { type: "doc", label: "Glossary", id: "basics/glossary" },
     { type: "doc", label: "FAQ", id: "basics/faq" },
+    {
+      type: "doc",
+      label: "Improve the Docs",
+      id: "basics/contribute",
+    },
     // { type: "doc", label: "Troubleshooting", id: "basics/troubleshooting" },
   ],
 
