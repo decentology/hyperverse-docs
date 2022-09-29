@@ -41,7 +41,7 @@ We use the [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-
 
 See the [primer on setting up repos](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
-1. [Fork](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) the `hyperverse-docs` [repository](https://github.com/decentology/hyperverse-docs/issues).
+1. [Fork](https://docs.github.com/en/github/getting-started-with-github/quickstart/fork-a-repo) the `hyperverse-docs` [repository](https://github.com/decentology/hyperverse-docs).
 2. [Clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) the forked repository from your GitHub profile to your desktop.
 3. [Add the remote](https://docs.github.com/en/github/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-for-a-fork) repositories for [origin and upstream](https://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github).
 
