@@ -17,6 +17,20 @@ yarn start
 
 Edit files in the `/docs` directory to make updates to the documentation pages. Pages will be automatically updated when you are running the development server.
 
+## Improve the Docs
+
+This documentation will grow over time. Contributions are HIGHLY encouraged and desired. If you see an error, please open an issue and submit a pull request.
+
+Please see [CONTRIBUTING.md](https://docs.hyperverse.dev/basics/contribute) for how to make a contribution.
+
+An example of this process found below:
+
+- Fork it ([https://github.com/decentology/hyperverse-docs.git](https://github.com/decentology/hyperverse-docs.git))
+- Create your feature branch (`git checkout -b branchName`)
+- Commit your changes (`git commit -m 'Added X input'`)
+- Push to the branch (`git push origin branchName`)
+- Create a new Pull Request
+
 ## Files
 
 - `.gitignore` - This specifies which files Git should ignore when committing and pushing to remote repositories.
