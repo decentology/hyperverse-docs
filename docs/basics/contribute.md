@@ -6,7 +6,7 @@ Help improve the Hyperverse documentation.
 
 ## Background
 
-All of the Hyperverse documentation is in Markdown located in the `docs` directory. The site uses [Docusaurus](hhttps://docusaurus.io/) to generate the documentation pages. Markdown is what this file and GitHub README.md files are written in. If you need some help with Markdown, [please see this Markdown cheatsheet.](https://www.markdownguide.org/cheat-sheet/).
+All of the Hyperverse documentation is in Markdown located in the `docs` directory. The site uses [Docusaurus](hhttps://docusaurus.io/) to generate the documentation pages. Markdown is what this file and GitHub README.md files are written in. If you need some help with Markdown, [please see this Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/).
 
 :::info Hyperverse ❤️ Feedback
 
